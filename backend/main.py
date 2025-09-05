@@ -10,11 +10,18 @@ import openai
 from dotenv import load_dotenv
 import asyncio
 from sentence_transformers import SentenceTransformer
+from prometheus_client import Counter, Histogram, generate_latest, CONTENT_TYPE_LATEST
+from fastapi.responses import Response
 
 # Load environment variables
 load_dotenv()
 
-app = FastAPI(title="Huberman Health AI Assistant - Semantic Search", version="2.0.0")
+app = FastAPI(title="Huberman Health AI Assistant - Monitored", version="1.1.0")
+
+# Simple Prometheus metrics
+request_count = Counter('huberman_requests_total', 'Total requests', ['method', 'endpoint'])
+search_count = Counter('huberman_searches_total', 'Total search queries')
+search_duration = Histogram('huberman_search_seconds', 'Search duration')
 
 # Add CORS middleware
 app.add_middleware(
@@ -51,7 +58,6 @@ class SearchResult(BaseModel):
 class SemanticSearchEngine:
     def __init__(self):
         """Initialize semantic search with local embeddings model"""
-        print("Loading semantic search model...")
         self.model = SentenceTransformer('all-MiniLM-L6-v2')  # Fast, efficient model
         self.index = None
         self.segments = []
@@ -73,7 +79,6 @@ class SemanticSearchEngine:
             return
             
         # Generate embeddings
-        print(f"Generating embeddings for {len(texts)} segments...")
         embeddings = self.model.encode(texts, show_progress_bar=True)
         
         # Build FAISS index
@@ -84,7 +89,7 @@ class SemanticSearchEngine:
         faiss.normalize_L2(embeddings)
         self.index.add(embeddings.astype('float32'))
         
-        print(f"✅ Built semantic index with {len(texts)} segments")
+        print(f"Built semantic index with {len(texts)} segments")
         
     def search_semantic(self, query: str, top_k: int = 10) -> List[Dict]:
         """Search using semantic similarity"""
@@ -142,9 +147,68 @@ class HealthAssistant:
             print(f"Error loading data: {e}")
             self.videos_data = []
             self.merged_data = []
-
-    def format_timestamp(self, start_time):
-        """Convert seconds to MM:SS format"""
+    
+    async def get_embedding(self, text: str) -> List[float]:
+        """Get embedding for text using OpenRouter"""
+        try:
+            response = openai_client.embeddings.create(
+                model="text-embedding-3-small",  # Cost-efficient embedding model
+                input=text
+            )
+            return response.data[0].embedding
+        except Exception as e:
+            print(f"Error getting embedding: {e}")
+            # Return a dummy embedding if API fails
+            return [0.0] * 1536
+    
+    def extract_relevant_segments(self, transcript: List[Dict], query: str, max_segments: int = 3) -> List[Dict]:
+        """Extract relevant transcript segments based on health query"""
+        if not transcript:
+            return []
+        
+        # Enhanced keyword matching for health topics
+        health_keywords = {
+            'stomach': ['stomach', 'gastric', 'digestion', 'gut', 'intestine', 'digestive', 'belly', 'abdominal'],
+            'sleep': ['sleep', 'insomnia', 'circadian', 'melatonin', 'rest', 'sleeping', 'sleepy', 'tired', 'fatigue', 'light', 'timing'],
+            'stress': ['stress', 'anxiety', 'cortisol', 'relax', 'calm', 'stressed', 'anxious', 'overwhelm'],
+            'energy': ['energy', 'fatigue', 'tired', 'dopamine', 'motivation', 'energetic', 'vitality', 'exhausted'],
+            'focus': ['focus', 'attention', 'concentration', 'ADHD', 'clarity', 'focused', 'concentrate', 'distraction'],
+            'depression': ['depression', 'mood', 'serotonin', 'happiness', 'depressed', 'sad', 'melancholy'],
+            'pain': ['pain', 'inflammation', 'chronic', 'relief', 'ache', 'hurt', 'sore'],
+            'fitness': ['muscle', 'strength', 'endurance', 'exercise', 'workout', 'training', 'fitness'],
+            'brain': ['brain', 'cognitive', 'memory', 'learning', 'neuroplasticity', 'neuroscience'],
+        }
+        
+        query_lower = query.lower()
+        relevant_segments = []
+        
+        for segment in transcript:
+            if 'text' in segment and segment['text']:
+                text_lower = segment['text'].lower()
+                score = 0
+                
+                # Direct keyword matching
+                for word in query_lower.split():
+                    if word in text_lower:
+                        score += 2
+                
+                # Health category matching
+                for category, keywords in health_keywords.items():
+                    if any(keyword in query_lower for keyword in keywords):
+                        if any(keyword in text_lower for keyword in keywords):
+                            score += 3
+                
+                if score > 0:
+                    segment_copy = segment.copy()
+                    segment_copy['relevance_score'] = score
+                    relevant_segments.append(segment_copy)
+        
+        # Sort by relevance and return top segments
+        relevant_segments.sort(key=lambda x: x['relevance_score'], reverse=True)
+        return relevant_segments[:max_segments]
+    
+    def format_timestamp(self, start_time: str) -> str:
+        """Convert timestamp to YouTube format"""
         try:
             seconds = float(start_time)
             minutes = int(seconds // 60)
@@ -152,143 +216,156 @@ class HealthAssistant:
             return f"{minutes}:{remaining_seconds:02d}"
         except:
             return "0:00"
-
+    
     async def search_health_content(self, query: str, max_results: int = 3) -> List[SearchResult]:
-        """Hybrid search: Semantic + keyword matching for optimal results"""
+        """Search for relevant health content in Huberman's videos"""
         results = []
-        
-        # Step 1: Semantic search for meaning-based matches
-        semantic_results = self.semantic_search.search_semantic(query, top_k=15)
-        
-        # Step 2: Group by video and aggregate scores
-        video_scores = {}
-        for segment in semantic_results:
-            video_id = segment.get('video_id', '')
-            if not video_id:
-                continue
-                
-            semantic_score = segment.get('semantic_score', 0)
-            
-            if video_id not in video_scores:
-                video_scores[video_id] = {
-                    'segments': [],
-                    'total_semantic_score': 0,
-                    'keyword_score': 0
-                }
-            
-            video_scores[video_id]['segments'].append(segment)
-            video_scores[video_id]['total_semantic_score'] += semantic_score
-        
-        # Step 3: Add keyword matching boost
         query_lower = query.lower()
+        
+        # Enhanced keyword matching for health topics
         health_keywords = {
-            'sleep': ['sleep', 'insomnia', 'circadian', 'melatonin', 'rest'],
-            'stress': ['stress', 'anxiety', 'cortisol', 'overwhelm'],
-            'focus': ['focus', 'attention', 'concentration', 'ADHD'],
-            'exercise': ['exercise', 'workout', 'fitness', 'muscle'],
-            'nutrition': ['nutrition', 'diet', 'food', 'eating'],
-            'dopamine': ['dopamine', 'motivation', 'reward'],
+            'stomach': ['stomach', 'gastric', 'digestion', 'gut', 'intestine', 'digestive', 'belly', 'abdominal'],
+            'sleep': ['sleep', 'insomnia', 'circadian', 'melatonin', 'rest', 'sleeping', 'sleepy', 'tired', 'fatigue', 'light', 'timing'],
+            'stress': ['stress', 'anxiety', 'cortisol', 'relax', 'calm', 'stressed', 'anxious', 'overwhelm'],
+            'energy': ['energy', 'fatigue', 'tired', 'dopamine', 'motivation', 'energetic', 'vitality', 'exhausted'],
+            'focus': ['focus', 'attention', 'concentration', 'ADHD', 'clarity', 'focused', 'concentrate', 'distraction'],
+            'depression': ['depression', 'mood', 'serotonin', 'happiness', 'depressed', 'sad', 'melancholy'],
+            'pain': ['pain', 'inflammation', 'chronic', 'relief', 'ache', 'hurt', 'sore'],
+            'fitness': ['muscle', 'strength', 'endurance', 'exercise', 'workout', 'training', 'fitness'],
+            'brain': ['brain', 'cognitive', 'memory', 'learning', 'neuroplasticity', 'neuroscience'],
         }
         
-        # Find matching keywords
-        matching_keywords = []
-        for topic, keywords in health_keywords.items():
-            if any(keyword in query_lower for keyword in keywords):
-                matching_keywords.extend(keywords)
-        
-        if not matching_keywords:
-            matching_keywords = query_lower.split()
-        
-        # Apply keyword boost to video titles
         for video in self.merged_data:
-            video_id = video.get('id', '')
-            title = video.get('title', '').lower()
-            
-            keyword_score = sum(3 for keyword in matching_keywords if keyword in title)
-            
-            if video_id in video_scores:
-                video_scores[video_id]['keyword_score'] = keyword_score
-        
-        # Step 4: Create final results with combined scoring
-        for video_id, data in video_scores.items():
-            if not data['segments']:
-                continue
+            try:
+                video_id = video.get('id', '')
+                title = video.get('title', '')
+                url = video.get('url', '')
+                transcript = video.get('transcript', [])
                 
-            # Get best segment for this video
-            best_segment = max(data['segments'], key=lambda x: x.get('semantic_score', 0))
+                # Also check title for relevance
+                title_score = 0
+                title_lower = title.lower()
+                
+                # Direct keyword matching in title (higher weight)
+                for word in query_lower.split():
+                    if word in title_lower:
+                        title_score += 5
+                
+                # Health category matching in title
+                for category, keywords in health_keywords.items():
+                    if any(keyword in query_lower for keyword in keywords):
+                        if any(keyword in title_lower for keyword in keywords):
+                            title_score += 10
+                
+                # Find relevant segments in transcript
+                relevant_segments = self.extract_relevant_segments(transcript, query)
+                
+                if relevant_segments or title_score > 0:
+                    # Calculate overall relevance score
+                    transcript_score = sum(seg['relevance_score'] for seg in relevant_segments) if relevant_segments else 0
+                    total_score = title_score + transcript_score
+                    
+                    # Get the best segment for context
+                    if relevant_segments:
+                        best_segment = relevant_segments[0]
+                        context = best_segment.get('text', '')
+                        timestamp = self.format_timestamp(best_segment.get('start', '0'))
+                    else:
+                        # If only title matched, use title as context
+                        context = f"This video discusses topics related to your query: {title}"
+                        timestamp = "0:00"
+                    
+                    # Get video description from videos_data
+                    description = ""
+                    for video_data in self.videos_data:
+                        if video_data.get('id') == video_id:
+                            description = video_data.get('description', '')[:300] + "..."
+                            break
+                    
+                    result = SearchResult(
+                        video_id=video_id,
+                        title=title,
+                        url=url,
+                        relevance_score=total_score,
+                        timestamp=timestamp,
+                        context=context,
+                        description=description
+                    )
+                    results.append(result)
             
-            # Combined score: semantic + keyword boost
-            semantic_avg = data['total_semantic_score'] / len(data['segments'])
-            combined_score = (semantic_avg * 50) + (data['keyword_score'] * 10)
-            
-            # Get video metadata
-            video_info = next((v for v in self.videos_data if v.get('id') == video_id), {})
-            video_merged = next((v for v in self.merged_data if v.get('id') == video_id), {})
-            
-            # Format timestamp
-            timestamp = self.format_timestamp(best_segment.get('start', 0))
-            
-            # Create search result
-            result = SearchResult(
-                video_id=video_id,
-                title=video_merged.get('title', 'Unknown Title'),
-                url=f"https://www.youtube.com/watch?v={video_id}&t={int(best_segment.get('start', 0))}s",
-                relevance_score=combined_score,
-                timestamp=timestamp,
-                context=best_segment.get('text', '')[:200] + "...",
-                description=video_info.get('description', '')[:200] + "..."
-            )
-            results.append(result)
+            except Exception as e:
+                print(f"Error processing video {video.get('id', 'unknown')}: {e}")
+                continue
         
-        # Sort by combined score and return top results
+        # Sort by relevance score and return top results
         results.sort(key=lambda x: x.relevance_score, reverse=True)
         return results[:max_results]
-
+    
     async def get_health_recommendation(self, query: str, search_results: List[SearchResult]) -> str:
         """Generate health recommendation using OpenRouter"""
         try:
             context = "\n\n".join([
-                f"Video: {result.title}\nContent: {result.context}\nTimestamp: {result.timestamp}"
+                f"Video: {result.title}\nContext: {result.context}\nTimestamp: {result.timestamp}"
                 for result in search_results
             ])
             
-            prompt = f"""
-            Based on the following content from Andrew Huberman's podcast, provide helpful health advice for: {query}
-
-            Relevant Content:
-            {context}
-
-            Please provide:
-            1. A clear, actionable recommendation
-            2. Reference the specific protocols mentioned
-            3. Include timing/dosage if relevant
-            4. Keep it concise but comprehensive
-
-            Remember this is educational content, not medical advice.
-            """
+            prompt = f"""You are a health assistant based on Andrew Huberman's podcast content. 
             
-            response = await asyncio.to_thread(
-                openai_client.chat.completions.create,
-                model="openai/gpt-3.5-turbo",
-                messages=[{"role": "user", "content": prompt}],
+User query: {query}
+
+Relevant content from Huberman Lab:
+{context}
+
+Based on this content, provide a helpful response that:
+1. Directly addresses the user's health query
+2. References the specific Huberman Lab content
+3. Includes practical, science-based recommendations
+4. Mentions that this is educational content and not medical advice
+5. Suggests watching the relevant videos with timestamps
+
+Keep the response concise but informative (200-300 words)."""
+
+            response = openai_client.chat.completions.create(
+                model="openai/gpt-3.5-turbo",  # Cost-efficient model
+                messages=[
+                    {"role": "system", "content": "You are a helpful health assistant based on Andrew Huberman's podcast content."},
+                    {"role": "user", "content": prompt}
+                ],
                 max_tokens=400,
                 temperature=0.7
             )
             
-            return response.choices[0].message.content.strip()
+            return response.choices[0].message.content
             
         except Exception as e:
             print(f"Error generating recommendation: {e}")
-            return "I apologize, but I'm unable to generate a recommendation at this time. Please refer to the search results for Huberman's insights."
+            return "I found relevant content for your query. Please check the video recommendations below for detailed information."
 
 # Initialize the health assistant
 health_assistant = HealthAssistant()
 
-# API Endpoints
+# Metrics endpoint
+@app.get("/metrics")
+async def get_metrics():
+    """Prometheus metrics endpoint"""
+    request_count.labels(method="GET", endpoint="/metrics").inc()
+    return Response(generate_latest(), media_type=CONTENT_TYPE_LATEST)
+
+@app.get("/")
+async def root():
+    return {"message": "Huberman Health AI Assistant API", "status": "running"}
+
 @app.post("/search", response_model=Dict[str, Any])
 async def search_health_content(query: HealthQuery):
     """Search for health-related content using semantic search"""
+    import time
+    start_time = time.time()
+    
     try:
+        # Track metrics
+        request_count.labels(method="POST", endpoint="/search").inc()
+        search_count.inc()
+        
         # Search for relevant content
         search_results = await health_assistant.search_health_content(query.query, query.max_results)
         
@@ -297,6 +374,9 @@ async def search_health_content(query: HealthQuery):
         
         # Generate AI recommendation
         recommendation = await health_assistant.get_health_recommendation(query.query, search_results)
+        
+        # Record search duration
+        search_duration.observe(time.time() - start_time)
         
         return {
             "query": query.query,
@@ -307,23 +387,18 @@ async def search_health_content(query: HealthQuery):
         }
     
     except Exception as e:
+        # Record search duration even on error
+        search_duration.observe(time.time() - start_time)
         raise HTTPException(status_code=500, detail=f"Error processing query: {str(e)}")
 
 @app.get("/health")
 async def health_check():
+    request_count.labels(method="GET", endpoint="/health").inc()
     return {
         "status": "healthy", 
         "videos_loaded": len(health_assistant.videos_data),
-        "semantic_index_ready": health_assistant.semantic_search.index is not None
-    }
-
-@app.get("/")
-async def root():
-    return {
-        "message": "Huberman Health AI Assistant - Semantic Search API",
-        "version": "2.0.0",
-        "endpoints": ["/search", "/health"],
-        "features": ["semantic_search", "keyword_boost", "ai_recommendations"]
+        "semantic_index_ready": health_assistant.semantic_search.index is not None,
+        "monitoring_enabled": True
     }
 
 if __name__ == "__main__":
