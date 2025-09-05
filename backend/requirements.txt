@@ -7,7 +7,6 @@ numpy
 scikit-learn
 aiohttp
 pydantic
-faiss-cpu
 faiss
 # Optional: For better embeddings (if needed)
 sentence-transformers
