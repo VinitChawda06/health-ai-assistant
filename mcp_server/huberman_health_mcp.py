@@ -35,7 +35,7 @@ logger = logging.getLogger("huberman-health-mcp")
 
 class HubermanHealthMCP:
     def __init__(self):
-        self.data_path = Path(__file__).parent / "data"
+        self.data_path = Path(__file__).parent.parent / "data"  # Go up one level to project root
         self.videos_data: List[Dict] = []
         self.merged_data: List[Dict] = []
         self.load_data()
@@ -429,19 +429,12 @@ async def handle_call_tool(name: str, arguments: dict) -> list[TextContent]:
         return [TextContent(type="text", text=f"Unknown tool: {name}")]
 
 async def main():
-    # Run the server using stdin/stdout streams
+    # Run the server using stdin/stdout streams  
     async with stdio_server() as (read_stream, write_stream):
         await server.run(
             read_stream,
             write_stream,
-            InitializationOptions(
-                server_name="huberman-health-assistant",
-                server_version="1.0.0",
-                capabilities=server.get_capabilities(
-                    notification_options=None,
-                    experimental_capabilities=None,
-                ),
-            ),
+            None  # Simplified initialization without complex options
         )
 
 if __name__ == "__main__":
