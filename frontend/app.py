@@ -3,6 +3,7 @@ import requests
 import json
 from typing import Dict, List
 import time
+import os
 
 # Configure Streamlit page
 st.set_page_config(
@@ -14,6 +15,9 @@ st.set_page_config(
 
 # API Configuration
 API_BASE_URL = "http://localhost:8000"
+BACKEND_URL = os.getenv('BACKEND_URL', 'http://localhost:8000')
+
+# Then replace any localhost:8000 references with BACKEND_URL
 
 def main():
     # Title and description
