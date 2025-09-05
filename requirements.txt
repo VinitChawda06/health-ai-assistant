@@ -7,7 +7,8 @@ numpy
 scikit-learn
 aiohttp
 pydantic
-
+faiss-cpu
+faiss
 
 # Dependencies for Streamlit frontend
 streamlit
