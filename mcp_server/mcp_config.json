@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "huberman-health-assistant": {
+      "command": "python",
+      "args": ["/home/vinit/Desktop/health-ai-assistant/mcp_server/huberman_health_mcp.py"],
+      "env": {
+        "PYTHONPATH": "/home/vinit/Desktop/health-ai-assistant/health_ai_env/lib/python3.12/site-packages"
+      }
+    }
+  }
+}

@@ -1,0 +1,1631 @@
+[{
+  "data": [
+    {
+      "start": "0.000",
+      "dur": "33.000"
+    },
+    {
+      "start": "0.240",
+      "dur": "6.720",
+      "text": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based"
+    },
+    {
+      "start": "6.960",
+      "dur": "6.880",
+      "text": "tools for mental health, physical health, and performance. I'm Andrew Huberman, and I'm a professor"
+    },
+    {
+      "start": "13.840",
+      "dur": "7.040",
+      "text": "of neurobiology and opthalmology at Stamford School of Medicine. Today we are going to talk all about dopamine and"
+    },
+    {
+      "start": "20.880",
+      "dur": "7.440",
+      "text": "what drives you to do the things that you do. We're going to talk about motivation and desire and craving, but"
+    },
+    {
+      "start": "28.320",
+      "dur": "5.680",
+      "text": "also how dopamine relates to satisfaction and our feelings of well-being. So, let's talk about"
+    },
+    {
+      "start": "33.000",
+      "dur": "183.000"
+    },
+    {
+      "start": "34.000",
+      "dur": "7.120",
+      "text": "dopamine. If ever you've interacted with somebody who just doesn't seem to have any drive, they've given up. Or if"
+    },
+    {
+      "start": "41.120",
+      "dur": "6.240",
+      "text": "you've interacted with somebody who seems to have endless drive and energy, what you are looking at there in those"
+    },
+    {
+      "start": "47.360",
+      "dur": "6.400",
+      "text": "two circumstances is without question a difference in the level of dopamine"
+    },
+    {
+      "start": "53.760",
+      "dur": "5.279",
+      "text": "circulating in their system. Dopamine is what we call a neurom modulator. Neuromod modulators are different than"
+    },
+    {
+      "start": "59.039",
+      "dur": "6.641",
+      "text": "neurotransmitters. Neurotransmitters are involved in the dialogue between neurons. Whereas neurom modulators"
+    },
+    {
+      "start": "65.680",
+      "dur": "6.320",
+      "text": "influence the communication of many neurons in the nervous system. What this means is that dopamine release changes"
+    },
+    {
+      "start": "72.000",
+      "dur": "7.280",
+      "text": "the probability that certain neural circuits will be active and that other neural circuits will be inactive."
+    },
+    {
+      "start": "79.280",
+      "dur": "6.080",
+      "text": "So how does dopamine work and what does it do? Well, first of all, it is not just responsible for pleasure. It is"
+    },
+    {
+      "start": "85.360",
+      "dur": "6.160",
+      "text": "responsible for motivation and drive also for craving. Those three things are sort of the same. Motivation, drive, and"
+    },
+    {
+      "start": "91.520",
+      "dur": "5.360",
+      "text": "craving. It also controls time perception. This turns out to be important to not end up addicted to"
+    },
+    {
+      "start": "96.880",
+      "dur": "6.000",
+      "text": "substances, but it also turns out to be very important to sustain effort and be a happy person over long periods of"
+    },
+    {
+      "start": "102.880",
+      "dur": "6.480",
+      "text": "time, which I think most everybody wants. Dopamine is also vitally important for movement. I'll explain the"
+    },
+    {
+      "start": "109.360",
+      "dur": "5.759",
+      "text": "neural circuits for dopamine and mindset and dopamine and movement in a moment."
+    },
+    {
+      "start": "115.119",
+      "dur": "6.721",
+      "text": "But in diseases like Parkinson's or Louis body's dementia which is similar"
+    },
+    {
+      "start": "121.840",
+      "dur": "5.760",
+      "text": "to Parkinson's in many ways there's a depletion or death of dopamine neurons at a particular location in the brain"
+    },
+    {
+      "start": "127.600",
+      "dur": "5.040",
+      "text": "which leads to shaky movements challenges in speaking challenges in"
+    },
+    {
+      "start": "132.640",
+      "dur": "5.440",
+      "text": "particular in initiating movement and because dopamine is depleted elsewhere"
+    },
+    {
+      "start": "138.080",
+      "dur": "5.360",
+      "text": "too people with Parkinson's and Louis and excuse me Louisibody dementia also"
+    },
+    {
+      "start": "143.440",
+      "dur": "7.680",
+      "text": "experience drops in motivation and affect meaning mood they tend to get depressed and so on. When those people"
+    },
+    {
+      "start": "151.120",
+      "dur": "7.680",
+      "text": "are properly treated they can recover some fluidity of movement some ability to initiate movement and almost without"
+    },
+    {
+      "start": "158.800",
+      "dur": "5.760",
+      "text": "question those people feel better psychologically not just because they can move but also because dopamine"
+    },
+    {
+      "start": "164.560",
+      "dur": "6.399",
+      "text": "impacts mood and motivation. So what are the underlying neural circuits? You have"
+    },
+    {
+      "start": "170.959",
+      "dur": "6.000",
+      "text": "two main neural circuits in the brain that dopamine uses in order to exert all"
+    },
+    {
+      "start": "176.959",
+      "dur": "5.121",
+      "text": "its effects. One mainly for movement, right? This is the substantia to"
+    },
+    {
+      "start": "182.080",
+      "dur": "5.280",
+      "text": "dorsal stratum. And we've got this other pathway, the so-called misoortical liyic"
+    },
+    {
+      "start": "187.360",
+      "dur": "5.360",
+      "text": "pathway that's for reward, reinforcement, and motivation. Now, the other thing to understand about dopamine"
+    },
+    {
+      "start": "192.720",
+      "dur": "5.439",
+      "text": "is that the way that dopamine is released in the brain and body can"
+    },
+    {
+      "start": "198.159",
+      "dur": "6.321",
+      "text": "differ. There's local release, what we call synaptic release, and then there's volutric release. So volutric release is"
+    },
+    {
+      "start": "204.480",
+      "dur": "5.119",
+      "text": "like dumping all this dopamine out into the system. So dopamine is incredible"
+    },
+    {
+      "start": "209.599",
+      "dur": "6.801",
+      "text": "because it can change the way that our neural circuits work at a local scale and at a very broad scale. So, if I were"
+    },
+    {
+      "start": "216.000",
+      "dur": "79.000"
+    },
+    {
+      "start": "216.400",
+      "dur": "6.320",
+      "text": "to just put a really simple message around dopamine, it would be there's a molecule in your brain and"
+    },
+    {
+      "start": "222.720",
+      "dur": "6.879",
+      "text": "body that when released tends to make you look outside yourself, pursue things"
+    },
+    {
+      "start": "229.599",
+      "dur": "6.241",
+      "text": "outside yourself, and to crave things outside yourself. Dopamine is a"
+    },
+    {
+      "start": "235.840",
+      "dur": "5.759",
+      "text": "universal currency in all mammals, but especially in humans, for moving us"
+    },
+    {
+      "start": "241.599",
+      "dur": "5.920",
+      "text": "toward goals. and how much dopamine is in our system at any one time compared"
+    },
+    {
+      "start": "247.519",
+      "dur": "5.920",
+      "text": "to how much dopamine was in our system a few minutes ago that dictates your"
+    },
+    {
+      "start": "253.439",
+      "dur": "7.200",
+      "text": "so-called quality of life and your desire to pursue things. This is important. Your experience of life and"
+    },
+    {
+      "start": "260.639",
+      "dur": "6.081",
+      "text": "your level of motivation and drive depends on how much dopamine you have"
+    },
+    {
+      "start": "266.720",
+      "dur": "6.240",
+      "text": "relative to your recent experience. This is why when you repeatedly engage in"
+    },
+    {
+      "start": "272.960",
+      "dur": "6.000",
+      "text": "something that you enjoy, your threshold for enjoyment goes up and up and up. So"
+    },
+    {
+      "start": "278.960",
+      "dur": "5.600",
+      "text": "I want to talk about that process and I want to explain how that process works because if you understand that process"
+    },
+    {
+      "start": "284.560",
+      "dur": "7.199",
+      "text": "and you understand some of these schedules and kinetics as we call them around dopamine, you will be in a terrific position to modulate and"
+    },
+    {
+      "start": "291.759",
+      "dur": "6.961",
+      "text": "control your own dopamine release for optimal motivation and drive. While most experiences and most things that we do"
+    },
+    {
+      "start": "295.000",
+      "dur": "206.000"
+    },
+    {
+      "start": "298.720",
+      "dur": "5.280",
+      "text": "and take and eat and etc won't create enormous highs and enormous lows in"
+    },
+    {
+      "start": "304.000",
+      "dur": "5.680",
+      "text": "dopamine, even subtle fluctuations in dopamine really shape our perception of life and"
+    },
+    {
+      "start": "309.680",
+      "dur": "5.680",
+      "text": "what we're capable of and how we feel. And so we want to guard those and we want to understand them. All of us have"
+    },
+    {
+      "start": "315.360",
+      "dur": "5.520",
+      "text": "different baseline levels of dopamine. Some of this is sure to be genetic."
+    },
+    {
+      "start": "320.880",
+      "dur": "6.960",
+      "text": "Some people just simply ride at a level a little bit higher. Some people are a little less excitable. What dopamine"
+    },
+    {
+      "start": "327.840",
+      "dur": "6.079",
+      "text": "does is dopamine really colors the subjective experience of an activity to"
+    },
+    {
+      "start": "333.919",
+      "dur": "7.361",
+      "text": "make it more pleasureful to make it something that you want more of. So what sorts of activities what sorts of things"
+    },
+    {
+      "start": "341.280",
+      "dur": "5.600",
+      "text": "increase dopamine and how much do they increase dopamine? Well, let's take a"
+    },
+    {
+      "start": "346.880",
+      "dur": "6.400",
+      "text": "look at some typical things that people do out there or ingest out there. And"
+    },
+    {
+      "start": "353.280",
+      "dur": "5.040",
+      "text": "let's ask how much dopamine is increased above baseline. Chocolate will increase"
+    },
+    {
+      "start": "358.320",
+      "dur": "6.800",
+      "text": "your baseline level of dopamine 1.5 times. Okay? So, it's a pretty substantial increase in dopamine. It's"
+    },
+    {
+      "start": "365.120",
+      "dur": "6.720",
+      "text": "transient. It goes away after a few minutes or even a few seconds. Sex, both"
+    },
+    {
+      "start": "371.840",
+      "dur": "8.880",
+      "text": "the pursuit of sex and the act of sex, increases dopamine two times. Nicotine,"
+    },
+    {
+      "start": "380.720",
+      "dur": "7.440",
+      "text": "in particular, nicotine that is smoked, like cigarettes and so forth, increases dopamine two and a half times"
+    },
+    {
+      "start": "388.160",
+      "dur": "5.520",
+      "text": "above baseline. It is very short-lived. Cocaine will increase the level of"
+    },
+    {
+      "start": "393.680",
+      "dur": "5.519",
+      "text": "dopamine in the bloodstream two and a half times above baseline. And empmphetamine,"
+    },
+    {
+      "start": "399.199",
+      "dur": "5.601",
+      "text": "another drug that increases dopamine, will increase the amount of dopamine in"
+    },
+    {
+      "start": "404.800",
+      "dur": "5.760",
+      "text": "the bloodstream 10 times above baseline. A tremendous increase in dopamine."
+    },
+    {
+      "start": "410.560",
+      "dur": "7.280",
+      "text": "Exercise. Now, exercise will have a different impact on the levels of dopamine depending on how much somebody"
+    },
+    {
+      "start": "417.840",
+      "dur": "5.759",
+      "text": "subjectively enjoys that exercise. So, if you're somebody who loves running,"
+    },
+    {
+      "start": "423.599",
+      "dur": "5.521",
+      "text": "chances are it's going to increase your levels of dopamine two times above your"
+    },
+    {
+      "start": "429.120",
+      "dur": "7.040",
+      "text": "baseline, not unlike sex. People who dislike exercise will achieve"
+    },
+    {
+      "start": "436.160",
+      "dur": "5.599",
+      "text": "less dopamine increase or no increase in dopamine from exercise. And if you like"
+    },
+    {
+      "start": "441.759",
+      "dur": "5.921",
+      "text": "other forms of exercise like yoga or weightlifting or swimming or what have you, again it's going to vary by your"
+    },
+    {
+      "start": "447.680",
+      "dur": "6.400",
+      "text": "subjective experience of whether or not you enjoy that activity. This is important and it brings us back to"
+    },
+    {
+      "start": "454.080",
+      "dur": "7.200",
+      "text": "something that we talked about earlier. Remember that misoccorticolyic pathway. Well, the cortical part is"
+    },
+    {
+      "start": "461.280",
+      "dur": "7.199",
+      "text": "important. The cortico part actually has a very specific part which is your prefrontal cortex. the area of your"
+    },
+    {
+      "start": "468.479",
+      "dur": "6.081",
+      "text": "forebrain that's involved in thinking and planning and involved in assigning a"
+    },
+    {
+      "start": "474.560",
+      "dur": "8.079",
+      "text": "rational explanation to something and involved in assigning a subjective experience to something. So certain"
+    },
+    {
+      "start": "482.639",
+      "dur": "6.881",
+      "text": "things chemicals have a universal effect. They make everybody's dopamine go up. So some people like chocolate,"
+    },
+    {
+      "start": "489.520",
+      "dur": "7.040",
+      "text": "some people don't of course but in general it make has causes this increase in dopamine. But sex, nicotine, cocaine,"
+    },
+    {
+      "start": "496.560",
+      "dur": "6.240",
+      "text": "amphetamine, those things cause increases in dopamine in everybody that takes them. Now, I've been alluding to"
+    },
+    {
+      "start": "501.000",
+      "dur": "321.000"
+    },
+    {
+      "start": "502.800",
+      "dur": "5.600",
+      "text": "this dopamine peaks versus dopamine baseline thing since the beginning of the episode. Now, let's really drill"
+    },
+    {
+      "start": "508.400",
+      "dur": "6.720",
+      "text": "into what this means and how to leverage it for our own purposes. In order to do that, let's take a step back and ask,"
+    },
+    {
+      "start": "515.120",
+      "dur": "7.039",
+      "text": "why would we have a dopamine system like this? Why would we have a dopamine system at all? Well, we have to remember"
+    },
+    {
+      "start": "522.159",
+      "dur": "6.561",
+      "text": "what our species primary interest is. Our species, like all species, has a"
+    },
+    {
+      "start": "528.720",
+      "dur": "6.080",
+      "text": "main interest, and that's to make more of itself. It's not just about sex and reproduction. It's about foraging for"
+    },
+    {
+      "start": "534.800",
+      "dur": "6.560",
+      "text": "resources. Resources can be food, it can be water, can be salt, can be shelter,"
+    },
+    {
+      "start": "541.360",
+      "dur": "5.680",
+      "text": "can be social connection. Dopamine is the universal currency of"
+    },
+    {
+      "start": "547.040",
+      "dur": "5.680",
+      "text": "foraging and seeking, right? Right? We call sometimes talk about motivation and craving. But what we mean in the"
+    },
+    {
+      "start": "552.720",
+      "dur": "6.880",
+      "text": "evolutionary adaptive context, what we mean is foraging and seeking. Seeking water, seeking food, seeking mates,"
+    },
+    {
+      "start": "559.600",
+      "dur": "7.280",
+      "text": "seeking things that make us feel good and avoiding things that don't make us feel good, but in particular, seeking things that will provide sustenance and"
+    },
+    {
+      "start": "566.880",
+      "dur": "5.200",
+      "text": "pleasure in the short term and will extend the species in the long term."
+    },
+    {
+      "start": "572.080",
+      "dur": "5.360",
+      "text": "Once we understand that dopamine is a driver for us to seek things, it makes"
+    },
+    {
+      "start": "577.440",
+      "dur": "6.720",
+      "text": "perfect sense as to why it would have a baseline level and it would have peaks and that the baseline and peaks would be"
+    },
+    {
+      "start": "584.160",
+      "dur": "7.040",
+      "text": "related in some sort of direct way. Here's what I mean by that. Let's say that you were not alive now, but you"
+    },
+    {
+      "start": "591.200",
+      "dur": "5.440",
+      "text": "were alive 10,000 years ago and you woke up and you looked and you realized you"
+    },
+    {
+      "start": "596.640",
+      "dur": "5.600",
+      "text": "had minimal water and you had minimal food left. You need to be able to"
+    },
+    {
+      "start": "602.240",
+      "dur": "6.800",
+      "text": "generate the energy to go seek those things. So dopamine drives you to go out and look for things. Maybe you hunt an"
+    },
+    {
+      "start": "609.040",
+      "dur": "5.440",
+      "text": "animal and kill it or you find an animal that was recently killed and you decide to take the meat."
+    },
+    {
+      "start": "614.480",
+      "dur": "6.960",
+      "text": "You are going to achieve or I should say experience some sort of dopamine release. You found the reward. That's"
+    },
+    {
+      "start": "621.440",
+      "dur": "5.519",
+      "text": "great. But then it needs to return to some lower level. Why? Well, because if"
+    },
+    {
+      "start": "626.959",
+      "dur": "5.921",
+      "text": "you just stayed there, you would never continue to forage for more. It doesn't"
+    },
+    {
+      "start": "632.880",
+      "dur": "5.360",
+      "text": "just increase your baseline and then stay there. It goes back down. And what's very important to understand is"
+    },
+    {
+      "start": "638.240",
+      "dur": "7.520",
+      "text": "that it doesn't just go back down to the level it was before. It goes down to a level below what it was before you went"
+    },
+    {
+      "start": "645.760",
+      "dur": "5.040",
+      "text": "out seeking that thing. We really all have a sort of dopamine set point. And"
+    },
+    {
+      "start": "650.800",
+      "dur": "6.159",
+      "text": "if we continue to indulge in the same behaviors or even different behaviors that increase our dopamine in these big"
+    },
+    {
+      "start": "656.959",
+      "dur": "7.841",
+      "text": "peaks over and over and over again, we won't experience the same level of joy from those behaviors or from anything at"
+    },
+    {
+      "start": "664.800",
+      "dur": "7.200",
+      "text": "all. Now, that has a name. It's called addiction. But even for people who aren't addicted, even for people don't"
+    },
+    {
+      "start": "672.000",
+      "dur": "6.160",
+      "text": "have an attachment to any specific substance or behavior, this drop in ba below baseline after any peak in"
+    },
+    {
+      "start": "678.160",
+      "dur": "6.560",
+      "text": "dopamine is substantial and it governs whether or not we are going to feel motivated to continue to pursue other"
+    },
+    {
+      "start": "684.720",
+      "dur": "7.200",
+      "text": "things. Fortunately, there's a way to work with this such that we can constantly stay motivated but also keep"
+    },
+    {
+      "start": "691.920",
+      "dur": "5.599",
+      "text": "that baseline of dopamine at an appropriate healthy level. Earlier we were talking about how dopamine is"
+    },
+    {
+      "start": "697.519",
+      "dur": "6.401",
+      "text": "released between neurons and I mentioned two ways. One is into the syninnapse where it can activate the postsaptic"
+    },
+    {
+      "start": "703.920",
+      "dur": "6.320",
+      "text": "neuron and the other was what I call volutric release where it is distributed more broadly. It's released out over a"
+    },
+    {
+      "start": "710.240",
+      "dur": "6.640",
+      "text": "bunch of neurons. In both cases, it's released from these things we call synaptic vesicles. Literally little"
+    },
+    {
+      "start": "716.880",
+      "dur": "7.360",
+      "text": "bubbles, tiny tiny little bubbles that contain dopamine. They get vomited out into the area or into the syninnapse. We"
+    },
+    {
+      "start": "724.240",
+      "dur": "6.560",
+      "text": "can only deploy dopamine that is ready to be deployed, that's packaged in those little vesicles and ready to go. It's"
+    },
+    {
+      "start": "730.800",
+      "dur": "5.360",
+      "text": "just the readily releasable pool. And now it should make perfect sense why if"
+    },
+    {
+      "start": "736.160",
+      "dur": "5.440",
+      "text": "you take something or do something that leads to huge increases in dopamine"
+    },
+    {
+      "start": "741.600",
+      "dur": "7.440",
+      "text": "afterward your baseline should drop because there isn't a lot of dopamine around to keep your baseline going."
+    },
+    {
+      "start": "749.040",
+      "dur": "6.799",
+      "text": "Fortunately, most people do not experience or pursue enormous increases in dopamine leading to these severe"
+    },
+    {
+      "start": "755.839",
+      "dur": "7.281",
+      "text": "drops in baseline. Many people do, however, and that's what we call addiction. When somebody pursues a drug"
+    },
+    {
+      "start": "763.120",
+      "dur": "5.440",
+      "text": "or an activity that leads to huge increases in dopamine, and now you understand that afterward the baseline"
+    },
+    {
+      "start": "768.560",
+      "dur": "7.200",
+      "text": "of dopamine drops because of depletion of dopamine, the readily releasable pool. The dopamine is literally not"
+    },
+    {
+      "start": "775.760",
+      "dur": "7.120",
+      "text": "around to be released. And so people feel pretty lousy. And many people make the mistake of then going and pursuing"
+    },
+    {
+      "start": "782.880",
+      "dur": "5.440",
+      "text": "the dopamine evoking, the dopamine releasing activity or substance again,"
+    },
+    {
+      "start": "788.320",
+      "dur": "6.160",
+      "text": "thinking mistakenly that it's going to bring up their baseline. It's going to give them that peak again. Not only does"
+    },
+    {
+      "start": "794.480",
+      "dur": "5.599",
+      "text": "it not give them a peak, their baseline gets lower and lower because they're depleting dopamine more and more and"
+    },
+    {
+      "start": "800.079",
+      "dur": "7.121",
+      "text": "more. And eventually what typically happens is they will stop getting dopamine release from that activity as"
+    },
+    {
+      "start": "807.200",
+      "dur": "5.840",
+      "text": "well and then they drop into a pretty serious depression. Now of course we all"
+    },
+    {
+      "start": "813.040",
+      "dur": "5.599",
+      "text": "should engage in activities that we enjoy. The key thing is to understand this relationship between the peaks and"
+    },
+    {
+      "start": "818.639",
+      "dur": "6.241",
+      "text": "the baseline and to understand how they influence one another. So let's talk about the optimal way to engage in"
+    },
+    {
+      "start": "822.000",
+      "dur": "119.000"
+    },
+    {
+      "start": "824.880",
+      "dur": "5.840",
+      "text": "activities or to consume things that evoke dopamine. How are we supposed to"
+    },
+    {
+      "start": "830.720",
+      "dur": "5.840",
+      "text": "engage with these dopamine evoking activities in ways that are healthy and beneficial for us? How do we achieve"
+    },
+    {
+      "start": "836.560",
+      "dur": "6.399",
+      "text": "these peaks which are so central to our well-being and experience of life without dropping our baseline? And the"
+    },
+    {
+      "start": "842.959",
+      "dur": "8.560",
+      "text": "key lies in intermittent release of dopamine. The real key is to not expect"
+    },
+    {
+      "start": "851.519",
+      "dur": "6.560",
+      "text": "or chase high levels of dopamine release every time we engage in these activities."
+    },
+    {
+      "start": "858.079",
+      "dur": "5.681",
+      "text": "Intermittent reward schedules are the central schedule by which casinos keep"
+    },
+    {
+      "start": "863.760",
+      "dur": "5.519",
+      "text": "you gambling. The central schedule by which elusive partners or potential"
+    },
+    {
+      "start": "869.279",
+      "dur": "5.680",
+      "text": "partners keep you texting and pursuing on either side of the relationship."
+    },
+    {
+      "start": "874.959",
+      "dur": "6.481",
+      "text": "Intermittent schedules are the way that the internet and social media and all"
+    },
+    {
+      "start": "881.440",
+      "dur": "6.000",
+      "text": "highly engaging activities keep you motivated and pursuing. There's"
+    },
+    {
+      "start": "887.440",
+      "dur": "5.280",
+      "text": "something called dopamine reward prediction error. When we expect something to happen, we are highly"
+    },
+    {
+      "start": "892.720",
+      "dur": "5.520",
+      "text": "motivated to pursue it. If it happens, great. We get the reward. The reward"
+    },
+    {
+      "start": "898.240",
+      "dur": "5.839",
+      "text": "comes in various chemical forms including dopamine. And we are more likely to engage in that behavior again."
+    },
+    {
+      "start": "904.079",
+      "dur": "6.000",
+      "text": "This is the basis of casino gambling. This is how they keep you going back again and again and again even though on"
+    },
+    {
+      "start": "910.079",
+      "dur": "6.000",
+      "text": "average the house really does win. You can transplant that example to any number of different pleasureful"
+    },
+    {
+      "start": "916.079",
+      "dur": "6.721",
+      "text": "activities. Now some activities naturally have this intermittent property woven into them. Right? We"
+    },
+    {
+      "start": "922.800",
+      "dur": "5.760",
+      "text": "sometimes have classes that we like and other classes we don't like. We don't always get straight A's. Sometimes we"
+    },
+    {
+      "start": "928.560",
+      "dur": "6.320",
+      "text": "don't get rewarded with the outcome that we would like. But understand that your ability to experience motivation and"
+    },
+    {
+      "start": "934.880",
+      "dur": "7.440",
+      "text": "pleasure for what comes next is dictated by how much motivation and pleasure and dopamine you experienced prior. There's"
+    },
+    {
+      "start": "941.000",
+      "dur": "84.000"
+    },
+    {
+      "start": "942.320",
+      "dur": "6.800",
+      "text": "one exception which is caffeine because it does upregulate these D2D3 receptors. So it actually makes whatever dopamine"
+    },
+    {
+      "start": "949.120",
+      "dur": "5.279",
+      "text": "is released by that activity more accessible or more functional within the"
+    },
+    {
+      "start": "954.399",
+      "dur": "5.201",
+      "text": "biochemistry and the pathways of your brain and body. While coffee or tea or"
+    },
+    {
+      "start": "959.600",
+      "dur": "5.359",
+      "text": "other forms of caffeine will have this effect of increasing dopamine receptors,"
+    },
+    {
+      "start": "964.959",
+      "dur": "6.161",
+      "text": "yerba mate, something I've talked about before on this podcast, has some interesting properties. First of all, it"
+    },
+    {
+      "start": "971.120",
+      "dur": "7.200",
+      "text": "contains caffeine. It's also high in antioxidants. It also contains something called GLP-1, which is favorable for"
+    },
+    {
+      "start": "978.320",
+      "dur": "8.079",
+      "text": "management of blood sugar levels. Yerba mate, it turns out, has also been shown to be neuroprotective specifically for"
+    },
+    {
+      "start": "986.399",
+      "dur": "6.880",
+      "text": "dopamineergic neurons. Ingestion of yerba mate and some of the compounds within yerba mate can actually serve to"
+    },
+    {
+      "start": "993.279",
+      "dur": "6.881",
+      "text": "preserve the survival of dopamine neurons in both the movement related pathway and the motivation pathway. If"
+    },
+    {
+      "start": "1000.160",
+      "dur": "6.479",
+      "text": "one were going to consume caffeine, you might consider consuming that caffeine in the form of yerba mate. Both for sake"
+    },
+    {
+      "start": "1006.639",
+      "dur": "5.440",
+      "text": "of upregulating dopamine receptors and getting more of a dopamine increase and"
+    },
+    {
+      "start": "1012.079",
+      "dur": "6.801",
+      "text": "of course for the stimulate properties of caffeine if that's what you're seeking and in addition to that because"
+    },
+    {
+      "start": "1018.880",
+      "dur": "6.880",
+      "text": "yerba mate does appear to have some sort of neuroprotective and in particular dopamine neuron protective properties."
+    },
+    {
+      "start": "1025.000",
+      "dur": "88.000"
+    },
+    {
+      "start": "1025.760",
+      "dur": "5.760",
+      "text": "There's also evidence that two substances that greatly increase dopamine, namely amphetamine and"
+    },
+    {
+      "start": "1031.520",
+      "dur": "6.158",
+      "text": "cocaine, can cause long-term problems with the dopamineergic pathways. This is"
+    },
+    {
+      "start": "1037.679",
+      "dur": "6.721",
+      "text": "largely based on a study that was published some years ago, 2003, and the title of the paper pretty much tells the"
+    },
+    {
+      "start": "1044.400",
+      "dur": "6.800",
+      "text": "story. Amphetamine or cocaine limits the ability of later experience to promote structural plasticity in the neoortex"
+    },
+    {
+      "start": "1051.200",
+      "dur": "7.120",
+      "text": "and nucleus incumbent. Neoortex is the outer shell of the brain. uh more or less and the nucleus encumbent is part"
+    },
+    {
+      "start": "1058.320",
+      "dur": "5.680",
+      "text": "of that misolyic uh dopamine pathway for motivation, drive and reinforcement."
+    },
+    {
+      "start": "1064.000",
+      "dur": "5.280",
+      "text": "Neuroplasticity of course is the brain's ability to change in response to experience and neuroplasticity is the"
+    },
+    {
+      "start": "1069.280",
+      "dur": "6.080",
+      "text": "basis of learning and memory and essentially remodeling of our neural"
+    },
+    {
+      "start": "1075.360",
+      "dur": "8.319",
+      "text": "circuitry in positive ways of all kinds. And this study was really one of the first to show that ingesting empetamine"
+    },
+    {
+      "start": "1083.679",
+      "dur": "5.761",
+      "text": "and cocaine because of the high peak in dopamine that it creates and the low"
+    },
+    {
+      "start": "1089.440",
+      "dur": "6.160",
+      "text": "dopamine state, the baseline drop that it creates afterwards limits plasticity"
+    },
+    {
+      "start": "1095.600",
+      "dur": "7.040",
+      "text": "and learning subsequent to taking empetamine and cocaine. This should serve as a serious cautionary note that"
+    },
+    {
+      "start": "1102.640",
+      "dur": "6.000",
+      "text": "amphetamine and cocaine not only can cause a drop in baseline dopamine but can actually put the brain into a state"
+    },
+    {
+      "start": "1108.640",
+      "dur": "6.240",
+      "text": "in which it cannot learn and modify itself to get better at least for some period of time. There are activities"
+    },
+    {
+      "start": "1113.000",
+      "dur": "164.000"
+    },
+    {
+      "start": "1114.880",
+      "dur": "6.400",
+      "text": "that we can do that will give us healthy sustained increases in dopamine both the"
+    },
+    {
+      "start": "1121.280",
+      "dur": "5.920",
+      "text": "peaks when they happen and to maintain or even increase our baseline levels of dopamine. What are some of these"
+    },
+    {
+      "start": "1127.200",
+      "dur": "5.359",
+      "text": "activities? Well, in recent years, there's been a trend toward more people"
+    },
+    {
+      "start": "1132.559",
+      "dur": "5.041",
+      "text": "doing so-called cold exposure. Getting into cold showers, taking ice baths,"
+    },
+    {
+      "start": "1137.600",
+      "dur": "6.560",
+      "text": "exposing oneself to cold water of various kinds can in fact increase our levels of dopamine as well as the neurom"
+    },
+    {
+      "start": "1144.160",
+      "dur": "5.360",
+      "text": "modulator neuroepinephrine. First of all, some of the safety parameters. Let's let's establish those"
+    },
+    {
+      "start": "1149.520",
+      "dur": "7.039",
+      "text": "first. Getting into very very cold water, you know, 30° Fahrenheit or even low 40° Fahrenheit can put somebody into"
+    },
+    {
+      "start": "1156.559",
+      "dur": "5.761",
+      "text": "a state of cold water shock. I mean people can die doing that. So obviously you want to approach this uh with some"
+    },
+    {
+      "start": "1162.320",
+      "dur": "5.520",
+      "text": "caution. But for most people getting into 60° water or 50°ree water can have"
+    },
+    {
+      "start": "1167.840",
+      "dur": "7.040",
+      "text": "tremendously beneficial results on your neurom modulator systems including dopamine."
+    },
+    {
+      "start": "1174.880",
+      "dur": "6.640",
+      "text": "What temperature of water you can tolerate will depend on how cold water adapted you are and how familiar you are"
+    },
+    {
+      "start": "1181.520",
+      "dur": "5.920",
+      "text": "with the experience of getting into cold water. Now this study human physiological responses to immersion"
+    },
+    {
+      "start": "1187.440",
+      "dur": "6.239",
+      "text": "into water of different temperatures. It's a really interesting study. They looked at people getting exposed to"
+    },
+    {
+      "start": "1193.679",
+      "dur": "5.841",
+      "text": "water that was warm, moderately cold or very cold. Upon getting into cold water,"
+    },
+    {
+      "start": "1199.520",
+      "dur": "6.800",
+      "text": "the changes in adrenaline and noradrenaline, epinephrine and norepinephrine were immediate. But then"
+    },
+    {
+      "start": "1206.320",
+      "dur": "6.640",
+      "text": "what was interesting is they observed that dopamine levels started to rise somewhat slowly and then continued to"
+    },
+    {
+      "start": "1212.960",
+      "dur": "6.480",
+      "text": "rise and reach levels as high as 2.5 times above baseline."
+    },
+    {
+      "start": "1219.440",
+      "dur": "6.080",
+      "text": "That's a remarkably high increase. Why would that be good? Up until now, I've basically said getting increases in"
+    },
+    {
+      "start": "1225.520",
+      "dur": "5.279",
+      "text": "dopamine are detrimental to your baseline. Well, this does appear to"
+    },
+    {
+      "start": "1230.799",
+      "dur": "6.961",
+      "text": "raise the baseline of dopamine for substantial periods of time. And most people report feeling a heightened level"
+    },
+    {
+      "start": "1237.760",
+      "dur": "5.440",
+      "text": "of calm and focus after getting out of cold water. So cold water exposure turns"
+    },
+    {
+      "start": "1243.200",
+      "dur": "7.359",
+      "text": "out to be a very potent stimulus for shifting the entire millu the entire environment of our brain and body and"
+    },
+    {
+      "start": "1250.559",
+      "dur": "5.921",
+      "text": "allowing many people to feel much much better for a substantial period of time."
+    },
+    {
+      "start": "1256.480",
+      "dur": "6.640",
+      "text": "It can be very stimulating. So typically doing it early in the day is going to be better. Some people will indeed do that"
+    },
+    {
+      "start": "1263.120",
+      "dur": "5.679",
+      "text": "7 days a week. Other people three days a week, other people every once in a while. What I can say is once you become"
+    },
+    {
+      "start": "1268.799",
+      "dur": "6.481",
+      "text": "cold water adapted, once it no longer has the same impact of novelty, then it"
+    },
+    {
+      "start": "1275.280",
+      "dur": "5.920",
+      "text": "will no longer evoke this release. Now, I'd like to talk about the positive aspects of rewards for our behavior and"
+    },
+    {
+      "start": "1277.000",
+      "dur": "319.000"
+    },
+    {
+      "start": "1281.200",
+      "dur": "7.680",
+      "text": "the negative aspects of rewards for our behavior. And from that I will suggest a protocol by which you can achieve a"
+    },
+    {
+      "start": "1288.880",
+      "dur": "6.240",
+      "text": "better relationship to your activities and to your dopamine system. In fact, it will help tune up your dopamine system"
+    },
+    {
+      "start": "1295.120",
+      "dur": "8.480",
+      "text": "for discipline, hard work and motivation. Hard work is hard. Most people work hard"
+    },
+    {
+      "start": "1303.600",
+      "dur": "5.520",
+      "text": "in order to achieve some end goal. End goals are terrific and rewards are"
+    },
+    {
+      "start": "1309.120",
+      "dur": "5.520",
+      "text": "terrific whether or not they are monetary, social, or any kind."
+    },
+    {
+      "start": "1314.640",
+      "dur": "6.960",
+      "text": "However, because of the way that dopamine relates to our perception of time,"
+    },
+    {
+      "start": "1321.600",
+      "dur": "6.319",
+      "text": "working hard at something for sake of a reward that comes afterward can make the"
+    },
+    {
+      "start": "1327.919",
+      "dur": "5.361",
+      "text": "hard work much more challenging and make us much less likely to lean into hard"
+    },
+    {
+      "start": "1333.280",
+      "dur": "6.000",
+      "text": "work in the future. Let me give you a couple examples by way of data and experiments. There's a classic"
+    },
+    {
+      "start": "1339.280",
+      "dur": "6.560",
+      "text": "experiment done actually at Stanford many years ago in which children in"
+    },
+    {
+      "start": "1345.840",
+      "dur": "7.520",
+      "text": "nursery school and kindergarten drew pictures. And they drew pictures because they like to draw. The researchers took"
+    },
+    {
+      "start": "1353.360",
+      "dur": "7.600",
+      "text": "kids that like to draw and they started giving them a reward for drawing. The reward generally was a gold star or some"
+    },
+    {
+      "start": "1360.960",
+      "dur": "6.000",
+      "text": "thing that a young child would find rewarding. Then they stopped giving them the gold"
+    },
+    {
+      "start": "1366.960",
+      "dur": "7.599",
+      "text": "star and what they found is the children had a much lower tendency to draw on"
+    },
+    {
+      "start": "1374.559",
+      "dur": "5.521",
+      "text": "their own. No reward. Now remember this was an activity that prior to receiving"
+    },
+    {
+      "start": "1380.080",
+      "dur": "5.599",
+      "text": "a reward, the children intrinsically enjoyed and selected to do. What this"
+    },
+    {
+      "start": "1385.679",
+      "dur": "6.161",
+      "text": "relates to is so-called intrinsic versus exttrinsic reinforcement. When we receive rewards, even if we give"
+    },
+    {
+      "start": "1391.840",
+      "dur": "7.600",
+      "text": "ourselves rewards for something, we tend to associate less pleasure with the actual activity itself that evoked the"
+    },
+    {
+      "start": "1399.440",
+      "dur": "5.520",
+      "text": "reward. If you get a peak in dopamine from a reward, it's going to lower your"
+    },
+    {
+      "start": "1404.960",
+      "dur": "5.760",
+      "text": "baseline. And the cognitive interpretation is that you didn't really do the"
+    },
+    {
+      "start": "1410.720",
+      "dur": "5.520",
+      "text": "activity because you enjoyed the activity, you did it for the reward. It's also important to understand that"
+    },
+    {
+      "start": "1416.240",
+      "dur": "6.960",
+      "text": "dopamine controls our perception of time. When we engage in an activity, let's say school or hard work of any"
+    },
+    {
+      "start": "1423.200",
+      "dur": "5.920",
+      "text": "kind or exercise, because of the reward we are going to give ourselves or receive at the end, we"
+    },
+    {
+      "start": "1429.120",
+      "dur": "6.880",
+      "text": "actually are extending the time bin over which we are analyzing or perceiving"
+    },
+    {
+      "start": "1436.000",
+      "dur": "5.440",
+      "text": "that experience. And because the reward comes at the end,"
+    },
+    {
+      "start": "1441.440",
+      "dur": "5.280",
+      "text": "we start to dissociate the neural circuits for dopamine and reward that"
+    },
+    {
+      "start": "1446.720",
+      "dur": "6.400",
+      "text": "would have normally been active during the activity. And we have the experience of less and"
+    },
+    {
+      "start": "1453.120",
+      "dur": "8.240",
+      "text": "less pleasure from that particular activity while we're doing it. Now, this is the antithesis of growth mindset,"
+    },
+    {
+      "start": "1461.360",
+      "dur": "8.960",
+      "text": "which is this striving to be better, to be in this mindset of I'm not there yet, but striving itself is the end goal. And"
+    },
+    {
+      "start": "1470.320",
+      "dur": "5.599",
+      "text": "that of course delivers you to tremendous performance. Has been observed over and over and over again that people that have growth mindset,"
+    },
+    {
+      "start": "1475.919",
+      "dur": "6.721",
+      "text": "kids that have growth mindset end up performing very well because they're focused on the effort itself. And all of"
+    },
+    {
+      "start": "1482.640",
+      "dur": "7.440",
+      "text": "us can cultivate growth mindset. The neural mechanism of cultivating growth mindset involves learning to access the"
+    },
+    {
+      "start": "1490.080",
+      "dur": "6.400",
+      "text": "rewards from effort and doing. And that's hard to do because you have to"
+    },
+    {
+      "start": "1496.480",
+      "dur": "6.400",
+      "text": "engage this prefrontal component of the misolyic circuit. You have to tell yourself, okay, this effort is great."
+    },
+    {
+      "start": "1502.880",
+      "dur": "6.960",
+      "text": "This effort is pleasureful. What you find over time is that you can evoke dopamine release from the friction and"
+    },
+    {
+      "start": "1509.840",
+      "dur": "5.920",
+      "text": "the challenge that you happen to be in. The beauty of this misolyic reward pathway is that it includes the"
+    },
+    {
+      "start": "1515.760",
+      "dur": "6.480",
+      "text": "forebrain. So you can tell yourself the effort part is the good part. I know it's painful. I know this doesn't feel"
+    },
+    {
+      "start": "1522.240",
+      "dur": "7.520",
+      "text": "good, but I'm focused on this. I'm going to start to access the reward. You will find the rewards, meaning the dopamine"
+    },
+    {
+      "start": "1529.760",
+      "dur": "5.840",
+      "text": "release inside of effort. If you repeat this over and over again, and what's beautiful about it is that it starts to"
+    },
+    {
+      "start": "1535.600",
+      "dur": "6.640",
+      "text": "become reflexive for all types of effort. When we focus only on the trophy, only on the grade, only on the"
+    },
+    {
+      "start": "1542.240",
+      "dur": "6.319",
+      "text": "win as the reward, you undermine that entire process. So how do you do this?"
+    },
+    {
+      "start": "1548.559",
+      "dur": "5.201",
+      "text": "You do this in those moments of the most intense friction. You tell yourself that"
+    },
+    {
+      "start": "1553.760",
+      "dur": "6.159",
+      "text": "in that moment, you are doing it by choice and you're doing it because you"
+    },
+    {
+      "start": "1559.919",
+      "dur": "5.281",
+      "text": "love it. The ability to access this pleasure from effort aspect of our"
+    },
+    {
+      "start": "1565.200",
+      "dur": "5.440",
+      "text": "dopamineergic circuitry is without question the most powerful aspect of"
+    },
+    {
+      "start": "1570.640",
+      "dur": "6.080",
+      "text": "dopamine and our biology of dopamine. And the beautiful thing is it's accessible to all of us. And just to"
+    },
+    {
+      "start": "1576.720",
+      "dur": "7.360",
+      "text": "really underscore the things that can interfere with and prevent you from getting dopamine release from effort"
+    },
+    {
+      "start": "1584.080",
+      "dur": "6.079",
+      "text": "itself, don't spike dopamine prior to engaging in effort. And don't spike"
+    },
+    {
+      "start": "1590.159",
+      "dur": "5.041",
+      "text": "dopamine after engaging in effort. Learn to spike your dopamine from effort"
+    },
+    {
+      "start": "1595.200",
+      "dur": "7.120",
+      "text": "itself. Along the lines of how dopamine and dopamine schedules and our perception of things can shape the way"
+    },
+    {
+      "start": "1596.000",
+      "dur": "72.000"
+    },
+    {
+      "start": "1602.320",
+      "dur": "7.359",
+      "text": "that we experience things as pleasure or not, there are beautiful studies mainly looking at sugar appetite and our sense"
+    },
+    {
+      "start": "1609.679",
+      "dur": "5.201",
+      "text": "of pleasure from sweet things, but also for savory foods etc. And essentially"
+    },
+    {
+      "start": "1614.880",
+      "dur": "5.919",
+      "text": "the results that come out of this are the following. If you ingest something that you like, it tastes good to you,"
+    },
+    {
+      "start": "1620.799",
+      "dur": "6.961",
+      "text": "but then you ingest something that's even sweeter or even more savory, and then you go back to the food that you"
+    },
+    {
+      "start": "1627.760",
+      "dur": "5.120",
+      "text": "ate previously, well, you don't like it as much. And that might seem like a duh,"
+    },
+    {
+      "start": "1632.880",
+      "dur": "6.960",
+      "text": "obviously, but that shift in perception can be blocked by blocking the shift in"
+    },
+    {
+      "start": "1639.840",
+      "dur": "6.160",
+      "text": "dopamine. And so this really speaks to these peaks and valleys in dopamine that I mentioned before and how your"
+    },
+    {
+      "start": "1646.000",
+      "dur": "5.039",
+      "text": "experience of anything is going to depend on your prior experience of other"
+    },
+    {
+      "start": "1651.039",
+      "dur": "8.081",
+      "text": "things that evoke dopamine. Big dopamine release makes it more challenging to experience more big dopamine release. So"
+    },
+    {
+      "start": "1659.120",
+      "dur": "5.760",
+      "text": "dopamine is one of those things that you don't want too high or too low for too long. It's all about staying in that"
+    },
+    {
+      "start": "1664.880",
+      "dur": "5.760",
+      "text": "dynamic range and that's going to be different for everybody. Now there are circumstances in which increasing levels"
+    },
+    {
+      "start": "1668.000",
+      "dur": "217.000"
+    },
+    {
+      "start": "1670.640",
+      "dur": "5.919",
+      "text": "of dopamine is desirable and advantageous and clinically helpful. Good example of this would be the drug"
+    },
+    {
+      "start": "1676.559",
+      "dur": "5.120",
+      "text": "wellbutrin also called buprone which increases dopamine and norepinephrine."
+    },
+    {
+      "start": "1681.679",
+      "dur": "5.600",
+      "text": "Well, but brie was developed as an alternative treatment for depression because some people who take the"
+    },
+    {
+      "start": "1687.279",
+      "dur": "6.640",
+      "text": "so-called SSRI, selective serotonin reuptake inhibitors, which as the name suggests, increased serotonin, suffer"
+    },
+    {
+      "start": "1693.919",
+      "dur": "5.601",
+      "text": "from serotonin related side effects, things like decreased appetite,"
+    },
+    {
+      "start": "1699.520",
+      "dur": "5.600",
+      "text": "decreased libido, or sometimes increased appetite or other side effects that they"
+    },
+    {
+      "start": "1705.120",
+      "dur": "5.279",
+      "text": "don't want. And well, butrine seems to avoid the sexual side effects, it can"
+    },
+    {
+      "start": "1710.399",
+      "dur": "8.081",
+      "text": "blunt appetite and these sorts of things because of the increase in norepinephrine and dopamine increases"
+    },
+    {
+      "start": "1718.480",
+      "dur": "5.040",
+      "text": "levels of motivation and craving, but also can create a state of elevated"
+    },
+    {
+      "start": "1723.520",
+      "dur": "6.960",
+      "text": "alertness that can sometimes get in the way of healthy eating and things of that sort. So, one has to work with their"
+    },
+    {
+      "start": "1730.480",
+      "dur": "6.400",
+      "text": "clinician as psychiatrist. it as a prescription drug in order to find the dosage of worldbutrin that's correct for"
+    },
+    {
+      "start": "1736.880",
+      "dur": "7.919",
+      "text": "them. And of course, there are a lot of people out there who are seeking to increase their baseline levels of dopamine without taking any prescription"
+    },
+    {
+      "start": "1744.799",
+      "dur": "5.041",
+      "text": "pharmaceutical compounds. Many people have turned to the use of elyroine."
+    },
+    {
+      "start": "1749.840",
+      "dur": "5.040",
+      "text": "Elyroine is an amino acid precursor to L-dopa. So, it lies further up the"
+    },
+    {
+      "start": "1754.880",
+      "dur": "6.159",
+      "text": "dopamine synthesis pathway. And nowadays, it's very common because elyrocine is sold over the counter in"
+    },
+    {
+      "start": "1761.039",
+      "dur": "6.321",
+      "text": "the United States that people will take elyroine as a way to get more energized,"
+    },
+    {
+      "start": "1767.360",
+      "dur": "8.400",
+      "text": "alert, and focused. Elyroine is typically taken in capsule form or powder form. Anywhere from 500 to 750 to"
+    },
+    {
+      "start": "1775.760",
+      "dur": "6.880",
+      "text": "1,000 milligs. And the time scale for increasing dopamine is about 30 to 45 minutes after ingestion. Dopamine levels"
+    },
+    {
+      "start": "1782.640",
+      "dur": "5.279",
+      "text": "start to peak. Of course, if you have a pre-existing dopamineergic condition, so"
+    },
+    {
+      "start": "1787.919",
+      "dur": "6.801",
+      "text": "schizophrenia or psychosis of any kind, bipolar, anxiety, elyroine will not be"
+    },
+    {
+      "start": "1794.720",
+      "dur": "5.120",
+      "text": "good for you. And if you don't, you should just understand and expect that"
+    },
+    {
+      "start": "1799.840",
+      "dur": "5.600",
+      "text": "it's going to lead to an increase in dopamine. You'll certainly feel an elevated state. For some of you, that"
+    },
+    {
+      "start": "1805.440",
+      "dur": "6.000",
+      "text": "might be agitating. For some of you, that might be really pleasureful. And then you will feel a crash afterwards. I"
+    },
+    {
+      "start": "1811.440",
+      "dur": "6.320",
+      "text": "do use elyrocine from time to time for enhancing focus and motivation, but I want to emphasize from time to time."
+    },
+    {
+      "start": "1817.760",
+      "dur": "6.720",
+      "text": "I've never been one to take elyroine regularly in order to focus or train or do any kind of mental work. I don't want"
+    },
+    {
+      "start": "1824.480",
+      "dur": "5.840",
+      "text": "to experience the drop in dopamine that inevitably occurs some period of time afterwards. Now, there is one compound"
+    },
+    {
+      "start": "1830.320",
+      "dur": "5.920",
+      "text": "that you are all familiar with and you've probably actually taken without realizing it that increases dopamine and"
+    },
+    {
+      "start": "1836.240",
+      "dur": "5.600",
+      "text": "that's something called PA for phenyl ethylamine. technically beta"
+    },
+    {
+      "start": "1841.840",
+      "dur": "8.079",
+      "text": "phenylthylamine. PA is found in various foods. Chocolate just happens to be one in enriched in PA and can increase"
+    },
+    {
+      "start": "1849.919",
+      "dur": "5.521",
+      "text": "synaptic levels of dopamine. I personally take PA from time to time"
+    },
+    {
+      "start": "1855.440",
+      "dur": "6.560",
+      "text": "as a focus and work aid in order to do intense bouts of work. Again, I don't do"
+    },
+    {
+      "start": "1862.000",
+      "dur": "7.360",
+      "text": "that too often. It's usually for mental work. And I will take 500 milligrams of PA and I'll take 300 milligrams of alpha"
+    },
+    {
+      "start": "1869.360",
+      "dur": "5.520",
+      "text": "GPC. It leads to a sharp but very transient increase in dopamine that"
+    },
+    {
+      "start": "1874.880",
+      "dur": "5.760",
+      "text": "lasts about 30 to 45 minutes. And at least in my system I found to be much"
+    },
+    {
+      "start": "1880.640",
+      "dur": "5.279",
+      "text": "more uh regulated and kind of even than something like elyroine. And so while"
+    },
+    {
+      "start": "1885.000",
+      "dur": "89.000"
+    },
+    {
+      "start": "1885.919",
+      "dur": "6.721",
+      "text": "it's fun to think about pharmarmacology and underlying neural circuitry and cold water baths and all these different"
+    },
+    {
+      "start": "1892.640",
+      "dur": "5.840",
+      "text": "things related to dopamine schedules and reward mechanisms and attaching reward to effort and all the various things"
+    },
+    {
+      "start": "1898.480",
+      "dur": "6.960",
+      "text": "that we've talked about today in terms of science and tools and protocols, I'd be remiss if I didn't include that"
+    },
+    {
+      "start": "1905.440",
+      "dur": "6.239",
+      "text": "social connections, close social connections in particular, at least essential to stimulating the dopamine"
+    },
+    {
+      "start": "1911.679",
+      "dur": "6.480",
+      "text": "pathways. So the take-home message there is quite simple. Engage in pursue"
+    },
+    {
+      "start": "1918.159",
+      "dur": "5.841",
+      "text": "quality healthy social interactions. I know I've covered a lot of material today. I've really tried hard to focus"
+    },
+    {
+      "start": "1924.000",
+      "dur": "5.440",
+      "text": "on things that lie directly within the dopamine pathway and circuitries as well"
+    },
+    {
+      "start": "1929.440",
+      "dur": "6.719",
+      "text": "as things that directly stimulate those pathways and circuitries. I realize in giving you a lot of information about"
+    },
+    {
+      "start": "1936.159",
+      "dur": "5.201",
+      "text": "science and mechanism all the way from psychological and biological to circuitry and synaptic transmission,"
+    },
+    {
+      "start": "1941.360",
+      "dur": "6.159",
+      "text": "volutric transmission and so forth that it might seem overwhelming. The most important things to understand are that"
+    },
+    {
+      "start": "1947.519",
+      "dur": "5.361",
+      "text": "these dopamine pathways really are under your control and the locus of control"
+    },
+    {
+      "start": "1952.880",
+      "dur": "6.320",
+      "text": "resides in the fact that your previous levels of dopamine are influencing your levels of dopamine right now. and your"
+    },
+    {
+      "start": "1959.200",
+      "dur": "5.040",
+      "text": "current levels of dopamine and where you take them next will influence your dopamine levels in the next days and"
+    },
+    {
+      "start": "1964.240",
+      "dur": "7.319",
+      "text": "weeks to come. And last, but certainly not least, thank you for your interest in science."
+    },
+    {
+      "start": "1971.930",
+      "dur": "3.839",
+      "text": "[Music]"
+    }
+  ]
+}]

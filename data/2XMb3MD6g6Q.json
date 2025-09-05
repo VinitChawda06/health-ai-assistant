@@ -1,0 +1,1555 @@
+[{
+  "data": [
+    {
+      "start": "0.000",
+      "dur": "27.000"
+    },
+    {
+      "start": "0.240",
+      "dur": "6.720",
+      "text": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based"
+    },
+    {
+      "start": "6.960",
+      "dur": "5.200",
+      "text": "tools for mental health, physical health, and performance."
+    },
+    {
+      "start": "12.160",
+      "dur": "6.560",
+      "text": "I'm Andrew Huberman, and I'm a professor of neurobiology and of opthalmology at Stanford School of Medicine. Today, I"
+    },
+    {
+      "start": "18.720",
+      "dur": "6.559",
+      "text": "have the pleasure of introducing Dr. Samur Hatar as my guest on the Huberman Lab podcast. And now, my conversation"
+    },
+    {
+      "start": "25.279",
+      "dur": "5.760",
+      "text": "with Dr. Samur Hatar. Samur, thanks for sitting down with me. My pleasure."
+    },
+    {
+      "start": "27.000",
+      "dur": "173.000"
+    },
+    {
+      "start": "31.039",
+      "dur": "5.680",
+      "text": "You are best known in scientific circles for your work on how light impacts mood,"
+    },
+    {
+      "start": "36.719",
+      "dur": "5.761",
+      "text": "learning, feeding, hunger, sleep, and these sorts of topics. So maybe you"
+    },
+    {
+      "start": "42.480",
+      "dur": "5.440",
+      "text": "could just weigh us into what the relationship is between light and these"
+    },
+    {
+      "start": "47.920",
+      "dur": "5.360",
+      "text": "things like mood and hunger etc. Sure. So I mean you do appreciate the"
+    },
+    {
+      "start": "53.280",
+      "dur": "5.040",
+      "text": "effect of light for vision. So when you wake up in a beautiful area, beautiful"
+    },
+    {
+      "start": "58.320",
+      "dur": "5.919",
+      "text": "ocean, light is essential. The sunrise, the sunset. So that's your conscious"
+    },
+    {
+      "start": "64.239",
+      "dur": "7.281",
+      "text": "perception of light. But light has a completely different aspect that is independent of conscious vision and"
+    },
+    {
+      "start": "71.520",
+      "dur": "5.440",
+      "text": "that's how it regulates many important functions in your body. I think the best"
+    },
+    {
+      "start": "76.960",
+      "dur": "6.560",
+      "text": "that is well studied and wellknown is your circadian clock. And the word circadian comes from the word circa"
+    },
+    {
+      "start": "83.520",
+      "dur": "7.360",
+      "text": "which is approximate and dn is day. So it's an approximate day. Why is it an approximate day? Because if I put you or"
+    },
+    {
+      "start": "90.880",
+      "dur": "7.599",
+      "text": "any other human being who have a normal circadian clock in a constant conditions with no information about feeding time"
+    },
+    {
+      "start": "98.479",
+      "dur": "5.201",
+      "text": "about sleep time about what time it is outside you still have a daily rhythm"
+    },
+    {
+      "start": "103.680",
+      "dur": "5.439",
+      "text": "but it's not exactly 24 hours. So it will shift out of the solar day because"
+    },
+    {
+      "start": "109.119",
+      "dur": "5.761",
+      "text": "it's not exactly 24 hours and hence the name sir. How does that rhythm show up in the tissues of our body?"
+    },
+    {
+      "start": "114.880",
+      "dur": "6.400",
+      "text": "It shows up at every level that we know we studied. It shows up at the level of the cell. It shows up at the level of"
+    },
+    {
+      "start": "121.280",
+      "dur": "6.640",
+      "text": "the tissue and it shows up at your behavior. The most obvious for you is your sleepwake cycle. You sleep and"
+    },
+    {
+      "start": "127.920",
+      "dur": "7.360",
+      "text": "you're awake and sleep at the 24-hour rhythms. The period length of the sleep rhythm on average is 24.2 hours. So"
+    },
+    {
+      "start": "135.280",
+      "dur": "7.760",
+      "text": "you'll be drifting 02 hours every day out of the solar day if you don't get the sunlight. So the the sunlight"
+    },
+    {
+      "start": "143.040",
+      "dur": "5.360",
+      "text": "adjusts that approximate day to an exact day. So now your behavior is adjusted to"
+    },
+    {
+      "start": "148.400",
+      "dur": "7.119",
+      "text": "the light dark environment or the solar day. It's part of the brain that is not consciously driven. So you actually do"
+    },
+    {
+      "start": "155.519",
+      "dur": "5.281",
+      "text": "not know when it happens or when it doesn't happen. And that what we'll get into when I tell you why light affects"
+    },
+    {
+      "start": "160.800",
+      "dur": "5.680",
+      "text": "your mood and why sometimes people don't know how to deal with light to improve their mood for example. What's the"
+    },
+    {
+      "start": "166.480",
+      "dur": "6.720",
+      "text": "relevance? I mean why should we care about that short difference? So let's do the math. If you shift out 2 hours a day in 5 days you're shifting"
+    },
+    {
+      "start": "173.200",
+      "dur": "5.759",
+      "text": "out 1 hour. So you're literally 1 hour off in your social behavior in 5 days."
+    },
+    {
+      "start": "178.959",
+      "dur": "7.121",
+      "text": "In 10 days you're 2 hours off. And if you're an organism that is living in the wild, shifting out of the right phase of"
+    },
+    {
+      "start": "186.080",
+      "dur": "6.079",
+      "text": "the cycle, you could either miss food or you could become food. So it's really essential for survival. I think it's one"
+    },
+    {
+      "start": "192.159",
+      "dur": "6.401",
+      "text": "of the strongest aspect of survival for animals to have the anticipation and the"
+    },
+    {
+      "start": "198.560",
+      "dur": "5.440",
+      "text": "adjustment to the solar cycle. What is the the machinery that allows"
+    },
+    {
+      "start": "200.000",
+      "dur": "173.000"
+    },
+    {
+      "start": "204.000",
+      "dur": "5.440",
+      "text": "that to happen and how does that machinery work? Yeah. So we know we knew"
+    },
+    {
+      "start": "209.440",
+      "dur": "6.799",
+      "text": "that in mammals including us we are mammals humans that the eyes are required for this function. So if humans"
+    },
+    {
+      "start": "216.239",
+      "dur": "7.280",
+      "text": "are born without eyes or the optic nerves are damaged humans are not able to adjust to the solar cycle. So we know"
+    },
+    {
+      "start": "223.519",
+      "dur": "6.561",
+      "text": "that the eyes are required in the human retinas. There are two types of photo receptors. They are called rods and"
+    },
+    {
+      "start": "230.080",
+      "dur": "7.040",
+      "text": "cones because of their shapes. And these rods and cones simply take the photon energy which light is made of and they"
+    },
+    {
+      "start": "237.120",
+      "dur": "7.280",
+      "text": "change it in a way to an electrical signal that allow us to build the image of the environment in our cortices."
+    },
+    {
+      "start": "244.400",
+      "dur": "5.119",
+      "text": "However, people have found including me with the work of David Buren and Ignashi"
+    },
+    {
+      "start": "249.519",
+      "dur": "7.601",
+      "text": "Provenio that there is a subset of ganglen cells. The ganglen cells are the cells that leave the retina their axon"
+    },
+    {
+      "start": "257.120",
+      "dur": "6.560",
+      "text": "leave the retina and project to the brain. So these were thought to only relay rod and cone information from the"
+    },
+    {
+      "start": "263.680",
+      "dur": "7.040",
+      "text": "light environment to the brain. We found that a small subset of these ganglen cells are themselves photo receptors"
+    },
+    {
+      "start": "270.720",
+      "dur": "6.960",
+      "text": "that were completely missed in the retina. And these are the photo receptors that relay light environment"
+    },
+    {
+      "start": "277.680",
+      "dur": "6.400",
+      "text": "subconsciously to the areas in the brain that have and house the circadium clock or the"
+    },
+    {
+      "start": "284.080",
+      "dur": "7.360",
+      "text": "circadium pacemaker which adjusts all the clocks in our bodies to the central brain clock that allows them to entrain"
+    },
+    {
+      "start": "291.440",
+      "dur": "5.440",
+      "text": "to the 24-hour light dark cycle. So these are cells that connect the eye to the brain that behave like photo"
+    },
+    {
+      "start": "296.880",
+      "dur": "6.640",
+      "text": "receptors essentially. I think um it's worth mentioning now that uh people who are pattern vision blind so people who"
+    },
+    {
+      "start": "303.520",
+      "dur": "5.519",
+      "text": "cannot see but have eyes many of them still have these cells these melanops"
+    },
+    {
+      "start": "309.039",
+      "dur": "5.281",
+      "text": "and intrinsically photosensitive cells and can uh essentially match or entrain"
+    },
+    {
+      "start": "314.320",
+      "dur": "5.920",
+      "text": "as we say onto the light dark cycle. In fact they possibly have no problems in circadian photo entrainment. They'll"
+    },
+    {
+      "start": "320.240",
+      "dur": "7.120",
+      "text": "have enormous sleepwake cycle but they're totally blind but they are totally image blind. And what's really interesting is that and"
+    },
+    {
+      "start": "327.360",
+      "dur": "6.080",
+      "text": "this story I heard from Chuck Seizler so I'll give him credit that some of these people who are image blind usually they"
+    },
+    {
+      "start": "333.440",
+      "dur": "5.039",
+      "text": "get dry eyes and they give them a lot of pain and doctors used to think oh then"
+    },
+    {
+      "start": "338.479",
+      "dur": "5.041",
+      "text": "since they are image blind and they're getting dry eye why don't you just remove their eyes they're not using them"
+    },
+    {
+      "start": "343.520",
+      "dur": "6.480",
+      "text": "anymore and the minute they would remove their eyes they start having cyclical sleep problems indicating that now they"
+    },
+    {
+      "start": "350.000",
+      "dur": "5.199",
+      "text": "are not in training to the light dark cycle and are having cyclical jet lags"
+    },
+    {
+      "start": "355.199",
+      "dur": "5.440",
+      "text": "when their clock shifts through the light dark cycle. That's really interesting. And uh I hear"
+    },
+    {
+      "start": "360.639",
+      "dur": "6.321",
+      "text": "from a number of blind people, a lot of them have issues with sleep. I think in part because they don't realize that"
+    },
+    {
+      "start": "366.960",
+      "dur": "5.200",
+      "text": "they too need to see light at particular times of day or night in order to match their their schedule."
+    },
+    {
+      "start": "372.160",
+      "dur": "6.479",
+      "text": "Absolutely. What is the proper way to interact with light in the first part of the day?"
+    },
+    {
+      "start": "373.000",
+      "dur": "135.000"
+    },
+    {
+      "start": "378.639",
+      "dur": "6.641",
+      "text": "Honestly, I think the easiest thing is waking up. Get as much light as you can into your eyes. Yeah. It's really nice. Your system is"
+    },
+    {
+      "start": "385.280",
+      "dur": "5.199",
+      "text": "primed. If you're in trained, it's primed to get light. The sun should be out. Even when it's cloudy, you're going"
+    },
+    {
+      "start": "390.479",
+      "dur": "5.601",
+      "text": "to get enough intensity to help you adjust your cycle to the dayight cycle. These are general rules of thumb, but"
+    },
+    {
+      "start": "396.080",
+      "dur": "5.760",
+      "text": "how long do you recommend people go outside? So, if you do it daily, I would say 15 minutes. If you don't do it daily, you"
+    },
+    {
+      "start": "401.840",
+      "dur": "5.600",
+      "text": "may want to increase it. You do it more, it doesn't hurt. And I'll tell you, if you're sensitive, don't you don't even"
+    },
+    {
+      "start": "407.440",
+      "dur": "5.920",
+      "text": "have to go in the sun. You could be in the shade. There's going to be so many photons out there in the shade. is going"
+    },
+    {
+      "start": "413.360",
+      "dur": "5.200",
+      "text": "to be perfect. Okay. And if um for some reason one finds themsself very far north and it's"
+    },
+    {
+      "start": "418.560",
+      "dur": "6.560",
+      "text": "very very dense uh cloud cover, how long and at what point should somebody"
+    },
+    {
+      "start": "425.120",
+      "dur": "5.120",
+      "text": "consider using an artificial light source to mimic the sunlight? Yeah,"
+    },
+    {
+      "start": "430.240",
+      "dur": "6.640",
+      "text": "honestly this is where we don't have a lot of information still because this is where we're going to discuss this maybe"
+    },
+    {
+      "start": "436.880",
+      "dur": "5.520",
+      "text": "in more detail that if you put a humans in artificial conditions the circadian"
+    },
+    {
+      "start": "442.400",
+      "dur": "6.480",
+      "text": "system is very sensitive to light but in reality in the real environment light"
+    },
+    {
+      "start": "448.880",
+      "dur": "6.000",
+      "text": "also is affecting other aspects that are independent of the setting of the circadium pacemaker."
+    },
+    {
+      "start": "454.880",
+      "dur": "7.200",
+      "text": "Okay. and these which we call the direct effect of light on mood for example. So that is very hard to figure out what"
+    },
+    {
+      "start": "462.080",
+      "dur": "5.760",
+      "text": "intensity you need to use and we haven't done enough experiments because the system has been discovered just recently"
+    },
+    {
+      "start": "467.840",
+      "dur": "5.840",
+      "text": "but yeah I mean if you're honestly if you're that far north and you're in the winter and you want to get make sure you"
+    },
+    {
+      "start": "473.680",
+      "dur": "6.320",
+      "text": "don't use these light boxes I I would suggest that personally. Okay. So, I think we've um have nailed down that"
+    },
+    {
+      "start": "480.000",
+      "dur": "5.599",
+      "text": "first part of the day. Basically, it's get 10 to 30 minutes depending on how bright it is and try and do that as as"
+    },
+    {
+      "start": "485.599",
+      "dur": "6.961",
+      "text": "often as possible to give the system a regular daily is the best. This system is really about and and you'll see that even for"
+    },
+    {
+      "start": "492.560",
+      "dur": "6.000",
+      "text": "the effect on depression. It's about multiple days. It's so you don't have to worry if you missed it one day, you"
+    },
+    {
+      "start": "498.560",
+      "dur": "5.359",
+      "text": "know, stay longer if you want. But if you're in a hurry and you want to do other stuff, that's a great"
+    },
+    {
+      "start": "503.919",
+      "dur": "5.201",
+      "text": "recommendation. Mhm. So, you might want to compensate with some extra time if you missed a day or two. I've heard you say before it's"
+    },
+    {
+      "start": "508.000",
+      "dur": "50.000"
+    },
+    {
+      "start": "509.120",
+      "dur": "6.080",
+      "text": "entirely possible to get severely jetlagged without traveling. Absolutely. Simply by staying in, being on your"
+    },
+    {
+      "start": "515.200",
+      "dur": "5.440",
+      "text": "phone too much, not getting the sunlight. And you saw this during the pandemic. A lot of people mentioned that their"
+    },
+    {
+      "start": "520.640",
+      "dur": "5.520",
+      "text": "sleepwake cycles suffered a lot. Uh because if you're not going out and if"
+    },
+    {
+      "start": "526.160",
+      "dur": "6.239",
+      "text": "you're staying at home and you don't have big windows and you're waking late, waking up late and then you're using"
+    },
+    {
+      "start": "532.399",
+      "dur": "6.801",
+      "text": "very bright light till late at night, your body is going to shift and now your day is going to start instead of like"
+    },
+    {
+      "start": "539.200",
+      "dur": "5.360",
+      "text": "really when the sun comes up, let's say at 6:00 in the morning, it's going to your day is going to start at 11:00 in"
+    },
+    {
+      "start": "544.560",
+      "dur": "6.000",
+      "text": "the morning. That's what your body's going to think is the beginning of the day. So then you're not going to be able"
+    },
+    {
+      "start": "550.560",
+      "dur": "5.920",
+      "text": "to sleep at 10 o'clock at night because now that's really for for your body is"
+    },
+    {
+      "start": "556.480",
+      "dur": "7.120",
+      "text": "completely different timing. There is this idea of chronotypes that we all each intrinsically have a a best rhythm"
+    },
+    {
+      "start": "558.000",
+      "dur": "112.000"
+    },
+    {
+      "start": "563.600",
+      "dur": "6.560",
+      "text": "of either being a morning person. You called yourself an early person or a night owl or more of a kind of standard,"
+    },
+    {
+      "start": "570.160",
+      "dur": "6.239",
+      "text": "you know, to bed around 10:30, up around 7 type um thing. And the and I think there are now good data, correct me if"
+    },
+    {
+      "start": "576.399",
+      "dur": "5.921",
+      "text": "I'm wrong, from the National Institutes of Mental Health and elsewhere showing that the more we deviate from that"
+    },
+    {
+      "start": "582.320",
+      "dur": "5.519",
+      "text": "intrinsic rhythm, the more mental health issues and physical health issues start to crop up."
+    },
+    {
+      "start": "587.839",
+      "dur": "5.921",
+      "text": "So there is great data on this and there's a couple of things that complicate this. The first is the people"
+    },
+    {
+      "start": "593.760",
+      "dur": "5.280",
+      "text": "who usually are late, what what do you mean? People that wake up late and go to sleep, go to sleep late and wake up late, they"
+    },
+    {
+      "start": "599.040",
+      "dur": "5.440",
+      "text": "they have an overwhelmingly higher level of depression because human notice that"
+    },
+    {
+      "start": "604.480",
+      "dur": "5.120",
+      "text": "people who go to sleep early and wake up early, they do better in life. They notice that they just perform better."
+    },
+    {
+      "start": "609.600",
+      "dur": "6.560",
+      "text": "They perform. But the question is is is that intrinsic to the system or is that society because society start things"
+    },
+    {
+      "start": "616.160",
+      "dur": "6.400",
+      "text": "usually early or late? That's a hard question. We discriminate against late risers. we in a way we discriminate and I'm not so"
+    },
+    {
+      "start": "622.560",
+      "dur": "5.839",
+      "text": "sure that the circadian system is that variable in the human population. I mean clearly there are maybe some genetic"
+    },
+    {
+      "start": "628.399",
+      "dur": "5.521",
+      "text": "factors that make a small percentage of like everything with a bell shape but I"
+    },
+    {
+      "start": "633.920",
+      "dur": "6.159",
+      "text": "think most of the time the light environment may play a role and once as you as we've talked about this is a"
+    },
+    {
+      "start": "640.079",
+      "dur": "5.681",
+      "text": "long-term effect of light once you get into a rhythm it's hard to break out of"
+    },
+    {
+      "start": "645.760",
+      "dur": "5.600",
+      "text": "that rhythm because if you start sleeping late and waking up late you're not getting the morning sunlight"
+    },
+    {
+      "start": "651.360",
+      "dur": "6.080",
+      "text": "right and so you you're just going to be late it seems to me is the case is that the"
+    },
+    {
+      "start": "657.440",
+      "dur": "5.280",
+      "text": "only way to really know if you're meant to be an early bird, as they call it, an"
+    },
+    {
+      "start": "662.720",
+      "dur": "5.520",
+      "text": "early person or a late person or somewhere in between is to get morning sunlight and figure out whether or not"
+    },
+    {
+      "start": "668.240",
+      "dur": "6.000",
+      "text": "that makes you feel better. So, what should people do in the afternoon/ing"
+    },
+    {
+      "start": "670.000",
+      "dur": "110.000"
+    },
+    {
+      "start": "674.240",
+      "dur": "5.920",
+      "text": "time in terms of their light viewing behavior? I mean, the best thing to do is to let the natural light creep in"
+    },
+    {
+      "start": "680.160",
+      "dur": "7.040",
+      "text": "into darkness, right? that would be the best but clearly that would be inefficient. You you want to go home,"
+    },
+    {
+      "start": "687.200",
+      "dur": "6.319",
+      "text": "you want to read, you want to talk to your kids, you want to talk to your family. So I think you know it's nice to"
+    },
+    {
+      "start": "693.519",
+      "dur": "6.481",
+      "text": "extend the day. I don't think that's wrong if you somehow can block that light from affecting your circadium"
+    },
+    {
+      "start": "700.000",
+      "dur": "6.320",
+      "text": "clock. You do keep your home quite dim to dark at night. I am an extreme, but I measured it for"
+    },
+    {
+      "start": "706.320",
+      "dur": "6.079",
+      "text": "myself and I asked Reie, my wife, if she's okay with it. She also liked the dimness. Both of us can see well in in"
+    },
+    {
+      "start": "712.399",
+      "dur": "6.880",
+      "text": "dim conditions. But I think you have to measure it for yourself. You really have to do it's a very simple experiment."
+    },
+    {
+      "start": "719.279",
+      "dur": "7.680",
+      "text": "Just try to dim the light as much as you can. I I call it the minimum amount of light you require to see comfortably."
+    },
+    {
+      "start": "726.959",
+      "dur": "7.201",
+      "text": "You know, use red light that is very dim if you want to keep the room for sleeping. Red light that is very dim has"
+    },
+    {
+      "start": "734.160",
+      "dur": "6.479",
+      "text": "very small effect on on on circadium clock. and below 10 locks of red light"
+    },
+    {
+      "start": "740.639",
+      "dur": "6.721",
+      "text": "literally doesn't affect sleep at all. So, there are ways to do it. I've seen you check your phone after"
+    },
+    {
+      "start": "747.360",
+      "dur": "6.240",
+      "text": "dark once or twice. Um, and you did it by sort of pointing your phone away from"
+    },
+    {
+      "start": "753.600",
+      "dur": "6.239",
+      "text": "you, right? It actually makes sense that, you know, if you shine a flashlight in your eye, it's much brighter than if you shine direct line."
+    },
+    {
+      "start": "759.839",
+      "dur": "5.601",
+      "text": "So, if you just look on the side, most of the light is going to go this way and you're only missing. And and even when I"
+    },
+    {
+      "start": "765.440",
+      "dur": "6.240",
+      "text": "check sometimes, I check it so fast and switch it off so fast. So ideally I should not check iPhones and iPads. I"
+    },
+    {
+      "start": "771.680",
+      "dur": "5.040",
+      "text": "don't use iPad at night because it's hard to lower it enough cuz it's a huge."
+    },
+    {
+      "start": "776.720",
+      "dur": "5.200",
+      "text": "But even my iPhone, I try not to use it at night. You had a what I consider"
+    },
+    {
+      "start": "780.000",
+      "dur": "213.000"
+    },
+    {
+      "start": "781.920",
+      "dur": "5.120",
+      "text": "absolutely landmark beautiful paper published in nature a few years ago"
+    },
+    {
+      "start": "787.040",
+      "dur": "7.200",
+      "text": "showing that if you disrupt the exposure to light or the timing of the exposure"
+    },
+    {
+      "start": "794.240",
+      "dur": "7.520",
+      "text": "to light that there are dramatic effects on the stress system and on the learning and memory system. So if I interpret"
+    },
+    {
+      "start": "801.760",
+      "dur": "6.560",
+      "text": "that correctly, that could mean that when we view light and how much light"
+    },
+    {
+      "start": "808.320",
+      "dur": "5.199",
+      "text": "could make us feel happier or less happy or even depressed, stressed, learning,"
+    },
+    {
+      "start": "813.519",
+      "dur": "5.921",
+      "text": "etc. Bingo. Even if we're sleeping and waking up at the appropriate times,"
+    },
+    {
+      "start": "819.440",
+      "dur": "5.839",
+      "text": "bingo. I mean, eventually, because we're talking about the whole system, eventually when you start having the"
+    },
+    {
+      "start": "825.279",
+      "dur": "7.360",
+      "text": "other problems, you also develop sleep problems. But you're absolutely right. And in fact now research from Diego"
+    },
+    {
+      "start": "832.639",
+      "dur": "6.560",
+      "text": "Fernandez in the lab have found that now we know that they actually require different brain regions. So we don't"
+    },
+    {
+      "start": "839.199",
+      "dur": "6.640",
+      "text": "only have a theory, we don't only have a light environment that showed they can be dissociated. We know that they use"
+    },
+    {
+      "start": "845.839",
+      "dur": "6.081",
+      "text": "completely different brain regions. So the SCN that I told you about earlier, the place where the central pacemaker"
+    },
+    {
+      "start": "851.920",
+      "dur": "7.840",
+      "text": "is, the one that receives direct input from the retina through the IPRGCS to adjust your circadian clock is not the"
+    },
+    {
+      "start": "859.760",
+      "dur": "5.199",
+      "text": "area that receives the light input for mood regulation. It's a completely different brain region. And what's"
+    },
+    {
+      "start": "864.959",
+      "dur": "6.320",
+      "text": "really amazing, this region also receives direct input from the IPRGC's but projects to areas in the brain that"
+    },
+    {
+      "start": "871.279",
+      "dur": "7.761",
+      "text": "are known to regulate mood including the vententral medial prefrontal preffrontal cortex which has been studied for many"
+    },
+    {
+      "start": "879.040",
+      "dur": "6.560",
+      "text": "years to be impacted in a human depression. So just by by this amazing"
+    },
+    {
+      "start": "885.600",
+      "dur": "6.239",
+      "text": "serendipity to find that a region that is so deep in the advanced brain like"
+    },
+    {
+      "start": "891.839",
+      "dur": "5.041",
+      "text": "the the prefrontal cortex is your executive brain one of the most"
+    },
+    {
+      "start": "896.880",
+      "dur": "5.120",
+      "text": "elaborated in humans to see that they receive input from these ancient photo"
+    },
+    {
+      "start": "902.000",
+      "dur": "6.160",
+      "text": "receptor was stunning to us. How does that finding inform daily"
+    },
+    {
+      "start": "908.160",
+      "dur": "6.560",
+      "text": "protocols for you or for other people? So that's why we came up with the tripartate model because as a circadium"
+    },
+    {
+      "start": "914.720",
+      "dur": "5.760",
+      "text": "biologist I only thought of light through the circadian clock affecting behavior. As a sleep biologist they only"
+    },
+    {
+      "start": "920.480",
+      "dur": "6.240",
+      "text": "thought of the homeostatic drive affecting sleep affecting behavior. And for people who study light for vision"
+    },
+    {
+      "start": "926.720",
+      "dur": "5.760",
+      "text": "and other fun they thought only of the environmental input. But now if you put them all together you get with this"
+    },
+    {
+      "start": "932.480",
+      "dur": "6.719",
+      "text": "tripartate model where it's really mindboggling and it makes so much sense. The organism doesn't want to depend on a"
+    },
+    {
+      "start": "939.199",
+      "dur": "6.481",
+      "text": "single component. But if you could incorporate these three together, you could have a beautiful system that is"
+    },
+    {
+      "start": "945.680",
+      "dur": "6.719",
+      "text": "well adapted. So let me tell you the sleepwake cycle, right? So we know there is a homeostatic drive to affect sleep."
+    },
+    {
+      "start": "952.399",
+      "dur": "7.041",
+      "text": "We've had beautiful talks about that which is basically the longer you're awake, the more you want to be asleep. So that's your homeostatic drive. We've"
+    },
+    {
+      "start": "959.440",
+      "dur": "6.000",
+      "text": "talked about the circadian influence of sleep and the fact that light dark cycle affect the circadian system which"
+    },
+    {
+      "start": "965.440",
+      "dur": "6.319",
+      "text": "eventually affects sleep. So these two components are well understood. Now the third factor is your direct light or"
+    },
+    {
+      "start": "971.759",
+      "dur": "6.801",
+      "text": "environmental input. How much stress how much light you get from there also can highly impact sleep. So even if you have"
+    },
+    {
+      "start": "978.560",
+      "dur": "6.480",
+      "text": "a good circadian homeostatic drive if you're getting light at the wrong time of the day or if you're being stressed"
+    },
+    {
+      "start": "985.040",
+      "dur": "6.960",
+      "text": "and thinking at the then your sleep is going to suffer. So you have to think of the three together to have a beautiful"
+    },
+    {
+      "start": "992.000",
+      "dur": "5.680",
+      "text": "sleepwake cycle. Let's talk about food and eating and appetite."
+    },
+    {
+      "start": "993.000",
+      "dur": "189.000"
+    },
+    {
+      "start": "997.680",
+      "dur": "5.360",
+      "text": "You had yet another Yes, I I greatly admire your your"
+    },
+    {
+      "start": "1003.040",
+      "dur": "7.280",
+      "text": "success in in this way. Yet another incredible discovery showing that there are directs of direct excuse me effects"
+    },
+    {
+      "start": "1010.320",
+      "dur": "5.680",
+      "text": "of light on appetite and feeding behavior. So for somebody who's"
+    },
+    {
+      "start": "1016.000",
+      "dur": "5.199",
+      "text": "interested in affecting their eating behavior, how should they use light in"
+    },
+    {
+      "start": "1021.199",
+      "dur": "6.640",
+      "text": "order to adjust their eating behavior? Right? So now that I've told you about all these interaction between the"
+    },
+    {
+      "start": "1027.839",
+      "dur": "6.881",
+      "text": "different inputs to the circadian clock, just you think about it as an engineer, what would be the best thing? The best"
+    },
+    {
+      "start": "1034.720",
+      "dur": "5.198",
+      "text": "thing is to know when your food times happen in the day. When should you get"
+    },
+    {
+      "start": "1039.919",
+      "dur": "7.519",
+      "text": "light and where is your circad when is your circadian clock in your system right? So if you eat at very specific"
+    },
+    {
+      "start": "1047.439",
+      "dur": "6.321",
+      "text": "times of the day that's another signal that is telling your body your clock you're in a certain time of the day. So"
+    },
+    {
+      "start": "1053.760",
+      "dur": "5.919",
+      "text": "if you're having lunch at the correct time every day and you're getting bright light now you have two systems that are"
+    },
+    {
+      "start": "1059.679",
+      "dur": "6.561",
+      "text": "informing your clock your clock is going to be better. So regular meal times, regular meantimes that fit your"
+    },
+    {
+      "start": "1066.240",
+      "dur": "7.520",
+      "text": "circadian clock. So and in fact if you do that when when I started doing this and it helped me lose weight is that I'm"
+    },
+    {
+      "start": "1073.760",
+      "dur": "6.960",
+      "text": "exposing myself to the right amount of light dark cycle. I'm eating at regular time. It is amazing. You will be not"
+    },
+    {
+      "start": "1080.720",
+      "dur": "6.160",
+      "text": "hungry. Let's say let's say you eat at noon. You will not feel any hunger at 11:45 and then all of a sudden the"
+    },
+    {
+      "start": "1086.880",
+      "dur": "5.440",
+      "text": "hunger jumps. This is clearly not an energy issue because it could not be that drastic,"
+    },
+    {
+      "start": "1092.320",
+      "dur": "5.120",
+      "text": "right? No, the desire to eat is mainly driven by these uh these cues, these"
+    },
+    {
+      "start": "1097.440",
+      "dur": "5.440",
+      "text": "hormone cues that are very exquisitly timed to exactly"
+    },
+    {
+      "start": "1102.880",
+      "dur": "6.480",
+      "text": "sleepwake cycle, but also to light. Exactly. How regular are you or do you recommend"
+    },
+    {
+      "start": "1109.360",
+      "dur": "7.040",
+      "text": "people be about meal times? Are we talking about down to the minute? Like if I absolutely All right. Plus or so 12 noon is my"
+    },
+    {
+      "start": "1116.400",
+      "dur": "7.040",
+      "text": "normal lunch. Let's say uh plus or minus half an hour. Okay. Yeah. So eat around between 11:30"
+    },
+    {
+      "start": "1123.440",
+      "dur": "5.599",
+      "text": "and 12:30 if if that's the time. And it depends if you also do multiple meals. Remember"
+    },
+    {
+      "start": "1129.039",
+      "dur": "5.361",
+      "text": "three meals that's a decision that somebody came up with. I don't know why nowadays people are fewer people are"
+    },
+    {
+      "start": "1134.400",
+      "dur": "8.560",
+      "text": "doing that I think given our friend Sachin Panda's work right. I mean, so you could have two meals, you could have very multiples"
+    },
+    {
+      "start": "1142.960",
+      "dur": "5.599",
+      "text": "meals that are distributed across your active time. Some people are not hungry early in the"
+    },
+    {
+      "start": "1148.559",
+      "dur": "6.161",
+      "text": "day. They might be late shifted people, in which case eating later in the day will will work well for them. Work as long as they don't eat early in"
+    },
+    {
+      "start": "1154.720",
+      "dur": "5.680",
+      "text": "the morning. That's just you have to work with your schedule, with your active schedule. What we're talking about really is"
+    },
+    {
+      "start": "1160.400",
+      "dur": "5.440",
+      "text": "finding your ideal sleep schedule. Exactly. And finding your ideal eating schedule."
+    },
+    {
+      "start": "1165.840",
+      "dur": "6.560",
+      "text": "Exactly. and understanding how those two things interact. And you know the nice thing as you said finding them out is going to help you to"
+    },
+    {
+      "start": "1172.400",
+      "dur": "6.720",
+      "text": "understand how they interact because we know from the tripartate model that they are all interconnected and for each"
+    },
+    {
+      "start": "1179.120",
+      "dur": "6.400",
+      "text": "person they're going to be interconnected differently. It's striking to me that in all animals"
+    },
+    {
+      "start": "1182.000",
+      "dur": "101.000"
+    },
+    {
+      "start": "1185.520",
+      "dur": "5.279",
+      "text": "besides humans, if they deviate too much from the appropriate exposure to light"
+    },
+    {
+      "start": "1190.799",
+      "dur": "5.760",
+      "text": "and light dark cycle, they essentially don't mate andor die andor get killed"
+    },
+    {
+      "start": "1196.559",
+      "dur": "5.281",
+      "text": "off. But in humans, we are able to override that at least to some extent."
+    },
+    {
+      "start": "1201.840",
+      "dur": "6.079",
+      "text": "But the ways in which we suffer appear to be things like obesity, metabolic"
+    },
+    {
+      "start": "1207.919",
+      "dur": "6.561",
+      "text": "syndromes, uh reproductive syndromes that are accompany the other syndromes, you know, endocrine syndromes and mood"
+    },
+    {
+      "start": "1214.480",
+      "dur": "5.680",
+      "text": "and depressive disorders. Is there any effort at the level of the the"
+    },
+    {
+      "start": "1220.160",
+      "dur": "7.360",
+      "text": "nationally or or laboratories that you're aware of to try and use light in order to improve mood and mental health?"
+    },
+    {
+      "start": "1227.520",
+      "dur": "7.519",
+      "text": "I mean, honestly, this is my moonshot. This is the thing that I think people because it's I I I say don't take a pill"
+    },
+    {
+      "start": "1235.039",
+      "dur": "7.281",
+      "text": "take a photo and not I mean you take pills it's important I'm just making it that really we have an opportunity right"
+    },
+    {
+      "start": "1242.320",
+      "dur": "6.080",
+      "text": "now with the incredible advances of LED lights of changing spectra of light of"
+    },
+    {
+      "start": "1248.400",
+      "dur": "5.360",
+      "text": "regulating intensities and just to assoc just for simple"
+    },
+    {
+      "start": "1253.760",
+      "dur": "7.840",
+      "text": "changes you could really improve sleepwake cycle productivity and still you could actually get more done because"
+    },
+    {
+      "start": "1261.600",
+      "dur": "6.720",
+      "text": "as we've talked about when you have all these messed up now you have to sleep more but your sleep is fragmented it's"
+    },
+    {
+      "start": "1268.320",
+      "dur": "6.800",
+      "text": "not very good and you can't focus and you can't focus when you don't have alertness when you need the alertness so"
+    },
+    {
+      "start": "1275.120",
+      "dur": "7.039",
+      "text": "having all these you could allow you to do even more actually at the end than less and that's the the exciting part of"
+    },
+    {
+      "start": "1282.159",
+      "dur": "6.721",
+      "text": "it let's talk about jet lag what are the two or three things that people can do to adjust"
+    },
+    {
+      "start": "1283.000",
+      "dur": "212.000"
+    },
+    {
+      "start": "1288.880",
+      "dur": "5.440",
+      "text": "their schedule quickly. Like let's say fall classes are starting, you start a new job or you have a baby or a puppy or"
+    },
+    {
+      "start": "1294.320",
+      "dur": "6.800",
+      "text": "whatever. What is the best way to shift the clock quickly? So, it's very simple as we've talked yesterday. So, imagine"
+    },
+    {
+      "start": "1301.120",
+      "dur": "5.760",
+      "text": "you're in in the outside with no environmental with no industrial light."
+    },
+    {
+      "start": "1306.880",
+      "dur": "6.240",
+      "text": "If you if your body thinks you're in early evening and you see a bright light, what does this tell you? Oh,"
+    },
+    {
+      "start": "1313.120",
+      "dur": "7.840",
+      "text": "wait. This is not early evening yet. It's still early afternoon or late afternoon. So I have to delay my clock"
+    },
+    {
+      "start": "1320.960",
+      "dur": "5.280",
+      "text": "to go back to late afternoon. So if you get light early in the evening, it"
+    },
+    {
+      "start": "1326.240",
+      "dur": "6.799",
+      "text": "delays your clock. So what does meaning that makes you want to go to sleep later? Yes. It delays your clock. So later in"
+    },
+    {
+      "start": "1333.039",
+      "dur": "5.760",
+      "text": "the night, later in your night and actually it just happens that in humans"
+    },
+    {
+      "start": "1338.799",
+      "dur": "7.360",
+      "text": "you get a temperature in a deer later in the night low temperature in your body. After that, lights start advancing your"
+    },
+    {
+      "start": "1346.159",
+      "dur": "8.400",
+      "text": "clock. If I understand correctly, what you're saying is if your typical wake up time is say 7:00 a.m., then your low"
+    },
+    {
+      "start": "1354.559",
+      "dur": "7.201",
+      "text": "point in temperature probably occurs somewhere around 5:00 a.m. Yeah. And if you view light right around then,"
+    },
+    {
+      "start": "1361.760",
+      "dur": "6.080",
+      "text": "it's going to essentially advance your clock. Yeah. Because then your your body thinks, oh, it's 7:00, so advance your"
+    },
+    {
+      "start": "1367.840",
+      "dur": "5.760",
+      "text": "clock by 1 to two hours. But if I were to view light, say at 3:00 a.m., then it"
+    },
+    {
+      "start": "1373.600",
+      "dur": "6.559",
+      "text": "would probably delay my clock. Yeah. Okay. Yeah. So, and then let's say I land in a new schedule. I want to adjust"
+    },
+    {
+      "start": "1380.159",
+      "dur": "6.161",
+      "text": "to a new schedule. Let's say I didn't manage to do anything with my light viewing before I went and I didn't I didn't anticipate the trip. Suddenly,"
+    },
+    {
+      "start": "1386.320",
+      "dur": "5.359",
+      "text": "I'm on a new schedule. Okay. I was told that one of the ways to help shift the"
+    },
+    {
+      "start": "1391.679",
+      "dur": "5.281",
+      "text": "clock and to avoid gastrointestinal issues is to eat on the local schedule."
+    },
+    {
+      "start": "1396.960",
+      "dur": "6.079",
+      "text": "Mhm. to start basically behaving like a local even though your circadian clock will"
+    },
+    {
+      "start": "1403.039",
+      "dur": "6.241",
+      "text": "take a little bit of time to catch up. Absolutely. But you have to remember the light, right? So let's let's now that we"
+    },
+    {
+      "start": "1409.280",
+      "dur": "7.360",
+      "text": "explained it very simply. Let's take a very simple example, right? New York to Italy. That's a simple example. New York"
+    },
+    {
+      "start": "1416.640",
+      "dur": "7.039",
+      "text": "time, Italy time six hour difference, right? So let's say you fly from New York at night. You reach Italy at 8:00"
+    },
+    {
+      "start": "1423.679",
+      "dur": "7.201",
+      "text": "in the morning. What is the time in your New York time? You although you reach 6 hours back 6 hours. It's 2:00 a.m."
+    },
+    {
+      "start": "1430.880",
+      "dur": "5.840",
+      "text": "So when you land Italy, you want to avoid light like the plague. Yeah, you could eat, but you really don't want to"
+    },
+    {
+      "start": "1436.720",
+      "dur": "5.439",
+      "text": "get a light, right? Cuz otherwise it's going to delay. It's going to delay you. It's going to send you to California instead of sending you to Italy,"
+    },
+    {
+      "start": "1442.159",
+      "dur": "6.481",
+      "text": "right? What Sam is saying is so crucial. Just because getting bright light in your eyes early in the day is really"
+    },
+    {
+      "start": "1448.640",
+      "dur": "5.680",
+      "text": "beneficial when you're at home. When you travel to a new time zone, you have to take into account where your body thinks"
+    },
+    {
+      "start": "1454.320",
+      "dur": "5.440",
+      "text": "you are. And so if you're looking at the Italian sunrise, having just flown from New York to Italy, and you didn't"
+    },
+    {
+      "start": "1459.760",
+      "dur": "6.480",
+      "text": "prepare for that trip by waking up a little bit earlier in anticipation, multiple days, and you view light at 2, excuse me, at"
+    },
+    {
+      "start": "1466.240",
+      "dur": "5.039",
+      "text": "at 6:00 or 7 a.m. Italian time, beautiful Italian sunrise, you are going"
+    },
+    {
+      "start": "1471.279",
+      "dur": "5.361",
+      "text": "to delay your clock, you're going to basically throw yourself back to California, but you are in Italy. You're"
+    },
+    {
+      "start": "1476.640",
+      "dur": "7.200",
+      "text": "going to throw your biology back to California and you are going to be up in the middle of the Italian night and you're going to be ais miserable."
+    },
+    {
+      "start": "1483.840",
+      "dur": "5.120",
+      "text": "It's very important to avoid getting the wrong light information when you're"
+    },
+    {
+      "start": "1488.960",
+      "dur": "6.319",
+      "text": "trying to adjust your body because otherwise it shifts you to the other to the other side. Absolutely right. You"
+    },
+    {
+      "start": "1495.000",
+      "dur": "94.000"
+    },
+    {
+      "start": "1495.279",
+      "dur": "6.400",
+      "text": "are one of these people that has such vigor. I think a lot of your ability to work hard and focus and really do so"
+    },
+    {
+      "start": "1501.679",
+      "dur": "6.081",
+      "text": "many things at an impressive level is because you think about these issues and you you think about when you're going to"
+    },
+    {
+      "start": "1507.760",
+      "dur": "7.200",
+      "text": "be optimal for focus, when you're going to be optimal for exercise, when and the when is the key. It's and I think a lot"
+    },
+    {
+      "start": "1514.960",
+      "dur": "5.360",
+      "text": "of people live in the landscape of feeling like there's something broken inside them. I really agree with you"
+    },
+    {
+      "start": "1520.320",
+      "dur": "6.560",
+      "text": "that I think part of the reason I'm continuing to be able to do this that I really think about it and I make sure"
+    },
+    {
+      "start": "1526.880",
+      "dur": "5.120",
+      "text": "that I keep everything aligned and and that actually helps me a lot like I"
+    },
+    {
+      "start": "1532.000",
+      "dur": "5.279",
+      "text": "don't suffer in sleep I don't suffer in waking up I never use a timer to wake up"
+    },
+    {
+      "start": "1537.279",
+      "dur": "5.201",
+      "text": "system is so aligned it works a lot of times people will say how come I go to"
+    },
+    {
+      "start": "1542.480",
+      "dur": "5.679",
+      "text": "sleep I fall asleep fine but then I wake up at 3:00 or 4 in the morning and can't fall back asleep is it possible that"
+    },
+    {
+      "start": "1548.159",
+      "dur": "6.561",
+      "text": "those people were supposed to go to bed at 8:00 p.m. Yeah, I mean it is possible uh or it's possible that their clock is completely"
+    },
+    {
+      "start": "1554.720",
+      "dur": "5.680",
+      "text": "misaligned that they are getting maybe enough time at night when they are supposed and then they possibly feel so"
+    },
+    {
+      "start": "1560.400",
+      "dur": "6.480",
+      "text": "sleepy in the day. So there all these are possible combination. Oh that's an interesting idea I hadn't considered. So that what they think is"
+    },
+    {
+      "start": "1566.880",
+      "dur": "5.120",
+      "text": "their sleep their body is so out of whack with the light dark cycle that it's actually a nap"
+    },
+    {
+      "start": "1572.000",
+      "dur": "6.080",
+      "text": "or or the weaker part of the sleep. I mean, you see this in in when you travel to different time zone before you"
+    },
+    {
+      "start": "1578.080",
+      "dur": "6.079",
+      "text": "adjust. You go to sleep really well, but 2 hours later you're fully up. 2 hours."
+    },
+    {
+      "start": "1584.159",
+      "dur": "5.681",
+      "text": "If you were so tired and this is your regular sleep, there's no way you're going to wake up in 2 hours."
+    },
+    {
+      "start": "1589.000",
+      "dur": "197.000"
+    },
+    {
+      "start": "1589.840",
+      "dur": "5.920",
+      "text": "Let's talk about seasonality a little bit. Are there other effects of seasonality on humans that we are aware"
+    },
+    {
+      "start": "1595.760",
+      "dur": "7.360",
+      "text": "of? Honestly, you could see it perfectly, I think, in in Scandinavia. I mean, you could talk to people in who live in"
+    },
+    {
+      "start": "1603.120",
+      "dur": "5.120",
+      "text": "Sure. They get seasonal depression. What? Seasonal depression is one. But actually when you start asking them"
+    },
+    {
+      "start": "1608.240",
+      "dur": "6.480",
+      "text": "questions, they tell you like in the winter they barely could wake up. They barely have the energy. Before even"
+    },
+    {
+      "start": "1614.720",
+      "dur": "5.920",
+      "text": "depression, even people who don't get seasonal depression, they'll tell you our energy level is lower. Our ability"
+    },
+    {
+      "start": "1620.640",
+      "dur": "5.440",
+      "text": "to go to work is is not the same. And in the summer, most people actually sleep"
+    },
+    {
+      "start": "1626.080",
+      "dur": "5.360",
+      "text": "very little. They tell you we we really can we we feel like we're manic. We have"
+    },
+    {
+      "start": "1631.440",
+      "dur": "6.320",
+      "text": "all this energy. And not in a negative way, in a funny way, right? I mean, but if you want to sleep, we have to put"
+    },
+    {
+      "start": "1637.760",
+      "dur": "5.039",
+      "text": "these curtain. I think in these situations, you could really appreciate"
+    },
+    {
+      "start": "1642.799",
+      "dur": "7.841",
+      "text": "the seasonality of a humans. I think we kind of destroyed our seasonality because we don't get exposed to that"
+    },
+    {
+      "start": "1650.640",
+      "dur": "6.480",
+      "text": "much natural light. We have all this artificial light. But I think honestly one of the thing that is going to happen"
+    },
+    {
+      "start": "1657.120",
+      "dur": "6.000",
+      "text": "if they follow your recommendation, this is going to cause them to also experience some changes across the"
+    },
+    {
+      "start": "1663.120",
+      "dur": "6.960",
+      "text": "season because now they going to see the sun differently. If you're going to go out in the morning in the summer, you're"
+    },
+    {
+      "start": "1670.080",
+      "dur": "5.120",
+      "text": "going to get a much bright. That's why I don't like the change in time. I know people think, \"Oh, because you're"
+    },
+    {
+      "start": "1675.200",
+      "dur": "7.440",
+      "text": "biased. You because I think Wait, wait, wait, wait. Sorry. The change are you talking about daylight savings?\" Daylight saving. such a bad idea because"
+    },
+    {
+      "start": "1682.640",
+      "dur": "5.360",
+      "text": "it disrupts that rhythm that you're having because I think your body if you"
+    },
+    {
+      "start": "1688.000",
+      "dur": "6.159",
+      "text": "keep that rhythm you will see the whole seasonality and I look at it from a different aspect than other people. If"
+    },
+    {
+      "start": "1694.159",
+      "dur": "5.760",
+      "text": "you think about it Andrew there is a situation where you're getting light perfectly well and then all of a sudden"
+    },
+    {
+      "start": "1699.919",
+      "dur": "5.120",
+      "text": "they delay it by 1 hour because and then even though it's the summer your body"
+    },
+    {
+      "start": "1705.039",
+      "dur": "5.760",
+      "text": "now if you're still not adjusting think oh wait what happened? What kind of happened? Well, I'm glad you're bringing"
+    },
+    {
+      "start": "1710.799",
+      "dur": "6.081",
+      "text": "this up because I always thought, you know, what's the big deal? One hour, right? One hour shift, you know, spring"
+    },
+    {
+      "start": "1716.880",
+      "dur": "6.799",
+      "text": "forward, fall back, adjust one hour. But the but this goes back to the beginning of our discussion. It's not"
+    },
+    {
+      "start": "1723.679",
+      "dur": "5.441",
+      "text": "just one hour, right? Because it's one hour across that one day, but there's this cumulative effect"
+    },
+    {
+      "start": "1729.120",
+      "dur": "5.279",
+      "text": "on the clock and these uh three elements of your tripartite model, right? The"
+    },
+    {
+      "start": "1734.399",
+      "dur": "6.961",
+      "text": "homeostatic, sleep, and the light direct effects on mood. And when it's so close, it's sometimes hard to figure out how to"
+    },
+    {
+      "start": "1741.360",
+      "dur": "6.640",
+      "text": "adjust it perfectly because, you know, we're already sleepd deprived in our society. And then you shift it by, you"
+    },
+    {
+      "start": "1748.000",
+      "dur": "6.960",
+      "text": "know, so it it just it all accumulates and it has no benefit. I just don't understand why they do this. It makes no"
+    },
+    {
+      "start": "1754.960",
+      "dur": "6.480",
+      "text": "sense. Well, I think that the reason they do it is because they don't understand the biology because one hour"
+    },
+    {
+      "start": "1761.440",
+      "dur": "5.280",
+      "text": "seems trivial unless you understand the the repercussions of that 1 hour shift."
+    },
+    {
+      "start": "1766.720",
+      "dur": "6.800",
+      "text": "Because what's also clear now based on what you're saying is that that 1 hour shift is taking you out of alignment with the"
+    },
+    {
+      "start": "1773.520",
+      "dur": "5.920",
+      "text": "natural light dark cycle in exactly the wrong direction. It's pushing people to get even later."
+    },
+    {
+      "start": "1779.440",
+      "dur": "6.479",
+      "text": "Yeah. In the summer when light is going to push you later anyway. It's really compounding the problem that already"
+    },
+    {
+      "start": "1785.919",
+      "dur": "5.120",
+      "text": "exists. Samur, this has been um an amazing march"
+    },
+    {
+      "start": "1786.000",
+      "dur": "59.000"
+    },
+    {
+      "start": "1791.039",
+      "dur": "5.120",
+      "text": "through the importance of light. I'm certain that people are going to start"
+    },
+    {
+      "start": "1796.159",
+      "dur": "6.400",
+      "text": "thinking about how to change their relationship with light as a way to anchor everything that they do and"
+    },
+    {
+      "start": "1802.559",
+      "dur": "6.000",
+      "text": "that's important to their health. Let's talk a little bit about where people can find you. Your laboratories at the National Institutes of Mental Health. He"
+    },
+    {
+      "start": "1808.559",
+      "dur": "6.480",
+      "text": "is head of the chronobiology unit. all these things as I've mentioned earlier but um you are active on Twitter and"
+    },
+    {
+      "start": "1815.039",
+      "dur": "5.760",
+      "text": "Instagram right so what is your uh Twitter handle it's Samarhat and I think the same for"
+    },
+    {
+      "start": "1820.799",
+      "dur": "5.681",
+      "text": "Instagram definitely give him a follow there and on and on Twitter and um and I'm sure"
+    },
+    {
+      "start": "1826.480",
+      "dur": "5.600",
+      "text": "that he'll be happy to answer questions uh and enter entertain any and all"
+    },
+    {
+      "start": "1832.080",
+      "dur": "5.520",
+      "text": "discussions about chronobiology absolutely yeah and light yeah"
+    },
+    {
+      "start": "1837.600",
+      "dur": "8.699",
+      "text": "great thank you Sam awesome thank Thank you. [Music]"
+    }
+  ]
+}]

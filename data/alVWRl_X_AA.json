@@ -1,0 +1,1682 @@
+[{
+  "data": [
+    {
+      "start": "0.000",
+      "dur": "20.000"
+    },
+    {
+      "start": "0.240",
+      "dur": "6.720",
+      "text": "Welcome to Huberman Lab Essentials, where we revisit past episodes for the most potent and actionable science-based"
+    },
+    {
+      "start": "6.960",
+      "dur": "6.559",
+      "text": "tools for mental health, physical health, and performance. I'm Andrew Huberman and I'm a professor"
+    },
+    {
+      "start": "13.519",
+      "dur": "7.121",
+      "text": "of neurobiology and opthalmology at Stanford School of Medicine. And now my conversation with Dr. Aaliyah Crum."
+    },
+    {
+      "start": "20.000",
+      "dur": "276.000"
+    },
+    {
+      "start": "20.640",
+      "dur": "7.280",
+      "text": "Well, great to have you here. Great to be here. Yeah. Just to start off, you know, you've talked a lot and worked a lot on"
+    },
+    {
+      "start": "27.920",
+      "dur": "5.360",
+      "text": "the science of mindsets. Could you define for us what is a mindset and what"
+    },
+    {
+      "start": "33.280",
+      "dur": "8.240",
+      "text": "sort of purpose does it serve? We define mindsets as core beliefs or assumptions that we have about a domain"
+    },
+    {
+      "start": "41.520",
+      "dur": "7.039",
+      "text": "or category of things that orient us to a particular set of expectations,"
+    },
+    {
+      "start": "48.559",
+      "dur": "7.121",
+      "text": "explanations, and goals. I can uh distill it down for you. So mindsets are an assumption that you make about a"
+    },
+    {
+      "start": "55.680",
+      "dur": "5.039",
+      "text": "domain. So take stress for example, the nature of stress. What's your sort of"
+    },
+    {
+      "start": "60.719",
+      "dur": "6.720",
+      "text": "core belief about that? Do you view stress as enhancing, good for you, or do you view it as debilitating and bad for"
+    },
+    {
+      "start": "67.439",
+      "dur": "5.761",
+      "text": "you? Those mindsets, those core beliefs orient our thinking. They change what we"
+    },
+    {
+      "start": "73.200",
+      "dur": "6.720",
+      "text": "expect will happen to us when we're stressed, how we explain the occurrences that happen or unfold when we're"
+    },
+    {
+      "start": "79.920",
+      "dur": "6.559",
+      "text": "stressed, and also change our motivation for what we engage in when we're stressed. Sort of distilling down those"
+    },
+    {
+      "start": "86.479",
+      "dur": "5.841",
+      "text": "core assumptions that really shape and orient our thinking and action. I've heard you say before that mindsets"
+    },
+    {
+      "start": "92.320",
+      "dur": "6.479",
+      "text": "simplify life in some way by constraining the number of things that we have to consider. Um, and it sounds"
+    },
+    {
+      "start": "98.799",
+      "dur": "5.521",
+      "text": "to me like we can have mindsets about many things as as you said, many people are familiar with our colleague Carol"
+    },
+    {
+      "start": "104.320",
+      "dur": "6.880",
+      "text": "Dwek's um notion of growth mindset that if we're not proficient at something that we should think about not being"
+    },
+    {
+      "start": "111.200",
+      "dur": "7.840",
+      "text": "proficient yet that we are on some path to proficiency. But what are some examples of mindsets? Um, and how early"
+    },
+    {
+      "start": "119.040",
+      "dur": "6.399",
+      "text": "do these get laid down or do we learn them from our parents? Yeah, sure. So I think it's important with with Carol Dwek's work, a lot of"
+    },
+    {
+      "start": "125.439",
+      "dur": "7.121",
+      "text": "people kind of get focused on growth motivation and all these things, but her work really originated from thinking"
+    },
+    {
+      "start": "132.560",
+      "dur": "5.120",
+      "text": "about what she called as implicit theories or core beliefs about the"
+    },
+    {
+      "start": "137.680",
+      "dur": "5.279",
+      "text": "nature of intelligence or ability. Right? So do you believe that your"
+    },
+    {
+      "start": "142.959",
+      "dur": "7.280",
+      "text": "baseline levels of intelligence are fixed, static, set throughout the rest of your life or do you believe that they"
+    },
+    {
+      "start": "150.239",
+      "dur": "5.201",
+      "text": "can grow and change? The reality is, as it always is, complex and it's a bit of"
+    },
+    {
+      "start": "155.440",
+      "dur": "6.879",
+      "text": "both and it's all these things. But as humans, we need these simplifying systems to help us understand a complex"
+    },
+    {
+      "start": "162.319",
+      "dur": "6.401",
+      "text": "reality, but they're not inconsequential, right? They they matter in shaping our"
+    },
+    {
+      "start": "168.720",
+      "dur": "7.599",
+      "text": "motivation. And as she has shown, if you have the mindset that intelligence is malleable, you're motivated to work"
+    },
+    {
+      "start": "176.319",
+      "dur": "5.840",
+      "text": "harder to grow your intelligence. If you have the mindset that it's fixed, why work harder at math? if you don't think"
+    },
+    {
+      "start": "182.159",
+      "dur": "5.360",
+      "text": "you're good at it. What our work has aimed to do is to expand the range of"
+    },
+    {
+      "start": "187.519",
+      "dur": "7.041",
+      "text": "mindsets that we are uh studying focused on and also understand and expand the"
+    },
+    {
+      "start": "194.560",
+      "dur": "7.120",
+      "text": "range of effects that they have. Uh so I mentioned you know mindsets about stress we've also looked at mindsets about food"
+    },
+    {
+      "start": "201.680",
+      "dur": "7.520",
+      "text": "and healthy eating. So, do you have the mindset that foods that are good for you, healthy foods are disgusting and"
+    },
+    {
+      "start": "209.200",
+      "dur": "5.119",
+      "text": "depriving or do you have the mindset that healthy foods are indulgent and"
+    },
+    {
+      "start": "214.319",
+      "dur": "5.681",
+      "text": "delicious? Generally, people at least in our culture in in the West have this"
+    },
+    {
+      "start": "220.000",
+      "dur": "7.040",
+      "text": "view that stress is debilitating, healthy foods are disgusting and depriving. And those mindsets, whether"
+    },
+    {
+      "start": "227.040",
+      "dur": "5.119",
+      "text": "or not they're true or false, right or wrong, they have an impact. And they have an impact not just through the"
+    },
+    {
+      "start": "232.159",
+      "dur": "6.881",
+      "text": "motivational mechanisms that Dwek and others have studied, but as our lab has started to reveal, they also shape"
+    },
+    {
+      "start": "239.040",
+      "dur": "5.839",
+      "text": "physiological mechanisms by changing what our bodies prioritize and prepare"
+    },
+    {
+      "start": "244.879",
+      "dur": "6.321",
+      "text": "to do. We've looked at mindsets about exercise. Do you feel like you're getting enough or do you feel like"
+    },
+    {
+      "start": "251.200",
+      "dur": "5.120",
+      "text": "you're getting an insufficient amount to get the health benefits you're seeking?"
+    },
+    {
+      "start": "256.320",
+      "dur": "7.760",
+      "text": "Uh mindsets about illness. Do you view cancer as an unmititigated catastrophe"
+    },
+    {
+      "start": "264.080",
+      "dur": "6.080",
+      "text": "or do you view cancer as manageable? We've looked at mindsets about symptoms and side effects. Do you view side"
+    },
+    {
+      "start": "270.160",
+      "dur": "5.440",
+      "text": "effects as you know a sign that the treatment is is harmful or do you view"
+    },
+    {
+      "start": "275.600",
+      "dur": "5.760",
+      "text": "side effects as a sign that the treatment is working? Again, these are sort of core beliefs or assumptions you"
+    },
+    {
+      "start": "281.360",
+      "dur": "6.399",
+      "text": "have about these domains or categories. Uh, but they matter because they're shaping, they're synthesizing and"
+    },
+    {
+      "start": "287.759",
+      "dur": "5.281",
+      "text": "simplifying the way we're thinking, but they're also shaping what we're paying attention to, what we're motivated to"
+    },
+    {
+      "start": "293.040",
+      "dur": "7.439",
+      "text": "do, and potentially even how our bodies respond. I'd love to talk about this notion of how the mindset shaping how our bodies"
+    },
+    {
+      "start": "296.000",
+      "dur": "322.000"
+    },
+    {
+      "start": "300.479",
+      "dur": "5.121",
+      "text": "respond. And uh maybe as an example of this, if you could share with us this uh"
+    },
+    {
+      "start": "305.600",
+      "dur": "5.200",
+      "text": "now famous study that uh you're you've done with a milkshake study."
+    },
+    {
+      "start": "310.800",
+      "dur": "6.160",
+      "text": "Certainly. Yeah, this was a study that I ran as a graduate student at Yale University. I was working with Kelly"
+    },
+    {
+      "start": "316.960",
+      "dur": "6.400",
+      "text": "Brownell and Peter Saliv. Peter Saliv had done a lot of work on really coining the term emotional intelligence study."
+    },
+    {
+      "start": "323.360",
+      "dur": "7.119",
+      "text": "He's now the president of He's now the president of Yale. Yes. So, he's done well. He's he's done well for himself and for the university and society. I had come"
+    },
+    {
+      "start": "330.479",
+      "dur": "7.280",
+      "text": "in doing some previous work on mindsets about exercise and placebo effects in exercise. And I it really occurred to me"
+    },
+    {
+      "start": "337.759",
+      "dur": "7.361",
+      "text": "that there was a very simple question that hadn't been probed yet. And that was, do our beliefs about what we're"
+    },
+    {
+      "start": "345.120",
+      "dur": "6.160",
+      "text": "eating change our body's physiological response to that food? Holding constant"
+    },
+    {
+      "start": "351.280",
+      "dur": "5.520",
+      "text": "the objective nutrients of that thing. So that question might sound outrageous"
+    },
+    {
+      "start": "356.800",
+      "dur": "7.440",
+      "text": "at first, but it was it's really not outrageous if you're coming from a place of having studied in depth placebo"
+    },
+    {
+      "start": "364.240",
+      "dur": "6.160",
+      "text": "effects. Placebo effects are this robust demonstration in which simply taking a"
+    },
+    {
+      "start": "370.400",
+      "dur": "7.519",
+      "text": "sugar pill, taking nothing under the impression that it's a real medication that might relieve your asthma, reduce"
+    },
+    {
+      "start": "377.919",
+      "dur": "5.201",
+      "text": "your blood pressure, boost your immune system, can lead to those physiological"
+    },
+    {
+      "start": "383.120",
+      "dur": "6.400",
+      "text": "effects even though there's no objective nutrients. And we have more evidence on placebo effects than we have for any"
+    },
+    {
+      "start": "389.520",
+      "dur": "8.000",
+      "text": "other drug because of because of the clinical trial process in which all new drugs and medication are medications are"
+    },
+    {
+      "start": "397.520",
+      "dur": "6.480",
+      "text": "required to outperform a placebo effect. So we have a lot of data on the placebo effect. But anyways going back to this"
+    },
+    {
+      "start": "404.000",
+      "dur": "7.600",
+      "text": "question it was like all right we've moved from you know medications solving our health crisis to behavioral medicine"
+    },
+    {
+      "start": "411.600",
+      "dur": "7.120",
+      "text": "solving our health crisis. Increase people's exercise. get them to eat better. To what degree are these things"
+    },
+    {
+      "start": "418.720",
+      "dur": "5.520",
+      "text": "influenced by our mindsets or beliefs about them? So to test this question, we"
+    },
+    {
+      "start": "424.240",
+      "dur": "5.519",
+      "text": "ran a seemingly simple study. This was done at the Yale Center for um clinical"
+    },
+    {
+      "start": "429.759",
+      "dur": "5.761",
+      "text": "and translational research and we brought people into our lab under the"
+    },
+    {
+      "start": "435.520",
+      "dur": "6.640",
+      "text": "impression that we were designing different milkshakes with vastly different metabolic concentrations,"
+    },
+    {
+      "start": "442.160",
+      "dur": "5.759",
+      "text": "nutrient concentrations um that were designed to meet different metabolic needs of the patrons of the hospital."
+    },
+    {
+      "start": "447.919",
+      "dur": "7.201",
+      "text": "Right? So, you're going to come in, you're going to taste these milkshakes, and we're going to measure your body's physiological response to them. This was"
+    },
+    {
+      "start": "455.120",
+      "dur": "5.760",
+      "text": "a within subjects design. So it was the same people uh consuming two different"
+    },
+    {
+      "start": "460.880",
+      "dur": "6.000",
+      "text": "milkshakes two different time points separated by a week. And at one time point they were told that they were"
+    },
+    {
+      "start": "466.880",
+      "dur": "5.759",
+      "text": "consuming this really highfat high caloric indulgent milkshake. It was like"
+    },
+    {
+      "start": "472.639",
+      "dur": "5.601",
+      "text": "620 calorie super high fat and sugar. The other time point they were told that"
+    },
+    {
+      "start": "478.240",
+      "dur": "5.440",
+      "text": "it was a lowfat low calorie sensible sort of diet shake. In reality, it was"
+    },
+    {
+      "start": "483.680",
+      "dur": "6.320",
+      "text": "the exact same shake. It was right in the middle. It was like 300 calories, moderate amount of fats and sugars. And"
+    },
+    {
+      "start": "490.000",
+      "dur": "5.360",
+      "text": "we were measuring their body's gut peptide response to this shake. And in particular, we were looking at the"
+    },
+    {
+      "start": "495.360",
+      "dur": "5.519",
+      "text": "hormone ghrein. Medical experts call it the hunger hormone rises in ghrein"
+    },
+    {
+      "start": "500.879",
+      "dur": "5.361",
+      "text": "signal, you know, seek out food. Uh and then theoretically in proportion to the"
+    },
+    {
+      "start": "506.240",
+      "dur": "5.919",
+      "text": "amount of calories you consume, grein levels drop, signaling to the brain, okay, you don't you can you don't need"
+    },
+    {
+      "start": "512.159",
+      "dur": "5.201",
+      "text": "to eat so much anymore. You can stop eating and also revving up the metabolism to burn the nutrients that"
+    },
+    {
+      "start": "517.360",
+      "dur": "5.039",
+      "text": "were just ingested. What we found in this study was that when people thought"
+    },
+    {
+      "start": "522.399",
+      "dur": "5.120",
+      "text": "they were consuming the highfat, high calorie, indulgent milkshake, their"
+    },
+    {
+      "start": "527.519",
+      "dur": "7.521",
+      "text": "ghrein levels dropped at a three-fold rate stronger than when they thought they were consuming the sensible shake."
+    },
+    {
+      "start": "535.040",
+      "dur": "5.840",
+      "text": "So essentially, their bodies responded as if they had consumed more food even"
+    },
+    {
+      "start": "540.880",
+      "dur": "7.040",
+      "text": "though it was the exact sh same shake at both time points. It was to my knowledge one of the first studies to show any"
+    },
+    {
+      "start": "547.920",
+      "dur": "6.479",
+      "text": "effects of just believing that you're eating something different on your physiology. The second piece was really"
+    },
+    {
+      "start": "554.399",
+      "dur": "6.880",
+      "text": "important as well and especially for me this was one study that really transformed the way I think about how I"
+    },
+    {
+      "start": "561.279",
+      "dur": "6.721",
+      "text": "approach eating and that was the manner in which it affected our physiology was"
+    },
+    {
+      "start": "568.000",
+      "dur": "5.200",
+      "text": "somewhat counterintuitive. So, I had gone in thinking the better mindset to"
+    },
+    {
+      "start": "573.200",
+      "dur": "6.079",
+      "text": "be in when you eat is that you're eating healthy, right? Like, you know, it just makes sense like placebo effects, think you're healthy, you'll be health, you"
+    },
+    {
+      "start": "579.279",
+      "dur": "6.801",
+      "text": "know, but that was a far too simplistic way of thinking about it. And in fact, it was the exact opposite. When these"
+    },
+    {
+      "start": "586.080",
+      "dur": "5.520",
+      "text": "participants thought they were eating sensibly, their bodies left them still"
+    },
+    {
+      "start": "591.600",
+      "dur": "5.520",
+      "text": "feeling physiologically hungry, right? not satiated, which could potentially be"
+    },
+    {
+      "start": "597.120",
+      "dur": "7.839",
+      "text": "corresponding to slower metabolism and so forth. So, if you're in the interest of maintaining or losing weight, what's"
+    },
+    {
+      "start": "604.959",
+      "dur": "5.361",
+      "text": "the best mindset to be in? It's to be in a mindset that you're eating indulgently, that you're having enough"
+    },
+    {
+      "start": "610.320",
+      "dur": "6.400",
+      "text": "food, that you're getting enough. Um, and at least in that study, we showed that has a a more adaptive effect on"
+    },
+    {
+      "start": "616.720",
+      "dur": "6.320",
+      "text": "ghrelin responses. It's really remarkable. I It raises a question that um I just have to ask."
+    },
+    {
+      "start": "618.000",
+      "dur": "93.000"
+    },
+    {
+      "start": "623.040",
+      "dur": "6.160",
+      "text": "You've got people who are strictly plant-based. Um, you've got people who are omnivores. You got people who are"
+    },
+    {
+      "start": "629.200",
+      "dur": "5.520",
+      "text": "carnivores. You have every variation. You have intermittent fasting, also called timerestricted feeding. And it"
+    },
+    {
+      "start": "634.720",
+      "dur": "5.200",
+      "text": "seems like once a group kind of plugs into uh a particular mode of eating that"
+    },
+    {
+      "start": "639.920",
+      "dur": "5.520",
+      "text": "they feel works for them for whatever reason, energy-wise, mentally, maybe they're looking at their blood profiles,"
+    },
+    {
+      "start": "645.440",
+      "dur": "6.240",
+      "text": "maybe they're not. Each camp seems to tout all the health benefits and how great they feel. Could it be that"
+    },
+    {
+      "start": "651.680",
+      "dur": "6.480",
+      "text": "mindset effects are involved there? It does matter what it is and it matters"
+    },
+    {
+      "start": "658.160",
+      "dur": "6.400",
+      "text": "what you think about that diet and what others around you and in our culture"
+    },
+    {
+      "start": "664.560",
+      "dur": "5.120",
+      "text": "think about that diet because those social contexts inform our mindsets. Our"
+    },
+    {
+      "start": "669.680",
+      "dur": "6.159",
+      "text": "mindsets interact with our physiology in ways that produce outcomes that are"
+    },
+    {
+      "start": "675.839",
+      "dur": "6.641",
+      "text": "really important. So, let's not get dualistic and say, you know, it's either all in the mind or not in the mind."
+    },
+    {
+      "start": "682.480",
+      "dur": "6.320",
+      "text": "Let's also not be unnecessarily combative and say, \"Oh, it should be all plant-based or, you know, keto or"
+    },
+    {
+      "start": "688.800",
+      "dur": "7.120",
+      "text": "whatever.\" It's all of those things are a combined product of what you're actually doing and what you're thinking"
+    },
+    {
+      "start": "695.920",
+      "dur": "6.080",
+      "text": "about. if you believe in it. If you don't, if you're skeptical or you know, in some cases you think you should be"
+    },
+    {
+      "start": "702.000",
+      "dur": "6.800",
+      "text": "eating eating a certain way and then you don't live up to that, it might have even an adverse effect because of the"
+    },
+    {
+      "start": "708.800",
+      "dur": "6.479",
+      "text": "the stress and the anxiety associated with that. Yeah, there was a paper a year or two ago published in science um"
+    },
+    {
+      "start": "711.000",
+      "dur": "54.000"
+    },
+    {
+      "start": "715.279",
+      "dur": "7.841",
+      "text": "science magazine about brain regions involved in psychoggenic fever that if people or uh you can actually do"
+    },
+    {
+      "start": "723.120",
+      "dur": "5.600",
+      "text": "this in animal models too think that they are sick you get a genuine 1 to three°ree increase in body temperature"
+    },
+    {
+      "start": "728.720",
+      "dur": "6.239",
+      "text": "three 1 to 3 degrees Fahrenheit increase in body temperature is pretty pretty impressive. Yeah. Um and I guess plays into you know"
+    },
+    {
+      "start": "734.959",
+      "dur": "7.120",
+      "text": "symptomology generally. So I I'm a believer in belief effects. Well, it's also and I just say that, you know, the"
+    },
+    {
+      "start": "742.079",
+      "dur": "7.760",
+      "text": "term that we use in the in our field is noibo effect for that, which is sort of the placebo's ugly stepsister. You know,"
+    },
+    {
+      "start": "749.839",
+      "dur": "5.521",
+      "text": "it's when negative beliefs cause negative consequences. So, you are told"
+    },
+    {
+      "start": "755.360",
+      "dur": "6.320",
+      "text": "you will have, you know, it's it's very well demonstrated that when people are told about certain side effects, they're"
+    },
+    {
+      "start": "761.680",
+      "dur": "7.279",
+      "text": "far more likely to experience those side effects. love uh for you to tell us about um the"
+    },
+    {
+      "start": "765.000",
+      "dur": "166.000"
+    },
+    {
+      "start": "768.959",
+      "dur": "8.320",
+      "text": "hotel worker study. Yeah. No, I think this is a really good example of this phenomenon, right? That"
+    },
+    {
+      "start": "777.279",
+      "dur": "5.441",
+      "text": "the total effect of anything is a combined product of what you're doing and what you think about what you're"
+    },
+    {
+      "start": "782.720",
+      "dur": "7.440",
+      "text": "doing. And we found a group of people who were getting a lot of exercise but weren't aware of it. A group of hotel"
+    },
+    {
+      "start": "790.160",
+      "dur": "5.520",
+      "text": "housekeepers. So these were women working in hotels who were on their feet"
+    },
+    {
+      "start": "795.680",
+      "dur": "5.599",
+      "text": "all day long pushing carts. It was clear that they were getting above and beyond at least the surgeon general's"
+    },
+    {
+      "start": "801.279",
+      "dur": "7.921",
+      "text": "requirements at that time or which were to accumulate 30 minutes of moderate physical activity per day. But what was"
+    },
+    {
+      "start": "809.200",
+      "dur": "5.199",
+      "text": "interesting was when we went in and surveyed them and asked them, hey, how much exercise do you think you're"
+    },
+    {
+      "start": "814.399",
+      "dur": "5.601",
+      "text": "getting? A third of them said zero. And the average response was like a three on"
+    },
+    {
+      "start": "820.000",
+      "dur": "5.920",
+      "text": "a scale of 0 to 10. So it's clear that even though these women were active,"
+    },
+    {
+      "start": "825.920",
+      "dur": "7.039",
+      "text": "they didn't have that mindset, right? They had the mindset that their work was just work, hard, maybe thankless work"
+    },
+    {
+      "start": "832.959",
+      "dur": "5.120",
+      "text": "that led them to feel tired and and you know in pain at the end of the day, but"
+    },
+    {
+      "start": "838.079",
+      "dur": "5.760",
+      "text": "not that it was good for them, that it was good exercise. So what we did was we took these women and we randomized them"
+    },
+    {
+      "start": "843.839",
+      "dur": "6.240",
+      "text": "into two groups and we told half of them that their work was good exercise. This"
+    },
+    {
+      "start": "850.079",
+      "dur": "5.921",
+      "text": "in this case it was true factual information. We oriented them to the surgeon general's guidelines. We"
+    },
+    {
+      "start": "856.000",
+      "dur": "6.800",
+      "text": "oriented them to the benefits that they should be receiving. And then we had measured them previously on their um"
+    },
+    {
+      "start": "862.800",
+      "dur": "5.440",
+      "text": "physiological metrics like weight and body fat and blood pressure. And we came"
+    },
+    {
+      "start": "868.240",
+      "dur": "6.399",
+      "text": "back four weeks later and we tested them again. And what we found was that these women, even though they hadn't changed"
+    },
+    {
+      "start": "874.639",
+      "dur": "6.961",
+      "text": "anything in their behavior, they had benefits to their health. So they lost weight, they decrease their systolic"
+    },
+    {
+      "start": "881.600",
+      "dur": "7.679",
+      "text": "blood pressure by about 10 points on average. What this reveals is that we have to be more thoughtful in how we go"
+    },
+    {
+      "start": "889.279",
+      "dur": "6.161",
+      "text": "about motivating people to exercise or teaching people about the benefits. uh"
+    },
+    {
+      "start": "895.440",
+      "dur": "5.280",
+      "text": "our current approach is just to basically tell people at large, you"
+    },
+    {
+      "start": "900.720",
+      "dur": "6.239",
+      "text": "know, here's what you need to get. The intention with that is to motivate them because, you know, public health officials think, well, if I just tell"
+    },
+    {
+      "start": "906.959",
+      "dur": "5.201",
+      "text": "people you need to get more exercise cuz it's good for you, they'll do it. We know now that that doesn't work. That"
+    },
+    {
+      "start": "912.160",
+      "dur": "6.080",
+      "text": "these mo these guidelines are not motivational. They don't change our behavior. And what our work adds to that"
+    },
+    {
+      "start": "918.240",
+      "dur": "7.120",
+      "text": "is that not only is it not motivational, it also creates potentially a mindset that,"
+    },
+    {
+      "start": "925.360",
+      "dur": "5.039",
+      "text": "you know, makes people worse off than they were without knowing about the"
+    },
+    {
+      "start": "930.399",
+      "dur": "7.201",
+      "text": "guidelines. I'd love for us to talk about stress because um your lab has worked extensively on this. Could you tell us"
+    },
+    {
+      "start": "931.000",
+      "dur": "432.000"
+    },
+    {
+      "start": "937.600",
+      "dur": "5.200",
+      "text": "at some point about the study that you've done about informing people about the different effects of stress? um but"
+    },
+    {
+      "start": "942.800",
+      "dur": "5.279",
+      "text": "also uh if there's an opportunity some takeaways about how we could each"
+    },
+    {
+      "start": "948.079",
+      "dur": "6.000",
+      "text": "conceptualize stress in ways that would make it um serve us better. Great. Yeah. So I had, you know, come"
+    },
+    {
+      "start": "954.079",
+      "dur": "7.601",
+      "text": "off the heels of doing some research in exercise uh and diet. The obvious next"
+    },
+    {
+      "start": "961.680",
+      "dur": "7.360",
+      "text": "thing to think about was stress, right? The public health message was very clear, right? That stress was bad,"
+    },
+    {
+      "start": "969.040",
+      "dur": "6.799",
+      "text": "right? unmitigated and harm harmful on our health, our productivity, our"
+    },
+    {
+      "start": "975.839",
+      "dur": "5.521",
+      "text": "relationships, our fertility, our cognition, you name it, right? The"
+    },
+    {
+      "start": "981.360",
+      "dur": "6.000",
+      "text": "messages that were out there by and large oversimplified messages focused on"
+    },
+    {
+      "start": "987.360",
+      "dur": "5.680",
+      "text": "the damaging consequences of stress. But as you know, if you actually dive deeper"
+    },
+    {
+      "start": "993.040",
+      "dur": "5.919",
+      "text": "into the literature on stress and the origins of stress, what you find is that, you know, the literature, like"
+    },
+    {
+      "start": "998.959",
+      "dur": "6.560",
+      "text": "most literatures, is not so clear-cut. And in fact, there's a large amount of evidence to support the fact that the"
+    },
+    {
+      "start": "1005.519",
+      "dur": "5.120",
+      "text": "experience of stress, meaning encountering adversity or challenge in"
+    },
+    {
+      "start": "1010.639",
+      "dur": "6.320",
+      "text": "one's goal- rellated efforts, uh does not have to be debilitating. And in many"
+    },
+    {
+      "start": "1016.959",
+      "dur": "5.361",
+      "text": "cases, the body's response was designed to enhance our ability to manage at"
+    },
+    {
+      "start": "1022.320",
+      "dur": "5.598",
+      "text": "those moments. Right? So, some research showing that stress narrows our focus,"
+    },
+    {
+      "start": "1027.919",
+      "dur": "5.841",
+      "text": "increases our attention, speeds up the rate at which we're able to process information. There was some research out"
+    },
+    {
+      "start": "1033.760",
+      "dur": "5.600",
+      "text": "there showing this phenomenon of uh physiological toughening. The process by"
+    },
+    {
+      "start": "1039.360",
+      "dur": "6.800",
+      "text": "which the release of catabolic hormones in the stress response recruit or activate anabolic hormones which help as"
+    },
+    {
+      "start": "1046.160",
+      "dur": "5.360",
+      "text": "you know build our muscles build our you know neurons to help us grow and learn."
+    },
+    {
+      "start": "1051.520",
+      "dur": "6.560",
+      "text": "Uh and there was a whole body of emerging research on uh post-traumatic growth or this phenomenon in which even"
+    },
+    {
+      "start": "1058.080",
+      "dur": "7.520",
+      "text": "the experience of the most traumatic stressors, the most chronic and enduring stressors could lead not to destruction"
+    },
+    {
+      "start": "1065.600",
+      "dur": "5.840",
+      "text": "but in fact to the exact opposite to an enhanced sense of connection with our"
+    },
+    {
+      "start": "1071.440",
+      "dur": "6.960",
+      "text": "values, connection to others, sense of um joy and passion for living. My work"
+    },
+    {
+      "start": "1078.400",
+      "dur": "7.200",
+      "text": "since then has been not to try to argue that stress is enhancing and not debilitating, but try to point out that"
+    },
+    {
+      "start": "1085.600",
+      "dur": "5.920",
+      "text": "the true nature of stress is a paradox. The true nature of stress is manifold"
+    },
+    {
+      "start": "1091.520",
+      "dur": "5.200",
+      "text": "and complex and lots of things can happen. But to question what's the role"
+    },
+    {
+      "start": "1096.720",
+      "dur": "6.720",
+      "text": "of our mindset about stress in shaping our response to stress. So some work had"
+    },
+    {
+      "start": "1103.440",
+      "dur": "7.440",
+      "text": "already been done looking at your perception of the stressor, right? So do you view a stressor like a challenging"
+    },
+    {
+      "start": "1110.880",
+      "dur": "7.120",
+      "text": "exam or a health diagnosis as a challenge or a threat? And that had shown pretty convincingly that when you"
+    },
+    {
+      "start": "1118.000",
+      "dur": "5.039",
+      "text": "view stressors more as a challenge less as a threat that your brain and body"
+    },
+    {
+      "start": "1123.039",
+      "dur": "5.681",
+      "text": "responds uh more more adaptively. What our question was was to take the sort of"
+    },
+    {
+      "start": "1128.720",
+      "dur": "8.319",
+      "text": "psychological construal one step higher in abstraction. So not just the stressor but the nature of stress, right? Do you"
+    },
+    {
+      "start": "1137.039",
+      "dur": "5.041",
+      "text": "you know at at that core level do you view stress as something that's bad is"
+    },
+    {
+      "start": "1142.080",
+      "dur": "6.959",
+      "text": "going to kill us and therefore should be avoided or do you view some uh stress as uh natural and something that's going to"
+    },
+    {
+      "start": "1149.039",
+      "dur": "5.760",
+      "text": "enhance us? And so we set out to design a series of studies to test the extent"
+    },
+    {
+      "start": "1154.799",
+      "dur": "5.041",
+      "text": "to which these mindsets about stress mattered. And we found in a number of"
+    },
+    {
+      "start": "1159.840",
+      "dur": "5.040",
+      "text": "correlational studies that that uh more enhancing stress mindset was linked to"
+    },
+    {
+      "start": "1164.880",
+      "dur": "6.480",
+      "text": "uh better health outcomes uh better well-being and higher performance. So then we set out to see"
+    },
+    {
+      "start": "1171.360",
+      "dur": "6.480",
+      "text": "if we could change people's mindsets. And in our first test of this, we decided to do so by creating these"
+    },
+    {
+      "start": "1177.840",
+      "dur": "8.000",
+      "text": "multimedia films that showcased research, anecdotes, facts about stress,"
+    },
+    {
+      "start": "1185.840",
+      "dur": "5.199",
+      "text": "all true, but oriented towards one mindset or the other, right? So you can"
+    },
+    {
+      "start": "1191.039",
+      "dur": "6.161",
+      "text": "imagine one set of films showed basically the messages that were out there in the public health context. The"
+    },
+    {
+      "start": "1197.200",
+      "dur": "5.359",
+      "text": "other showed, hey, you know, stress is, you know, stress has been linked to"
+    },
+    {
+      "start": "1202.559",
+      "dur": "8.081",
+      "text": "these things, but in fact, the body stress response was designed to do this. Did you know it could do that? And we had um empowering images like LeBron"
+    },
+    {
+      "start": "1210.640",
+      "dur": "5.600",
+      "text": "James making the free throw in the final minute versus missing it. So either people saw a video that basically made"
+    },
+    {
+      "start": "1216.240",
+      "dur": "5.120",
+      "text": "it seem like stress will diminish you, crush you, reduce you, or a video very"
+    },
+    {
+      "start": "1221.360",
+      "dur": "5.280",
+      "text": "similar. Stress will grow you, bring out your best, and maybe even take you to"
+    },
+    {
+      "start": "1226.640",
+      "dur": "6.080",
+      "text": "heightened levels of performance that you've never experienced before. Exactly. And our question was, does"
+    },
+    {
+      "start": "1232.720",
+      "dur": "5.199",
+      "text": "orienting people to different mindsets change how they respond to stress? So"
+    },
+    {
+      "start": "1237.919",
+      "dur": "6.081",
+      "text": "this study was done in the wake of the 2008 financial crisis. We worked with uh"
+    },
+    {
+      "start": "1244.000",
+      "dur": "5.039",
+      "text": "UBS, a company, a financial service uh company that was undergoing pretty"
+    },
+    {
+      "start": "1249.039",
+      "dur": "6.481",
+      "text": "massive amounts of layoffs. So these employees were stressed about being laid off. They were taking on more pressure."
+    },
+    {
+      "start": "1255.520",
+      "dur": "5.440",
+      "text": "It was just a tough time. And we randomized them into three conditions."
+    },
+    {
+      "start": "1260.960",
+      "dur": "5.599",
+      "text": "And this was all pre-work before getting a a training on stress. Uh but the three"
+    },
+    {
+      "start": "1266.559",
+      "dur": "6.401",
+      "text": "different conditions, some watched no videos, some watched the stress will crush you videos and some watched the"
+    },
+    {
+      "start": "1272.960",
+      "dur": "7.120",
+      "text": "stress could enhance you videos. And what we found was that just you know it was a total of 9 minutes of videos over"
+    },
+    {
+      "start": "1280.080",
+      "dur": "7.839",
+      "text": "the course of the week led to changes in their mindsets about stress which led to changes in their um physiological"
+    },
+    {
+      "start": "1287.919",
+      "dur": "6.721",
+      "text": "symptoms associated with stress. So people who watched the enhancing films had fewer backachches, muscle tension,"
+    },
+    {
+      "start": "1294.640",
+      "dur": "6.960",
+      "text": "insomnia, racing heart, and so forth. And they also reported uh performing better at"
+    },
+    {
+      "start": "1301.600",
+      "dur": "6.000",
+      "text": "work compared to those who watched the debilitating videos. Now, interestingly, we didn't make anyone worse with the"
+    },
+    {
+      "start": "1307.600",
+      "dur": "5.120",
+      "text": "debilitating videos, which is which was good. We had we had told the uh the IRB"
+    },
+    {
+      "start": "1312.720",
+      "dur": "7.120",
+      "text": "we didn't expect that because that message was already out there. That's what they were already seeing. That wasn't new to them. uh it was more this"
+    },
+    {
+      "start": "1319.840",
+      "dur": "6.000",
+      "text": "enhancing perspective that turned out to be inspiring. People get this wrong"
+    },
+    {
+      "start": "1325.840",
+      "dur": "7.040",
+      "text": "sometimes. They think that I'm saying that a stress is enhancing mindset means you should like stress. That's not what"
+    },
+    {
+      "start": "1332.880",
+      "dur": "6.000",
+      "text": "we're saying. Right? Having a stresses enhancing mindset doesn't mean the stressor is a good thing. Right? It"
+    },
+    {
+      "start": "1338.880",
+      "dur": "6.480",
+      "text": "doesn't mean that getting diagnosis is a good thing or being in abject poverty is a good thing. These are not"
+    },
+    {
+      "start": "1345.360",
+      "dur": "7.280",
+      "text": "good things. But the experience of the stress associated with that, the challenge, the adversity, that"
+    },
+    {
+      "start": "1352.640",
+      "dur": "7.600",
+      "text": "experience can lead to enhancing outcomes with respect to uh not just our cognition,"
+    },
+    {
+      "start": "1360.240",
+      "dur": "6.480",
+      "text": "but our health, our performance, and our well-being. How does that work, right? Well, it works through a number of"
+    },
+    {
+      "start": "1363.000",
+      "dur": "206.000"
+    },
+    {
+      "start": "1366.720",
+      "dur": "7.520",
+      "text": "different pathways. One is that it changes fundamentally what we're motivated to do. So if you you know just"
+    },
+    {
+      "start": "1374.240",
+      "dur": "6.160",
+      "text": "imagine we're stressed about something and you think that stress is bad then"
+    },
+    {
+      "start": "1380.400",
+      "dur": "5.840",
+      "text": "what's your motivation right your motivation is to well first you get worried about the stress right and"
+    },
+    {
+      "start": "1386.240",
+      "dur": "6.400",
+      "text": "second is your reaction is typically to do one of two things it's either to freak out and do everything you can to"
+    },
+    {
+      "start": "1392.640",
+      "dur": "5.840",
+      "text": "make sure that this doesn't affect you you know negatively or to check out and say oh it's not a big deal I'm not going"
+    },
+    {
+      "start": "1398.480",
+      "dur": "5.280",
+      "text": "to deal with it you know you're basically in denial so People who have a stress is debilitating mindset, and"
+    },
+    {
+      "start": "1403.760",
+      "dur": "5.760",
+      "text": "we've shown this in our research, tend to go to one or the other of those extremes. They freak out or they check"
+    },
+    {
+      "start": "1409.520",
+      "dur": "6.000",
+      "text": "out. Why? Because if stress is bad, you need to either get rid of it and deal with it or or it needs to not exist,"
+    },
+    {
+      "start": "1415.520",
+      "dur": "8.080",
+      "text": "right? If you have a stress is enhancing mindset, the motivation changes, right? Then the motivation is how do I utilize"
+    },
+    {
+      "start": "1423.600",
+      "dur": "5.680",
+      "text": "the stress to realize the enhancing outcomes? What can we do here, right? to"
+    },
+    {
+      "start": "1429.280",
+      "dur": "5.759",
+      "text": "learn from this experience to make us stronger, fitter, um you know, have"
+    },
+    {
+      "start": "1435.039",
+      "dur": "7.120",
+      "text": "better science and treatments for the future, deepen my relationships with others, um improve, you know, my"
+    },
+    {
+      "start": "1442.159",
+      "dur": "6.241",
+      "text": "priorities and so forth, right? So the the motivation changes, the affect around it changes. It doesn't make it"
+    },
+    {
+      "start": "1448.400",
+      "dur": "5.840",
+      "text": "easy to deal with, but what we've shown in our research is that people who have a stresses enhancing mindset have more"
+    },
+    {
+      "start": "1454.240",
+      "dur": "5.520",
+      "text": "positive affect, not necessarily less negative affect. Um, and it potentially"
+    },
+    {
+      "start": "1459.760",
+      "dur": "5.760",
+      "text": "changes physiology. We we have a few studies that show that uh people who are"
+    },
+    {
+      "start": "1465.520",
+      "dur": "5.120",
+      "text": "um you know inspired to adopt more enhancing mindsets have more moderate"
+    },
+    {
+      "start": "1470.640",
+      "dur": "6.080",
+      "text": "cortisol response and they have higher levels of DHEA levels um in response to"
+    },
+    {
+      "start": "1476.720",
+      "dur": "5.520",
+      "text": "stress. We had a guest on this podcast. Um he actually is a he's a PhD scientist who"
+    },
+    {
+      "start": "1482.240",
+      "dur": "7.200",
+      "text": "runs the UFC um performance training institute. His name is Duncan French and his graduate work at Yukon stores was"
+    },
+    {
+      "start": "1489.440",
+      "dur": "5.599",
+      "text": "very interesting. It was in exercise science and physiology. What he showed was that um if you could spike the"
+    },
+    {
+      "start": "1495.039",
+      "dur": "6.401",
+      "text": "adrenaline response, I think they did this through first time skydive or something like that that uh testosterone"
+    },
+    {
+      "start": "1501.440",
+      "dur": "5.280",
+      "text": "went up. Now, this spits in the face of everything that we're told about"
+    },
+    {
+      "start": "1506.720",
+      "dur": "8.079",
+      "text": "stress and testosterone levels. Right? So, it turns out that at least in the short term that a very stressful event"
+    },
+    {
+      "start": "1514.799",
+      "dur": "5.041",
+      "text": "can raise anabolic hormones. And I think that people forget at a mechanistic"
+    },
+    {
+      "start": "1519.840",
+      "dur": "5.040",
+      "text": "level that adrenaline is epinephrine and epinephrine is derived biochemically"
+    },
+    {
+      "start": "1524.880",
+      "dur": "5.360",
+      "text": "derived from the molecule dopamine. If you look at the pathway and even just Google it and go images, you'll see that"
+    },
+    {
+      "start": "1530.240",
+      "dur": "5.280",
+      "text": "epi adrenaline is is made from dopamine. And dopamine and these anabolic hormones"
+    },
+    {
+      "start": "1535.520",
+      "dur": "8.240",
+      "text": "have a very clo they're sort of close cousins. They work together in the pituitary and hypothalamus. So it makes sense that uh one could um leverage"
+    },
+    {
+      "start": "1543.760",
+      "dur": "6.000",
+      "text": "stress toward growth. But what's again remarkable to me is that all of these brain structures that control dopamine,"
+    },
+    {
+      "start": "1549.760",
+      "dur": "7.519",
+      "text": "epinephrine, testosterone, and estrogen, they're all thought to be in the subconscious, meaning below um our our"
+    },
+    {
+      "start": "1557.279",
+      "dur": "5.361",
+      "text": "ability to flip a switch and turn them on or off, right? And yet mindset seem to impact them. So"
+    },
+    {
+      "start": "1562.640",
+      "dur": "5.919",
+      "text": "I I all that to say that there's a a clear mechanistic basis by which this"
+    },
+    {
+      "start": "1568.559",
+      "dur": "7.761",
+      "text": "could all work. The way I think about mindset is that it's mindsets are kind of a portal between conscious and"
+    },
+    {
+      "start": "1569.000",
+      "dur": "94.000"
+    },
+    {
+      "start": "1576.320",
+      "dur": "8.160",
+      "text": "subconscious processes. They operate as a default setting of the mind. Right? So"
+    },
+    {
+      "start": "1584.480",
+      "dur": "7.520",
+      "text": "if you know if sort of programmed in there you have stress equals bad that's"
+    },
+    {
+      "start": "1592.000",
+      "dur": "6.000",
+      "text": "been programmed in through our upbringing through public health messages and through media and other"
+    },
+    {
+      "start": "1598.000",
+      "dur": "8.000",
+      "text": "things. And it kind of sits there as an assumption in the brain and the brain is then figuring out how should it respond"
+    },
+    {
+      "start": "1606.000",
+      "dur": "5.600",
+      "text": "to this situation. And if the assumption the default the programming is stress is"
+    },
+    {
+      "start": "1611.600",
+      "dur": "6.640",
+      "text": "bad that's going to through our subconscious trigger all the things that's like okay well I need to like you"
+    },
+    {
+      "start": "1618.240",
+      "dur": "5.120",
+      "text": "know rev up the things that protect me versus rev up the things that help me"
+    },
+    {
+      "start": "1623.360",
+      "dur": "7.199",
+      "text": "grow. just talking about this right for your listeners they're now invited to"
+    },
+    {
+      "start": "1630.559",
+      "dur": "6.801",
+      "text": "bring their stress mindsets up to the consciousness and say what is my stress mindset how am I thinking about stress"
+    },
+    {
+      "start": "1637.360",
+      "dur": "5.360",
+      "text": "can I reprogram that can I start to think about it as more enhancing that"
+    },
+    {
+      "start": "1642.720",
+      "dur": "7.120",
+      "text": "takes a little bit of a conscious work potentially but then once you do that it can that can kind of operate in in the"
+    },
+    {
+      "start": "1649.840",
+      "dur": "6.240",
+      "text": "background influencing how your body responds and you don't have to say okay I'm stressed I better tell my, you know,"
+    },
+    {
+      "start": "1656.080",
+      "dur": "5.920",
+      "text": "anabolic hormones to go that that doesn't work that way. No. Um, but these mindsets can help with the"
+    },
+    {
+      "start": "1662.000",
+      "dur": "5.679",
+      "text": "translational process. How should uh we the listeners think"
+    },
+    {
+      "start": "1663.000",
+      "dur": "184.000"
+    },
+    {
+      "start": "1667.679",
+      "dur": "5.600",
+      "text": "about stress? Is there a a short list of of ways that we can leverage stress to"
+    },
+    {
+      "start": "1673.279",
+      "dur": "6.000",
+      "text": "our advantage? Yeah. And that's an important important nuance in your language, which is people"
+    },
+    {
+      "start": "1679.279",
+      "dur": "7.760",
+      "text": "of by and large come from a place of how do you manage stress? How do you cope with it? Which implies how do you fight"
+    },
+    {
+      "start": "1687.039",
+      "dur": "7.921",
+      "text": "against it? And yeah, the real challenge is how do we leverage it? How do we utilize it? How do we work with it? And"
+    },
+    {
+      "start": "1694.960",
+      "dur": "7.920",
+      "text": "yeah, I have a lot of thoughts on this. The first and most most important thing is to clarify our definition of stress."
+    },
+    {
+      "start": "1702.880",
+      "dur": "5.039",
+      "text": "The stress mind negative stress mindset is so insidious"
+    },
+    {
+      "start": "1707.919",
+      "dur": "5.521",
+      "text": "that now people define stress with its negative consequences. So the first step"
+    },
+    {
+      "start": "1713.440",
+      "dur": "6.560",
+      "text": "is to decouple that and to realize that stress is a neutral right"
+    },
+    {
+      "start": "1720.000",
+      "dur": "5.919",
+      "text": "yet to be determined effect of experiencing or anticipating"
+    },
+    {
+      "start": "1725.919",
+      "dur": "7.201",
+      "text": "adversity in your goal related efforts. So let me unpack that a little more. You can be in the midst of it or you could"
+    },
+    {
+      "start": "1733.120",
+      "dur": "6.720",
+      "text": "just be worried about something happening. That's one aspect. Second is adversity or challenge. of something"
+    },
+    {
+      "start": "1739.840",
+      "dur": "7.360",
+      "text": "that's working against you. But the third piece is critical and that is in your goal related efforts. What that"
+    },
+    {
+      "start": "1747.200",
+      "dur": "5.440",
+      "text": "means is that we only stress about things we care about and we don't stress"
+    },
+    {
+      "start": "1752.640",
+      "dur": "8.560",
+      "text": "about things we don't care about. So then the question becomes, okay, if that's true, how can I better utilize or"
+    },
+    {
+      "start": "1761.200",
+      "dur": "5.599",
+      "text": "leverage or respond to the inevitable stresses that we're going to experience?"
+    },
+    {
+      "start": "1766.799",
+      "dur": "7.201",
+      "text": "And we've developed a three-step approach to adopting a stresses enhancing mindset. And briefly, it's the"
+    },
+    {
+      "start": "1774.000",
+      "dur": "8.080",
+      "text": "first step is to just acknowledge that you're stressed. The second step is to welcome it because inherently in that"
+    },
+    {
+      "start": "1782.080",
+      "dur": "7.440",
+      "text": "stress is something you care about. And then the third step is to utilize the stress response to achieve the thing you"
+    },
+    {
+      "start": "1789.520",
+      "dur": "5.840",
+      "text": "care about. Not spend your time, money, effort, energy trying to get rid of the"
+    },
+    {
+      "start": "1795.360",
+      "dur": "6.160",
+      "text": "stress. Does that make sense? Makes sense. And and I love it. As somebody whose laboratory studies the physiological effects of stress, the the"
+    },
+    {
+      "start": "1801.520",
+      "dur": "8.720",
+      "text": "effects that impress me the most are, for instance, the narrowing of visual attention that then um drives a capacity"
+    },
+    {
+      "start": "1810.240",
+      "dur": "5.439",
+      "text": "to parse time more finely, which then drives a capacity to process information"
+    },
+    {
+      "start": "1815.679",
+      "dur": "6.961",
+      "text": "faster. It's almost like a superpower, right? And what I like so much about that framework is that the stress response is"
+    },
+    {
+      "start": "1822.640",
+      "dur": "5.120",
+      "text": "very generic. We unlike the relaxation response, we don't actually have to train up the stress response. So, we all"
+    },
+    {
+      "start": "1827.760",
+      "dur": "5.360",
+      "text": "kind of get this as a as a freebie. And then it sounds like it's a question of what we end up doing with that,"
+    },
+    {
+      "start": "1833.120",
+      "dur": "6.320",
+      "text": "right? Treat yourself like a scientist. Look at your life. Look at your mindsets. See what's serving you. See"
+    },
+    {
+      "start": "1839.440",
+      "dur": "7.040",
+      "text": "what isn't. Find more useful, adaptive, and empowering mindsets and and live by"
+    },
+    {
+      "start": "1846.480",
+      "dur": "5.760",
+      "text": "those. What are the mindsets that you try and adopt uh on a regular basis? The guiding"
+    },
+    {
+      "start": "1847.000",
+      "dur": "108.000"
+    },
+    {
+      "start": "1852.240",
+      "dur": "5.439",
+      "text": "light for me has been an undercurrent of understanding that"
+    },
+    {
+      "start": "1857.679",
+      "dur": "5.120",
+      "text": "our mindsets matter. I think I got that very clearly and deeply as a child both"
+    },
+    {
+      "start": "1862.799",
+      "dur": "7.041",
+      "text": "through my experiences as an athlete. You know, I know many of your listeners are athletes, any athlete knows that you"
+    },
+    {
+      "start": "1869.840",
+      "dur": "7.760",
+      "text": "can be the same physical being from one day to the next, one moment to the next, and perform completely differently just"
+    },
+    {
+      "start": "1877.600",
+      "dur": "5.280",
+      "text": "depending on what you're thinking. I was a gymnast growing up and if you can't"
+    },
+    {
+      "start": "1882.880",
+      "dur": "5.120",
+      "text": "visualize, if you can't see something in your mind, then you have no chance when you get up there on the balance beam,"
+    },
+    {
+      "start": "1888.000",
+      "dur": "7.600",
+      "text": "right? And I also my father was a martial artist, a teacher of meditation. So this kind of mindbody work was baked"
+    },
+    {
+      "start": "1895.600",
+      "dur": "7.840",
+      "text": "into me from an early age. And I think what I've done recently is to try to understand it scientifically and more"
+    },
+    {
+      "start": "1903.440",
+      "dur": "6.000",
+      "text": "importantly to figure out how can we how can we do better with this right how can"
+    },
+    {
+      "start": "1909.440",
+      "dur": "6.320",
+      "text": "we you know we're all talking about AI taking over the world and technology this and all personalized medicine that"
+    },
+    {
+      "start": "1915.760",
+      "dur": "7.360",
+      "text": "and it's like we have done so little relatively so little with the human"
+    },
+    {
+      "start": "1923.120",
+      "dur": "6.880",
+      "text": "resource our human brains that the, you know, the the potential"
+    },
+    {
+      "start": "1930.000",
+      "dur": "6.960",
+      "text": "for which is so great and we've done almost nothing. You know, take the placebo effect. We know a lot about what"
+    },
+    {
+      "start": "1936.960",
+      "dur": "5.040",
+      "text": "it is. We've done almost nothing to leverage that in medicine consciously"
+    },
+    {
+      "start": "1942.000",
+      "dur": "6.080",
+      "text": "and deliberately. So my what keeps me going, what gets me through the hard"
+    },
+    {
+      "start": "1948.080",
+      "dur": "8.560",
+      "text": "times is just that burning question of what is going on here and what more can I do with the power of my mind? Well, I"
+    },
+    {
+      "start": "1955.000",
+      "dur": "98.000"
+    },
+    {
+      "start": "1956.640",
+      "dur": "5.600",
+      "text": "and millions of other people are so grateful that you do this work. It's so important and it's truly unique. Where"
+    },
+    {
+      "start": "1962.240",
+      "dur": "7.520",
+      "text": "can people find you? Um, ask questions, find your papers, learn more. Yeah, all our papers and, uh, materials"
+    },
+    {
+      "start": "1969.760",
+      "dur": "6.960",
+      "text": "and interventions are housed on our website, uh, mbl.stanford.edu."
+    },
+    {
+      "start": "1976.720",
+      "dur": "6.160",
+      "text": "Uh, we also have a link there to that takes you to Stanford Spark, which stands for social psychological answers"
+    },
+    {
+      "start": "1982.880",
+      "dur": "5.919",
+      "text": "to real world questions. We have a lot of toolkits on that website uh including"
+    },
+    {
+      "start": "1988.799",
+      "dur": "5.521",
+      "text": "a toolkit for this rethink stress approach of acknowledging welcoming and"
+    },
+    {
+      "start": "1994.320",
+      "dur": "5.280",
+      "text": "utilizing your stress. We will provide links to all of those for our listeners and viewers. Thank you"
+    },
+    {
+      "start": "1999.600",
+      "dur": "6.559",
+      "text": "so much for taking time out of your exceedingly busy schedule to talk to us about these ideas. I learned so much."
+    },
+    {
+      "start": "2006.159",
+      "dur": "7.360",
+      "text": "I'm going to definitely think about what is the effect of my mindset about blank in on every category of life and and"
+    },
+    {
+      "start": "2013.519",
+      "dur": "6.160",
+      "text": "really just on behalf of of everybody and and myself. Thank you so much. Yeah, thank you. And I guess I just want"
+    },
+    {
+      "start": "2019.679",
+      "dur": "7.041",
+      "text": "to end by saying I think this work is really the tip of the iceberg of what can and should be done. And so I really"
+    },
+    {
+      "start": "2026.720",
+      "dur": "5.439",
+      "text": "invite your you your listeners and all you know anybody who's inspired by this"
+    },
+    {
+      "start": "2032.159",
+      "dur": "5.441",
+      "text": "work if they want to share stories or uh want to partner on a collaboration to"
+    },
+    {
+      "start": "2037.600",
+      "dur": "6.559",
+      "text": "please reach out. Great. Well and the comments section on YouTube is a great place to do that as well. Um you will hear from them."
+    },
+    {
+      "start": "2044.159",
+      "dur": "5.801",
+      "text": "Great. All right. Great. Thank you so much Ally. Thank you."
+    },
+    {
+      "start": "2050.070",
+      "dur": "3.839",
+      "text": "[Music]"
+    }
+  ]
+}]
