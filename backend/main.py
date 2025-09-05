@@ -114,7 +114,7 @@ class SemanticSearchEngine:
 
 class HealthAssistant:
     def __init__(self):
-        self.data_path = "data"
+        self.data_path = "/home/vinit/Desktop/health-ai-assistant/data"
         self.videos_data = None
         self.merged_data = None
         self.semantic_search = SemanticSearchEngine()
