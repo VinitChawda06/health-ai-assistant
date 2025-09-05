@@ -1,0 +1,16 @@
+# Dependencies for FastAPI backend
+fastapi==0.104.1
+uvicorn==0.24.0
+python-dotenv==1.0.0
+openai==1.3.7
+numpy==1.26.2
+scikit-learn==1.3.2
+aiohttp==3.9.1
+pydantic==2.5.0
+
+
+# Dependencies for Streamlit frontend  
+streamlit==1.29.0
+requests==2.31.0
+# Optional: For better embeddings (if needed)
+sentence-transformers==2.2.2
