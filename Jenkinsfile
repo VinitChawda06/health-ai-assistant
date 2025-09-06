@@ -1,29 +1,39 @@
 pipeline {
     agent any
     
-    environment {
-        // Optional environment variables - will use defaults if not set
-        DOCKER_HOST = 'unix:///var/run/docker.sock'
-    }
-    
     stages {
+        stage('Setup') {
+            steps {
+                echo '🚀 Starting Health AI Assistant Build Pipeline'
+                echo "📂 Working directory: ${pwd()}"
+                
+                script {
+                    // Clean and clone fresh
+                    sh '''
+                        rm -rf health-ai-assistant || true
+                        git clone https://github.com/VinitChawda06/health-ai-assistant.git
+                        cd health-ai-assistant
+                        ls -la
+                    '''
+                }
+            }
+        }
         
         stage('Build Images') {
             steps {
                 echo '🏗️ Building Docker images...'
                 script {
-                    try {
-                        // Build backend image
-                        sh 'docker build -t health-ai-backend ./backend'
+                    sh '''
+                        cd health-ai-assistant
+                        echo "Building backend image..."
+                        docker build -t health-ai-backend ./backend
                         
-                        // Build frontend image  
-                        sh 'docker build -t health-ai-frontend ./frontend'
+                        echo "Building frontend image..."
+                        docker build -t health-ai-frontend ./frontend
                         
-                        echo '✅ Docker images built successfully!'
-                    } catch (Exception e) {
-                        echo "❌ Failed to build images: ${e.getMessage()}"
-                        error("Build failed")
-                    }
+                        echo "✅ Images built successfully!"
+                        docker images | grep health-ai
+                    '''
                 }
             }
         }
@@ -32,56 +42,51 @@ pipeline {
             steps {
                 echo '🧪 Running tests...'
                 script {
-                    try {
-                        // Stop any running containers
-                        sh 'docker-compose down || true'
+                    sh '''
+                        cd health-ai-assistant
                         
-                        // Start test environment
-                        sh 'docker-compose up -d'
+                        # Stop any existing containers
+                        docker-compose down || true
                         
-                        // Wait for services to be ready
-                        sh 'sleep 30'
+                        # Start test environment
+                        echo "Starting containers..."
+                        docker-compose up -d
                         
-                        echo '✅ Test environment started!'
+                        # Wait for startup
+                        sleep 30
                         
-                        // Simple test - check if containers are running
-                        sh 'docker-compose ps'
+                        # Check container status
+                        echo "Container status:"
+                        docker-compose ps
                         
-                        echo '✅ All tests passed!'
-                    } catch (Exception e) {
-                        echo "❌ Tests failed: ${e.getMessage()}"
-                        sh 'docker-compose logs || true'
-                        error("Tests failed")
-                    }
+                        echo "✅ Test environment started successfully!"
+                    '''
                 }
             }
         }
         
         stage('Deploy') {
-            when {
-                branch 'main'
-            }
             steps {
                 echo '🚀 Deploying application...'
                 script {
-                    try {
-                        // Deploy to production (restart with latest images)
-                        sh 'docker-compose down || true'
-                        sh 'docker-compose up -d'
+                    sh '''
+                        cd health-ai-assistant
                         
-                        // Wait a bit for startup
-                        sh 'sleep 10'
+                        # Ensure clean deployment
+                        docker-compose down || true
+                        docker-compose up -d
                         
-                        // Show running containers
-                        sh 'docker-compose ps'
+                        # Wait for startup
+                        sleep 10
                         
-                        echo '✅ Deployment complete!'
-                        echo '🌐 Frontend: http://localhost:8501'
-                        echo '📡 Backend API: http://localhost:8000'
-                    } catch (Exception e) {
-                        echo "❌ Deployment failed: ${e.getMessage()}"
-                        error("Deployment failed")
-                    }
+                        # Show final status
+                        echo "🎉 Deployment Status:"
+                        docker-compose ps
+                        
+                        echo "✅ Health AI Assistant deployed successfully!"
+                        echo "🌐 Frontend: http://localhost:8501"
+                        echo "📡 Backend API: http://localhost:8000"
+                    '''
                 }
             }
         }
@@ -89,19 +94,14 @@ pipeline {
     
     post {
         always {
-            echo '🧹 Cleaning up...'
-            // Clean up test containers but keep production running
-            script {
-                if (env.BRANCH_NAME != 'main') {
-                    sh 'docker-compose down || true'
-                }
-            }
+            echo '🧹 Pipeline completed'
         }
         success {
-            echo '🎉 Pipeline completed successfully!'
+            echo '🎉 Build and deployment successful!'
         }
         failure {
-            echo '❌ Pipeline failed. Check the logs above.'
+            echo '❌ Build failed - check logs above'
         }
     }
+}
 }
