@@ -16,8 +16,11 @@ services:
       - PYTHONDONTWRITEBYTECODE=1
       - LANG=C.UTF-8
       - LC_ALL=C.UTF-8
-    env_file:
-      - ./backend/.env  # Load environment variables from .env file
+      # Default environment variables (can be overridden by .env file)
+      - OPENROUTER_API_KEY=demo_key_for_testing
+      - OPENROUTER_BASE_URL=https://openrouter.ai/api/v1
+      - DEBUG=true
+      - LOG_LEVEL=INFO
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
