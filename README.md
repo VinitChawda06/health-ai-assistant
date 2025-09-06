@@ -1,6 +1,14 @@
-# 🧠 Huberman Health AI Assistant
+# 🧠 Huberman Health AI Assistant - Universal Cross-Platform Solution
 
-A comprehensive health assistant that searches Andrew Huberman's podcast library to answer user queries with specific video recommendations and precise timestamps.
+A comprehensive health assistant that searches Andrew Huberman's podcast library to answer user queries with specific video recommendations and precise timestamps. **Now with universal compatibility and robust error handling!**
+
+## 🌟 New Features
+
+- **Universal Compatibility**: Works seamlessly on Windows, macOS, Linux
+- **Encoding Problem Solved**: UTF-8 handling with automatic fallback for any character encoding issues
+- **Dependency Conflicts Resolved**: All packages pinned to compatible versions
+- **Batch Processing**: Efficient handling of large datasets with memory optimization
+- **Docker Ready**: Improved containerization with health checks and cross-platform support
 
 ## 🎯 Project Overview
 

@@ -1,22 +1,35 @@
-# FastAPI backend dependencies
+# FastAPI backend dependencies - Universal cross-platform versions
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-dotenv==1.0.0
-openai==1.3.7
-numpy==1.26.2
-aiohttp==3.9.1
-pydantic==2.5.0
-faiss-cpu>=1.8.0
 
-# Semantic search
+# OpenAI with compatible versions
+openai==1.51.0
+httpx==0.27.2
+
+# Scientific computing - stable versions
+numpy==1.26.2
+faiss-cpu==1.8.0
+
+# Semantic search - compatible versions
 sentence-transformers==2.2.2
 huggingface-hub==0.16.4
-# keep other packages
+torch==2.5.1
+torchvision==0.20.1
 
-torch>=2.2.0
+# Data handling
+pydantic==2.5.0
+aiohttp==3.9.1
 
 # Monitoring
 prometheus-client==0.19.0
 
-# File uploads
+# File handling
 python-multipart==0.0.6
+
+# Essential stability packages
+charset-normalizer==3.3.2
+certifi==2024.8.30
+packaging==23.2
+requests==2.31.0
+urllib3==2.0.7

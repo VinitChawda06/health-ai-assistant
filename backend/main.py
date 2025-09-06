@@ -63,54 +63,94 @@ class SemanticSearchEngine:
         self.segments = []
         self.segment_metadata = []
         
-    def build_index(self, transcript_segments: List[Dict]):
-        """Build FAISS index from transcript segments"""
+    def build_index(self, transcript_segments: List[Dict], batch_size: int = 100):
+        """Build FAISS index from transcript segments with batch processing"""
         print("Building semantic search index...")
         
         texts = []
         for segment in transcript_segments:
-            text = segment.get('text', '').strip()
-            if text and len(text) > 10:  # Filter short segments
-                texts.append(text)
-                self.segment_metadata.append(segment)
+            try:
+                text = segment.get('text', '').strip()
+                if text and len(text) > 10:  # Filter short segments
+                    # Ensure text is properly encoded
+                    if isinstance(text, bytes):
+                        text = text.decode('utf-8', errors='ignore')
+                    texts.append(text)
+                    self.segment_metadata.append(segment)
+            except (UnicodeDecodeError, AttributeError) as e:
+                print(f"Skipping problematic segment: {e}")
+                continue
         
         if not texts:
             print("No valid text segments found")
             return
             
-        # Generate embeddings
-        embeddings = self.model.encode(texts, show_progress_bar=True)
+        # Generate embeddings in batches to handle large datasets
+        print(f"Generating embeddings for {len(texts)} segments in batches of {batch_size}")
+        all_embeddings = []
+        
+        for i in range(0, len(texts), batch_size):
+            batch_texts = texts[i:i + batch_size]
+            try:
+                batch_embeddings = self.model.encode(
+                    batch_texts, 
+                    show_progress_bar=True,
+                    convert_to_numpy=True,
+                    normalize_embeddings=True
+                )
+                all_embeddings.append(batch_embeddings)
+                print(f"Processed batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}")
+            except Exception as e:
+                print(f"Error processing batch {i//batch_size + 1}: {e}")
+                continue
+        
+        if not all_embeddings:
+            print("Failed to generate any embeddings")
+            return
+            
+        # Combine all embeddings
+        embeddings = np.vstack(all_embeddings)
         
         # Build FAISS index
         dimension = embeddings.shape[1]
         self.index = faiss.IndexFlatIP(dimension)  # Inner product for cosine similarity
         
-        # Normalize for cosine similarity
-        faiss.normalize_L2(embeddings)
+        # Add embeddings to index (already normalized)
         self.index.add(embeddings.astype('float32'))
         
         print(f"Built semantic index with {len(texts)} segments")
         
     def search_semantic(self, query: str, top_k: int = 10) -> List[Dict]:
-        """Search using semantic similarity"""
+        """Search using semantic similarity with error handling"""
         if not self.index:
             return []
             
-        # Encode query
-        query_embedding = self.model.encode([query])
-        faiss.normalize_L2(query_embedding)
-        
-        # Search
-        scores, indices = self.index.search(query_embedding.astype('float32'), top_k)
-        
-        results = []
-        for score, idx in zip(scores[0], indices[0]):
-            if idx < len(self.segment_metadata):
-                segment = self.segment_metadata[idx].copy()
-                segment['semantic_score'] = float(score)
-                results.append(segment)
+        try:
+            # Ensure query is properly encoded
+            if isinstance(query, bytes):
+                query = query.decode('utf-8', errors='ignore')
                 
-        return results
+            # Encode query
+            query_embedding = self.model.encode(
+                [query], 
+                convert_to_numpy=True,
+                normalize_embeddings=True
+            )
+            
+            # Search
+            scores, indices = self.index.search(query_embedding.astype('float32'), top_k)
+            
+            results = []
+            for score, idx in zip(scores[0], indices[0]):
+                if idx < len(self.segment_metadata) and idx >= 0:
+                    segment = self.segment_metadata[idx].copy()
+                    segment['semantic_score'] = float(score)
+                    results.append(segment)
+                    
+            return results
+        except Exception as e:
+            print(f"Error in semantic search: {e}")
+            return []
 
 class HealthAssistant:
     def __init__(self):
@@ -121,30 +161,72 @@ class HealthAssistant:
         self.load_data()
         
     def load_data(self):
-        """Load video and transcript data, build semantic index"""
+        """Load video and transcript data, build semantic index with proper encoding"""
         try:
-            with open(f'{self.data_path}/videos.json', 'r') as f:
+            # Use UTF-8 encoding explicitly to handle special characters
+            with open(f'{self.data_path}/videos.json', 'r', encoding='utf-8') as f:
                 self.videos_data = json.load(f)
-            with open(f'{self.data_path}/merged.json', 'r') as f:
+            with open(f'{self.data_path}/merged.json', 'r', encoding='utf-8') as f:
                 self.merged_data = json.load(f)
             
             print(f"Loaded {len(self.videos_data)} videos and {len(self.merged_data)} merged records")
             
-            # Build semantic search index
+            # Build semantic search index with batch processing
             all_segments = []
             for video in self.merged_data:
-                video_id = video.get('id', '')
-                transcript = video.get('transcript', [])
-                for segment in transcript:
-                    segment_with_meta = segment.copy()
-                    segment_with_meta['video_id'] = video_id
-                    segment_with_meta['video_title'] = video.get('title', '')
-                    all_segments.append(segment_with_meta)
+                try:
+                    video_id = video.get('id', '')
+                    transcript = video.get('transcript', [])
+                    
+                    for segment in transcript:
+                        try:
+                            segment_with_meta = segment.copy()
+                            segment_with_meta['video_id'] = video_id
+                            segment_with_meta['video_title'] = video.get('title', '')
+                            
+                            # Ensure text is properly handled
+                            if 'text' in segment_with_meta:
+                                text = segment_with_meta['text']
+                                if isinstance(text, bytes):
+                                    text = text.decode('utf-8', errors='ignore')
+                                segment_with_meta['text'] = text
+                                
+                            all_segments.append(segment_with_meta)
+                        except Exception as e:
+                            print(f"Error processing segment in video {video_id}: {e}")
+                            continue
+                except Exception as e:
+                    print(f"Error processing video {video.get('id', 'unknown')}: {e}")
+                    continue
             
+            print(f"Extracted {len(all_segments)} total segments")
             self.semantic_search.build_index(all_segments)
             
+        except FileNotFoundError as e:
+            print(f"Data files not found: {e}")
+            print("Please ensure videos.json and merged.json exist in the data/ directory")
+            self.videos_data = []
+            self.merged_data = []
+        except UnicodeDecodeError as e:
+            print(f"Encoding error loading data: {e}")
+            print("Attempting to load with different encoding...")
+            try:
+                # Fallback to latin-1 encoding
+                with open(f'{self.data_path}/videos.json', 'r', encoding='latin-1') as f:
+                    self.videos_data = json.load(f)
+                with open(f'{self.data_path}/merged.json', 'r', encoding='latin-1') as f:
+                    self.merged_data = json.load(f)
+                print("Successfully loaded data with latin-1 encoding")
+            except Exception as fallback_error:
+                print(f"Fallback encoding failed: {fallback_error}")
+                self.videos_data = []
+                self.merged_data = []
+        except json.JSONDecodeError as e:
+            print(f"JSON parsing error: {e}")
+            self.videos_data = []
+            self.merged_data = []
         except Exception as e:
-            print(f"Error loading data: {e}")
+            print(f"Unexpected error loading data: {e}")
             self.videos_data = []
             self.merged_data = []
     

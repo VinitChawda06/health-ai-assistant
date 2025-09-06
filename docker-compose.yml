@@ -1,17 +1,33 @@
 version: "3.9"
+
 services:
   backend:
-    build: ./backend
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
     container_name: health-ai-backend
     ports:
       - "8000:8000"
     volumes:
+      - ./data:/app/data:ro  # Mount data as read-only
       - ./backend:/app
     environment:
       - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
 
   frontend:
-    build: ./frontend
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
     container_name: health-ai-frontend
     ports:
       - "8501:8501"
@@ -19,5 +35,21 @@ services:
       - ./frontend:/app
     environment:
       - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - LANG=C.UTF-8
+      - LC_ALL=C.UTF-8
+      - BACKEND_URL=http://backend:8000
+    restart: unless-stopped
     depends_on:
-      - backend
+      backend:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+networks:
+  default:
+    name: health-ai-network
