@@ -14,6 +14,19 @@ pipeline {
                         git clone https://github.com/VinitChawda06/health-ai-assistant.git
                         cd health-ai-assistant
                         ls -la
+                        
+                        # Create .env file immediately after clone
+                        echo "🔧 Setting up environment file..."
+                        if [ -f backend/.env.template ]; then
+                            cp backend/.env.template backend/.env
+                            echo "OPENROUTER_API_KEY=demo_key_for_testing" >> backend/.env
+                            echo "DEBUG=true" >> backend/.env
+                            echo "✅ Created .env file from template"
+                            ls -la backend/.env*
+                        else
+                            echo "❌ .env.template not found!"
+                            ls -la backend/
+                        fi
                     '''
                 }
             }
@@ -50,7 +63,13 @@ pipeline {
                             echo "Creating .env file from template..."
                             cp backend/.env.template backend/.env
                             echo "OPENROUTER_API_KEY=demo_key_for_testing" >> backend/.env
+                            echo "✅ Created .env file"
+                        else
+                            echo "✅ .env file already exists"
                         fi
+                        
+                        # Verify .env file exists
+                        ls -la backend/.env
                         
                         # Stop any existing containers
                         docker-compose down || true
@@ -84,7 +103,13 @@ pipeline {
                             echo "Creating .env file from template..."
                             cp backend/.env.template backend/.env
                             echo "OPENROUTER_API_KEY=demo_key_for_testing" >> backend/.env
+                            echo "✅ Created .env file"
+                        else
+                            echo "✅ .env file already exists"
                         fi
+                        
+                        # Verify .env file exists
+                        ls -la backend/.env
                         
                         # Ensure clean deployment
                         docker-compose down || true
