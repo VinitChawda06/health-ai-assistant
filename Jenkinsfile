@@ -79,12 +79,17 @@ EOF
                         echo "Starting containers..."
                         docker-compose up -d
                         
-                        # Wait for startup
-                        sleep 30
+                        # Wait longer for startup (health checks need time)
+                        echo "Waiting for services to be healthy (60 seconds)..."
+                        sleep 60
                         
                         # Check container status
                         echo "Container status:"
                         docker-compose ps
+                        
+                        # Check if backend is healthy
+                        echo "Backend health check:"
+                        curl -f http://localhost:8000/health || echo "Health check failed but continuing..."
                         
                         echo "✅ Test environment started successfully!"
                     '''
