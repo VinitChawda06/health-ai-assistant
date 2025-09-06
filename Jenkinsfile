@@ -9,12 +9,6 @@ pipeline {
     }
     
     stages {
-        stage('Checkout') {
-            steps {
-                echo '📥 Checking out code...'
-                checkout scm
-            }
-        }
         
         stage('Build Images') {
             steps {
