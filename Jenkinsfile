@@ -45,6 +45,13 @@ pipeline {
                     sh '''
                         cd health-ai-assistant
                         
+                        # Create .env file if it doesn't exist
+                        if [ ! -f backend/.env ]; then
+                            echo "Creating .env file from template..."
+                            cp backend/.env.template backend/.env
+                            echo "OPENROUTER_API_KEY=demo_key_for_testing" >> backend/.env
+                        fi
+                        
                         # Stop any existing containers
                         docker-compose down || true
                         
@@ -71,6 +78,13 @@ pipeline {
                 script {
                     sh '''
                         cd health-ai-assistant
+                        
+                        # Create .env file if it doesn't exist
+                        if [ ! -f backend/.env ]; then
+                            echo "Creating .env file from template..."
+                            cp backend/.env.template backend/.env
+                            echo "OPENROUTER_API_KEY=demo_key_for_testing" >> backend/.env
+                        fi
                         
                         # Ensure clean deployment
                         docker-compose down || true
