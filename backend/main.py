@@ -36,11 +36,17 @@ app.add_middleware(
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
 
-# Initialize OpenAI client for OpenRouter
-openai_client = openai.OpenAI(
-    api_key=OPENROUTER_API_KEY,
-    base_url=OPENROUTER_BASE_URL
-)
+# Initialize OpenAI client for OpenRouter (optional for development)
+openai_client = None
+if OPENROUTER_API_KEY:
+    openai_client = openai.OpenAI(
+        api_key=OPENROUTER_API_KEY,
+        base_url=OPENROUTER_BASE_URL
+    )
+    print("✅ OpenAI client initialized with API key")
+else:
+    print("⚠️ No API key found - AI recommendations will be disabled")
+    print("💡 Add OPENROUTER_API_KEY to .env file to enable AI features")
 
 class HealthQuery(BaseModel):
     query: str
@@ -384,8 +390,16 @@ class HealthAssistant:
         return results[:max_results]
     
     async def get_health_recommendation(self, query: str, search_results: List[SearchResult]) -> str:
-        """Generate health recommendation using OpenRouter"""
+        """Generate health recommendation using OpenRouter (if available)"""
         try:
+            if not openai_client:
+                # Return basic recommendation without AI when API key is missing
+                return f"""Based on your query about "{query}", I found relevant content from Huberman Lab podcasts. 
+                
+The search returned {len(search_results)} relevant videos. Please check the video recommendations below for detailed information from Dr. Andrew Huberman's research-based content.
+
+Note: AI-powered recommendations are currently disabled. Add your OPENROUTER_API_KEY to the .env file to enable enhanced AI responses."""
+
             context = "\n\n".join([
                 f"Video: {result.title}\nContext: {result.context}\nTimestamp: {result.timestamp}"
                 for result in search_results
@@ -421,7 +435,11 @@ Keep the response concise but informative (200-300 words)."""
             
         except Exception as e:
             print(f"Error generating recommendation: {e}")
-            return "I found relevant content for your query. Please check the video recommendations below for detailed information."
+            return f"""Based on your query about "{query}", I found relevant content from Huberman Lab podcasts. 
+            
+The search returned {len(search_results)} relevant videos. Please check the video recommendations below for detailed information from Dr. Andrew Huberman's research-based content.
+
+Note: AI recommendation service is temporarily unavailable, but the search results below contain the relevant information you're looking for."""
 
 # Initialize the health assistant
 health_assistant = HealthAssistant()
