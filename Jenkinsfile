@@ -2,9 +2,7 @@ pipeline {
     agent any
     
     environment {
-        // These will be set in Jenkins configuration
-        OPENAI_API_KEY = credentials('openai-api-key')
-        OPENROUTER_API_KEY = credentials('openrouter-api-key')
+        // Optional environment variables - will use defaults if not set
         DOCKER_HOST = 'unix:///var/run/docker.sock'
     }
     
