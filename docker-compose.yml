@@ -10,7 +10,7 @@ services:
       - "8000:8000"
     volumes:
       - ./data:/app/data:ro  # Mount data as read-only
-      - ./backend:/app
+      # Remove the problematic volume mount that overwrites the container
     environment:
       - PYTHONUNBUFFERED=1
       - PYTHONDONTWRITEBYTECODE=1
@@ -36,8 +36,7 @@ services:
     container_name: health-ai-frontend
     ports:
       - "8501:8501"
-    volumes:
-      - ./frontend:/app
+    # Remove problematic volume mount
     environment:
       - PYTHONUNBUFFERED=1
       - PYTHONDONTWRITEBYTECODE=1
