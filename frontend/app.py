@@ -14,10 +14,7 @@ st.set_page_config(
 )
 
 # API Configuration
-API_BASE_URL = "http://localhost:8000"
-BACKEND_URL = os.getenv('BACKEND_URL', 'http://localhost:8000')
-
-# Then replace any localhost:8000 references with BACKEND_URL
+API_BASE_URL = os.getenv('BACKEND_URL', 'http://localhost:8000')
 
 def main():
     # Title and description

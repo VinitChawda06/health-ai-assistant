@@ -1,3 +1,3 @@
-# Dependencies for Streamlit frontend  
-streamlit
-requests
+streamlit==1.29.0
+requests==2.31.0
+# any other frontend packages
