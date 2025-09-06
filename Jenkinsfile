@@ -20,10 +20,10 @@ pipeline {
                 echo '🏗️ Building Docker images...'
                 script {
                     // Build backend image
-                    bat 'docker build -t health-ai-backend ./backend'
+                    sh 'docker build -t health-ai-backend ./backend'
                     
                     // Build frontend image  
-                    bat 'docker build -t health-ai-frontend ./frontend'
+                    sh 'docker build -t health-ai-frontend ./frontend'
                 }
             }
         }
@@ -33,19 +33,19 @@ pipeline {
                 echo '🧪 Running tests...'
                 script {
                     // Stop any running containers
-                    bat 'docker-compose down || exit 0'
+                    sh 'docker-compose down || true'
                     
                     // Start test environment
-                    bat 'docker-compose up -d'
+                    sh 'docker-compose up -d'
                     
                     // Wait for services to be ready
-                    bat 'timeout /t 30 /nobreak'
+                    sh 'sleep 30'
                     
                     // Test backend health
-                    bat 'curl -f http://localhost:8000/health || exit 1'
+                    sh 'curl -f http://localhost:8000/health || exit 1'
                     
                     // Test frontend health  
-                    bat 'curl -f http://localhost:8501 || exit 1'
+                    sh 'curl -f http://localhost:8501 || exit 1'
                     
                     echo '✅ All health checks passed!'
                 }
@@ -60,8 +60,8 @@ pipeline {
                 echo '🚀 Deploying application...'
                 script {
                     // Deploy to production (restart with latest images)
-                    bat 'docker-compose down'
-                    bat 'docker-compose up -d'
+                    sh 'docker-compose down'
+                    sh 'docker-compose up -d'
                     
                     echo '✅ Deployment complete!'
                     echo '🌐 Frontend: http://localhost:8501'
@@ -77,7 +77,7 @@ pipeline {
             // Clean up test containers but keep production running
             script {
                 if (env.BRANCH_NAME != 'main') {
-                    bat 'docker-compose down || exit 0'
+                    sh 'docker-compose down || true'
                 }
             }
         }
